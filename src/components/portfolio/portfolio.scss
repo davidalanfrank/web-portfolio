@@ -39,52 +39,97 @@
     }
   }
   .container {
-    width: 70%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
 
-    @include mobile {
-      width: 100%;
+    .left {
+      flex: 1;
+      overflow: hidden;
+
+      text-align: left;
+      padding-top: 20px;
+      padding-left: 5%;
+      padding-right: 5%;
+      button {
+        width: 100px;
+        height: 28px;
+        color: white;
+        align-content: flex-end;
+        background-color: crimson;
+        border: none;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      h2 {
+        padding-bottom: 10px;
+      }
+      h3 {
+        font-weight: 20;
+        color: lightgrey;
+        font-family: "Roboto Mono", monospace;
+        padding-bottom: 10px;
+      }
+      img {
+        height: 100%;
+      }
+      body {
+        line-height: 1.6;
+      }
     }
-    .item {
-      width: 220px;
-      height: 150px;
-      border-radius: 20px;
-      border: 1 px solid lightgrey;
-      margin: 10px 20px;
+    .right {
+      flex: 1;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      color: white;
-      position: relative;
-      transition: all 0.5s ease;
-      cursor: pointer;
+      border-left: 3px solid #f8f8f8;
 
       @include mobile {
-        width: 130px;
-        height: 100px;
+        display: none;
       }
-
-      h3 {
-        position: absolute;
-        font-style: 20px;
-      }
-
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 1;
-      }
-
-      &:hover {
-        background-color: $mainColor;
-        img {
-          opacity: 0.2;
-          z-index: 20px;
+      .buttonContainer {
+        .divider {
+          width: 5px;
+          height: auto;
+          display: inline-block;
         }
+        padding-top: 100px;
+        .code-button {
+          width: 80px;
+          height: 28px;
+          color: white;
+
+          background-color: crimson;
+          border: none;
+          padding-left: 10px;
+          border-radius: 5px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+        .demo-button {
+          width: 80px;
+          height: 28px;
+          color: white;
+          background-color: crimson;
+          border: none;
+          border-radius: 5px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+      }
+
+      .imgContainer {
+        img {
+          width: 90%;
+          border-radius: 10%;
+        }
+      }
+
+      h2 {
+        font-size: 30px;
       }
     }
   }

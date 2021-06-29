@@ -1,82 +1,29 @@
-export const featuredPortfolio = [
+export const capstonePortfolio = [
   {
     id: 1,
-    title: "Social Media App",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 2,
-    title: "Rampa UI Design",
-    img:
-      "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 3,
-    title: "E-commerce Web Design",
-    img:
-      "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 4,
-    title: "Relax Mobile App",
-    img:
-      "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 5,
-    title: "Hero Web Design",
-    img:
-      "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 6,
-    title: "Banking App",
-    img:
-      "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+    title: "Anti-Fraud system for Queensland Police",
+    tech: "React, Azure, Node.js, NGNIX, Python",
+    desc:
+      "The lives of tens of thousands of Australians each year are destroyed by online fraudsters using text-based communication to manipulate them into sending money. This takes place across many forms of frauds and exploits the vulnerabilities of people communicating in an online environment where their life learnt skills of assessing a person’s body language is not available. ",
+    img: "../assets/rfsa_green.png",
+    code: "https://github.com/davidalanfrank/",
+    demo: "https://github.com/davidalanfrank/",
+    see_more: "https://github.com/davidalanfrank/",
   },
 ];
 
-export const webPortfolio = [
-  {
-    id: 1,
-    title: "Web Social Media App",
-    img:
-      "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-  },
+export const bbsystemPortfolio = [
   {
     id: 2,
-    title: "Web Rampa UI Design",
-    img:
-      "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 3,
-    title: "Web E-commerce Design",
-    img:
-      "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 4,
-    title: "Web Relax App",
-    img:
-      "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-  },
-  {
-    id: 5,
-    title: "Web Design",
-    img:
-      "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-  },
-  {
-    id: 6,
-    title: "Web Banking App",
-    img:
-      "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+    title: "Electronic Billboard Management System",
+    tech: "Java",
+    desc:
+      "The setup this corporation wants is three software applications, all connected via a network. One application, henceforth referred to as the Billboard Viewer, is a GUI application that will actually display the contents, filling the screen. It will connect to the Billboard Server, which acts as the central control hub for all billboard viewers connected to it. The server will not be a GUI application and users will not interact with it directly. Instead, users will run a second client program, the Billboard Control Panel. This will be a GUI application that will connect to the server and allow the user to carry out various management tasks, such as changing which billboards are shown at which times. The server will store its information in a MariaDB database.",
+    img: "../assets/billboard_image.png",
   },
 ];
 
-export const mobilePortfolio = [
+export const stocksPortfolio = [
   {
     id: 1,
     title: "Mobile Social Media App",
@@ -115,7 +62,7 @@ export const mobilePortfolio = [
   },
 ];
 
-export const designPortfolio = [
+export const dirtygaragePortfolio = [
   {
     id: 1,
     title: "Design Social Media App",
@@ -154,7 +101,7 @@ export const designPortfolio = [
   },
 ];
 
-export const contentPortfolio = [
+export const videorentalsystemPortfolio = [
   {
     id: 1,
     title: "Content Social Media App",

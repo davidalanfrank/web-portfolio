@@ -2,63 +2,63 @@ import { React, useState, useEffect } from "react";
 import "./portfolio.scss";
 import PortfolioList from "../portfolioList/PortfolioList";
 import {
-  featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
+  capstonePortfolio,
+  bbsystemPortfolio,
+  stocksPortfolio,
+  dirtygaragePortfolio,
+  videorentalsystemPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("featured");
+  const [selected, setSelected] = useState("capstone");
   const [data, setData] = useState([]);
   const list = [
     {
-      id: "featured",
-      title: "Featured",
+      id: "capstone",
+      title: "Capstone",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "bbsystem",
+      title: "Billboard System",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "stocks",
+      title: "Stocks Client",
     },
     {
-      id: "design",
-      title: "Design",
+      id: "dirtygarage",
+      title: "Dirty Garage",
     },
     {
-      id: "content",
-      title: "Content",
+      id: "videorentalsystem",
+      title: "Video Rental System",
     },
   ];
 
   useEffect(() => {
     switch (selected) {
-      case "featured":
-        setData(featuredPortfolio);
+      case "capstone":
+        setData(capstonePortfolio);
         break;
-      case "web":
-        setData(webPortfolio);
+      case "bbsystem":
+        setData(bbsystemPortfolio);
         break;
-      case "mobile":
-        setData(mobilePortfolio);
+      case "stocks":
+        setData(stocksPortfolio);
         break;
-      case "design":
-        setData(designPortfolio);
+      case "dirtygarage":
+        setData(dirtygaragePortfolio);
         break;
-      case "content":
-        setData(contentPortfolio);
+      case "videorentalsystem":
+        setData(videorentalsystemPortfolio);
         break;
       default:
-        setData(featuredPortfolio);
+        setData(capstonePortfolio);
     }
   }, [selected]);
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+      <h1>Projects</h1>
       <ul>
         {list.map((item) => (
           <PortfolioList
@@ -69,15 +69,27 @@ export default function Portfolio() {
           />
         ))}
       </ul>
-      <div className="container">
-        {data.map((d) => (
-          <div className="item">
-            <img src={d.img} alt="billboard app"></img>
-
-            <h3>{d.title}</h3>
+      {data.map((d) => (
+        <div className="container">
+          <div className="left">
+            <h2>{d.title}</h2>
+            <h3>{d.tech}</h3>
+            <body>{d.desc}</body>
+            <button className="details-button">More details</button>
           </div>
-        ))}
-      </div>
+
+          <div className="right">
+            <div className="imgContainer">
+              <img src={d.img} alt="relating to the selected project"></img>
+            </div>
+            <div className="buttonContainer">
+              <button className="code-button">View Code</button>
+              <div className="divider"></div>
+              <button className="demo-button">See Demo</button>
+            </div>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
