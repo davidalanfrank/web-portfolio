@@ -75,17 +75,19 @@ export default function Portfolio() {
             <h2>{d.title}</h2>
             <h3>{d.tech}</h3>
             <body>{d.desc}</body>
-            <button className="details-button">More details</button>
+
+            <div className="buttonContainer">
+              <button className="button">More details</button>
+              <div className="divider"></div>
+              <button className="button">View Code</button>
+              <div className="divider"></div>
+              <button className="button">See Demo</button>
+            </div>
           </div>
 
           <div className="right">
             <div className="imgContainer">
               <img src={d.img} alt="relating to the selected project"></img>
-            </div>
-            <div className="buttonContainer">
-              <button className="code-button">View Code</button>
-              <div className="divider"></div>
-              <button className="demo-button">See Demo</button>
             </div>
           </div>
         </div>
