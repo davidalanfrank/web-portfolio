@@ -77,11 +77,18 @@ export default function Portfolio() {
             <body>{d.desc}</body>
 
             <div className="buttonContainer">
-              <button className="button">More details</button>
+              <a href={d.see_more}>
+                <button className="button">More details</button>
+              </a>
               <div className="divider"></div>
-              <button className="button">View Code</button>
+              <a href={d.code}>
+                <button className="button">View Code</button>
+              </a>
+
               <div className="divider"></div>
-              <button className="button">See Demo</button>
+              <a href={d.demo}>
+                <button className="button">See Demo</button>
+              </a>
             </div>
           </div>
 
