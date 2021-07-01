@@ -4,7 +4,6 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import {
   capstonePortfolio,
   bbsystemPortfolio,
-  stocksPortfolio,
   dirtygaragePortfolio,
   videorentalsystemPortfolio,
 } from "../../data";
@@ -20,10 +19,6 @@ export default function Portfolio() {
     {
       id: "bbsystem",
       title: "Billboard System",
-    },
-    {
-      id: "stocks",
-      title: "Stocks Client",
     },
     {
       id: "dirtygarage",
@@ -43,9 +38,7 @@ export default function Portfolio() {
       case "bbsystem":
         setData(bbsystemPortfolio);
         break;
-      case "stocks":
-        setData(stocksPortfolio);
-        break;
+
       case "dirtygarage":
         setData(dirtygaragePortfolio);
         break;
@@ -81,12 +74,17 @@ export default function Portfolio() {
                 <button className="button">More details</button>
               </a>
               <div className="divider"></div>
-              <a href={d.code}>
-                <button className="button">View Code</button>
+              <a href={d.code} target="_blank" rel="noopener noreferrer">
+                <button
+                  className="button"
+                  style={d.code ? { display: "inherit" } : { display: "none" }}
+                >
+                  View Code
+                </button>
               </a>
 
               <div className="divider"></div>
-              <a href={d.demo}>
+              <a href={d.demo} target="_blank" rel="noopener noreferrer">
                 <button className="button">See Demo</button>
               </a>
             </div>

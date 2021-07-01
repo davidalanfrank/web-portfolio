@@ -52,24 +52,28 @@
       padding-right: 5%;
 
       .buttonContainer {
-        button {
-          width: 100px;
-          height: 28px;
-          color: white;
-          align-content: flex-end;
-          font-weight: bold;
-          background-color: crimson;
-          border: none;
-          border-radius: 5px;
+        padding-top: 50px;
+        a {
+          text-decoration: none;
+          button {
+            width: 100px;
+            height: 28px;
+            color: white;
+            align-content: flex-end;
+            font-weight: bold;
 
-          cursor: pointer;
+            background-color: crimson;
+            border: none;
+            border-radius: 5px;
+
+            cursor: pointer;
+          }
         }
         .divider {
           width: 5px;
           height: auto;
           display: inline-block;
         }
-        padding-top: 100px;
       }
 
       h2 {
