@@ -1,7 +1,31 @@
 .billboard {
-  display: flex;
-  background-color: red;
-  padding-top: 80px;
-  h1 {
+  padding-top: 70px;
+
+  .container {
+    background-color: red;
+    display: grid;
+    grid-template-columns: [first] 13% [line3] auto [five] 13% [end];
+    grid-template-rows: [row1-start] 100 auto [last-line];
+    .article-pad-l {
+      background-color: white;
+    }
+    .article {
+      background-color: white;
+      h1 {
+        padding-bottom: 8px;
+      }
+      .fig1 {
+        width: 500px;
+      }
+      .heading-date {
+        color: grey;
+        font-weight: 1;
+        font-size: 14;
+        padding-bottom: 10px;
+      }
+    }
+    .article-pad-r {
+      background-color: white;
+    }
   }
 }

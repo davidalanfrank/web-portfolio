@@ -61,7 +61,7 @@ export const videorentalsystemPortfolio = [
     title: "Video Rental System",
     tech: "Java",
     desc:
-      "TThe community library lends movie DVDs to its members. The information about a movie includes title, starring, director, duration, genre, classification, and release date. The genre of a movie may be Drama, Adventure, Family, Action, Sci-Fi, Comedy, Animated, Thriller, or Other. A movie is classified as General (G), Parental Guidance (PG), Mature (M15+), or Mature Accompanied (MA15+). The community library may have multiple DVDs of the same movie.",
+      "This java application was developed to explore algorithm complexity by developing a DVD management system for a theoretical community library. This system uses a command line interface that allows for staff or a members to login and use a variety of functions related to borrowing movies. Along with implementing a binary search tree to store each movie, I also developed an algorithm that functioned to display the top 10 most frequently borrowed movie's by the members, in the descending order of the frequency. This algorithm was analysed in terms of time complexity for it's best, worst and average case, which yield O(n), Ω(n^2) and Θ(n log n) respectively. Use the buttons below to see a full report, functional requirements and user guide.",
     img: "../assets/video_rental_system.png",
     code: "https://github.com/davidalanfrank/video-rental-system",
     demo: "/video",
