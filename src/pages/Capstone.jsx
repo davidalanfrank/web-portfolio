@@ -11,13 +11,12 @@ export default function Capstone() {
           <h2>Queensland Police Service</h2>
 
           <div className="heading-date">Completed on 22 June, 2021</div>
-
           <body>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
-              facilis ducimus asperiores quam quaerat voluptates dicta provident
-              minima tempore ipsum earum! Earum, saepe iste quaerat odit
-              molestiae voluptates molestias inventore.
+              This project undertaken with the Queenland Police Service started
+              during the 1st semester of my period. The initally proposal by our
+              client outlined a system that would use NLP techniques to identify
+              instances of fraud over text communications.
             </p>
             <img
               src="network_trust_diagram_for_azure.png"
