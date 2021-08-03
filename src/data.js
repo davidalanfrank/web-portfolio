@@ -41,17 +41,17 @@ export const bbsystemPortfolio = [
   },
 ];
 
-export const dirtygaragePortfolio = [
+export const dustygaragePortfolio = [
   {
     id: 3,
-    title: "The Dirty Garage",
+    title: "The dusty Garage",
     tech: "Python, Flask, Heroku, SQLite",
     desc:
       "This C2C marketplace was developed to explore building and deploying a web application using python. The idea for the market place was to allow users to buy and sell their new and used tools by posting items and bidding on tools. Myself, along with a two other students built this platform over the course of 5 weeks, giving us experience in designing, developing and deploying a near fully functional application in a short period of time. This application is still live using a free instance on heroku. Use the buttons down below to view code, demo or more details.",
     img: "../assets/dgm.png",
     code: "https://github.com/dcwilli/dustygarage",
     demo: "https://dustygarage1.herokuapp.com/",
-    see_more: "/dirty",
+    see_more: "/dusty",
   },
 ];
 

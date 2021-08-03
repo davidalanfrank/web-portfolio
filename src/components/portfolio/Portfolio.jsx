@@ -4,7 +4,7 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import {
   capstonePortfolio,
   bbsystemPortfolio,
-  dirtygaragePortfolio,
+  dustygaragePortfolio,
   videorentalsystemPortfolio,
 } from "../../data";
 
@@ -21,8 +21,8 @@ export default function Portfolio() {
       title: "Billboard System",
     },
     {
-      id: "dirtygarage",
-      title: "Dirty Garage",
+      id: "dustygarage",
+      title: "dusty Garage",
     },
     {
       id: "videorentalsystem",
@@ -39,8 +39,8 @@ export default function Portfolio() {
         setData(bbsystemPortfolio);
         break;
 
-      case "dirtygarage":
-        setData(dirtygaragePortfolio);
+      case "dustygarage":
+        setData(dustygaragePortfolio);
         break;
       case "videorentalsystem":
         setData(videorentalsystemPortfolio);

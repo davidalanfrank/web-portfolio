@@ -2,7 +2,7 @@ import React from "react";
 import Topbar from "./components/topbar/Topbar";
 import Menu from "./components/menu/Menu";
 import Capstone from "./pages/Capstone";
-import Dirty from "./pages/Dirty";
+import dusty from "./pages/Dusty";
 import Video from "./pages/Video";
 import Billboard from "./pages/Billboard";
 import Home from "./pages/Home";
@@ -24,7 +24,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/capstone" exact component={Capstone} />
           <Route path="/billboard" component={Billboard} />
-          <Route path="/dirty" component={Dirty} />
+          <Route path="/dusty" component={dusty} />
           <Route path="/video" component={Video} />
         </Switch>
       </Router>
