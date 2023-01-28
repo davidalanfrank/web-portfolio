@@ -20,7 +20,7 @@ export default function Video() {
               molestiae voluptates molestias inventore.
             </p>
             <img
-              src="network_trust_diagram_for_azure.png"
+              src="network_trust_diagram_for_azure.png" alt="network trust diagram"
               className="fig1"
             ></img>
             <p>Caption about the figure</p>

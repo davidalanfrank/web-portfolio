@@ -6,6 +6,7 @@ import dusty from "./pages/Dusty";
 import Video from "./pages/Video";
 import Billboard from "./pages/Billboard";
 import Home from "./pages/Home";
+import Projects from "./pages/Portfolio"
 
 import "./app.scss";
 import { useState } from "react";
@@ -22,7 +23,8 @@ function App() {
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/capstone" exact component={Capstone} />
+          <Route path="/projects" exact component={Projects} />
+          <Route path="/capstone" component={Capstone} />
           <Route path="/billboard" component={Billboard} />
           <Route path="/dusty" component={dusty} />
           <Route path="/video" component={Video} />

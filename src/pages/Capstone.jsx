@@ -20,6 +20,7 @@ export default function Capstone() {
             </p>
             <img
               src="network_trust_diagram_for_azure.png"
+              alt="network trust diagram"
               className="fig1"
             ></img>
             <p>Caption about the figure</p>

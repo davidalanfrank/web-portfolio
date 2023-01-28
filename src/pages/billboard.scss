@@ -4,8 +4,8 @@
   .container {
     background-color: red;
     display: grid;
-    grid-template-columns: [first] 13% [line3] auto [five] 13% [end];
-    grid-template-rows: [row1-start] 100 auto [last-line];
+    // grid-template-columns: [first] 13% [line3] auto [five] 13% [end];
+    // grid-template-rows: [row1-start] 100 auto [last-line];
     .article-pad-l {
       background-color: white;
     }
@@ -30,7 +30,7 @@
         font-size: 14;
         padding-bottom: 10px;
       }
-      .bussiness-case-container {
+      .business-case-container {
         .p {
           padding: 15px;
         }

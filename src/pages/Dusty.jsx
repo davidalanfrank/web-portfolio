@@ -127,7 +127,7 @@ export default function dusty() {
               marketplace that modify rows in the model (see fig1).
             </p>
             <p></p>
-            <img src="../assets/dusty_garage.png" className="fig1"></img>
+            {/* <img src="../assets/dusty_garage.png" alt="dusty garage" className="fig1"></img> */}
             <p>Caption about the figure</p>
             <h2>Developmment workflow</h2>
             <h3>What we did</h3>
@@ -158,7 +158,7 @@ export default function dusty() {
               we expected.
             </p>
             <h3>What were the results</h3>
-            <link>check it</link>
+            {/* <link>check it</link> */}
             <h3>Summary</h3>
             <p>
               At risk of sounding like a heroku shill, the free deployment

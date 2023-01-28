@@ -1,6 +1,6 @@
 @import "../../global.scss";
-.portfolioList {
-  font-size: 14px;
+.portfolioRow {
+  font-size: 11pt;
   margin-right: 50px;
   padding: 7px;
   border-radius: 10px;
@@ -10,4 +10,19 @@
     background-color: $mainColor;
     color: white;
   }
+
+  .title{
+  font-size: 11pt;
+  font-weight: 900;
+  }
+
+  .desc{
+    font-size: 9pt;
+  }
+
+  td{
+    padding: 4px;
+  }
+
+
 }

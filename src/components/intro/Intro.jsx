@@ -9,7 +9,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 80,
-      strings: ["Software Developer", "Machine learning enthusiast"],
+      strings: ["Software Developer", "Intelligent systems builder", "Music enthusiast"],
     });
     console.log(textRef);
   }, []);
@@ -28,7 +28,7 @@ export default function Intro() {
             <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#portfolio">
+        <a href="#about">
           <img src="assets/down.png" alt="" />
         </a>
       </div>

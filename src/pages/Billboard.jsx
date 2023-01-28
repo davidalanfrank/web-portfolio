@@ -1,14 +1,22 @@
 import React from "react";
 import "./billboard.scss";
 import SyntaxHighLighter from "react-syntax-highlighter";
+import { useHistory } from "react-router-dom";
 
 export default function Billboard() {
+    const history = useHistory();
+    console.log("###history",history);
+    const goBack = () => {
+      console.log("###goBack");
+      history.push("#portfolio")
+    }
   return (
     <div className="billboard" id="billboard">
       <div className="container">
         <div className="article-pad-l"></div>
         <div className="article">
           <h1>Billboard Management System</h1>
+          <button onClick={goBack}>gobacc</button>
           <h2>Design Patterns and TDD </h2>
           <div className="heading-date">Completed on 31 May, 2020</div>
 
@@ -41,7 +49,7 @@ export default function Billboard() {
             </ul>
             Students were given a requirement spec in addition to an overview
             "scenario" the business case. In essence:
-            <div className="bussiness-case-container">
+            <div className="business-case-container">
               <p>
                 a client corporation contracted our development team to create a
                 system for handling their electronic billboards. They many
