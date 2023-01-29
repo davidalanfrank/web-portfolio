@@ -23,7 +23,7 @@ export default function Portfolio() {
 
   function goToPage(seeMore) {
   //console.log("###goToPage", seeMore);
-  //console.log("###did this webhook work?");
+console.log("###did this webhook work?");
     history.push(seeMore);
   }
 
