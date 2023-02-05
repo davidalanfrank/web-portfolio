@@ -40,7 +40,7 @@
   }
   .right {
     flex: 0.5;
-    position: relative;
+    // position: relative;
     
 
     .wrapper {
@@ -99,7 +99,7 @@
       left: 40%;
 
       img {
-        width: 100px;
+        width: 90px;
         animation: arrowBlink 2s infinite;
       }
 

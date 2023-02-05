@@ -28,9 +28,12 @@ export default function Intro() {
             <span ref={textRef}></span>
           </h3>
         </div>
+
         <a href="#about">
           <img src="assets/down.png" alt="" />
         </a>
+
+
       </div>
     </div>
   );
