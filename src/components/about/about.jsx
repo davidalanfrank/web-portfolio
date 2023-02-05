@@ -1,6 +1,5 @@
 import { React, useEffect, useRef } from "react";
 import "./about.scss";
-import { Home, Mail, Work, LocalShippingOutlined } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -9,7 +8,6 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 export default function About() {
   const history = useHistory();
   const goToProjects = () => {
-    console.log("###goBack");
     history.push("/projects");
   };
   return (
@@ -17,19 +15,12 @@ export default function About() {
       <br></br>
       <h2>Welcome to my website!</h2>
       <br></br>
-      <div style={{ textAlign: "center" }}>
-        <img style={{ maxWidth: "5rem" }} src="assets/david-avatar.png"></img>
+      <div className="avatar-parent">
+        <img className="avatar-style" src="assets/david-avatar.png"></img>
       </div>
       <br></br>
-      <div style={{ display: "flex", width: "100%" }}>
-        <div
-          style={{
-            maxWidth: "19rem",
-            padding: "1rem",
-            justifyContent: "center",
-            fontSize: 18,
-          }}
-        >
+      <div style={{ display: "flex" }}>
+        <div className="message">
           <span>
             <p>
               <b>A bit about me;</b>
@@ -39,29 +30,16 @@ export default function About() {
           </span>
         </div>
 
-        <div>
-          <img
-            src="assets/box-truck.png"
-            style={{ maxWidth: "5rem", paddingTop: "2rem" }}
-          ></img>
+        <div className="icon-container">
+          <img src="assets/box-truck.png" className="icon-style"></img>
         </div>
       </div>
-      <div style={{ display: "flex", width: "100%" }}>
+      <div style={{ display: "flex", textAlign: "right" }}>
         <div>
-          <img
-            src="assets/graduation-hat.png"
-            style={{ maxWidth: "5rem", paddingTop: "2rem" }}
-          ></img>
+          <img src="assets/graduation-hat.png" className="icon-style"></img>
         </div>
-        <div
-          style={{
-            maxWidth: "18rem",
-            padding: "1rem",
-            justifyContent: "center",
-            textAlign: "right",
-          }}
-        >
-          <span style={{ fontSize: 20 }}>
+        <div className="message">
+          <span>
             <p>
               {" "}
               <b>Recent news;</b>
@@ -70,15 +48,9 @@ export default function About() {
           </span>
         </div>
       </div>
-      <div style={{ display: "flex", width: "100%" }}>
-        <div
-          style={{
-            maxWidth: "18rem",
-            padding: "1rem",
-            justifyContent: "center",
-          }}
-        >
-          <span style={{ fontSize: 20 }}>
+      <div style={{ display: "flex" }}>
+        <div className="message">
+          <span>
             <p>
               <b>Right now;</b>
             </p>{" "}
@@ -87,13 +59,13 @@ export default function About() {
           </span>
         </div>
         <div>
-          <img
-            src="assets/web-development.png"
-            style={{ maxWidth: "5rem", padding: "1rem" }}
-          ></img>
+          <img src="assets/web-development.png" className="icon-style"></img>
         </div>
       </div>
-      <span style={{ fontSize: 20, padding: "1rem", textAlign: "center" }}>
+      <span
+        className="message"
+        style={{ padding: "1rem", textAlign: "center" }}
+      >
         <p>Here are some projects i've completed and written about. </p>
       </span>
 
