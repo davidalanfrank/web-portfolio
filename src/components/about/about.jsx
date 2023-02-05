@@ -58,10 +58,15 @@ export default function About() {
             maxWidth: "18rem",
             padding: "1rem",
             justifyContent: "center",
+            textAlign: "right",
           }}
         >
-          <span style={{ fontSize: 20, textAlign: "right" }}>
-            <b>Recent news;</b>I graduated from computer science! (sem2, 22).
+          <span style={{ fontSize: 20 }}>
+            <p>
+              {" "}
+              <b>Recent news;</b>
+            </p>
+            I graduated from computer science! (sem2, 22).
           </span>
         </div>
       </div>
@@ -74,8 +79,11 @@ export default function About() {
           }}
         >
           <span style={{ fontSize: 20 }}>
-            Right now (outside of work), my main project i'm working on building
-            and writing content for this portfolio and exercising.
+            <p>
+              <b>Right now;</b>
+            </p>{" "}
+            my main project i'm working on building and writing content for this
+            portfolio and exercising.
           </span>
         </div>
         <div>
@@ -100,7 +108,7 @@ export default function About() {
         href="/projects"
       >
         {/* <Work className="icon" /> */}
-        <span style={{ color: "white", fontSize: "22px" }}>Projects</span>
+        <span style={{ color: "white", fontSize: "22px" }}>See Projects</span>
       </button>
     </div>
   );
