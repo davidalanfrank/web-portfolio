@@ -22,6 +22,10 @@
   .icon-container{
     min-height: 7rem;
     overflow: 100%;
+
+    @include mobile{
+      min-width: 99px;
+    }
   }
 
   .icon-style{
@@ -30,8 +34,12 @@
     height:100%;
     max-height: 10rem;
     @include mobile {
-      max-width: 5rem;
-      padding-top: 2rem;
+      height: 5rem;
+      // width: 100%;
+      margin-right: 11rem;
+      overflow: auto;
+      min-width: 4rem;
+
     }
   }
 

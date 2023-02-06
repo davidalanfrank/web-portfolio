@@ -66,7 +66,7 @@ export default function About() {
         className="message"
         style={{ padding: "1rem", textAlign: "center" }}
       >
-        <p>Here are some projects i've completed and written about. </p>
+        <h3>Here are some projects i've completed and written about. </h3>
       </span>
 
       <button
