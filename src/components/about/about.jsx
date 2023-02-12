@@ -15,57 +15,54 @@ export default function About() {
       <br></br>
       <h2>Welcome to my website!</h2>
       <br></br>
-      <div className="avatar-parent">
-        <img className="avatar-style" src="assets/david-avatar.png"></img>
-      </div>
-      <br></br>
-      <div style={{ display: "flex" }}>
-        <div className="message">
-          <span>
-            <p>
-              <b>A bit about me;</b>
-            </p>{" "}
-            Mon- Fri I build and maintain digital products that help people move
-            big things all across Australia.
-          </span>
-        </div>
 
-        <div className="icon-container">
-          <img src="assets/box-truck.png" className="icon-style"></img>
+      <img src="assets/david-avatar.png"></img>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            {" "}
+            <span>
+              <p>
+                <b>A bit about me;</b>
+              </p>{" "}
+              Mon- Fri I build and maintain digital products that help people
+              move big things all across Australia.
+            </span>
+          </div>
+          <div class="col">
+            {" "}
+            <img src="assets/box-truck.png"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">1 of 3</div>
+          <div class="col">2 of 3</div>
+          <div class="col">3 of 3</div>
         </div>
       </div>
-      <div style={{ display: "flex", textAlign: "right" }}>
-        <div>
-          <img src="assets/graduation-hat.png" className="icon-style"></img>
-        </div>
-        <div className="message">
-          <span>
-            <p>
-              {" "}
-              <b>Recent news;</b>
-            </p>
-            I graduated from computer science! (sem2, 22).
-          </span>
-        </div>
-      </div>
-      <div style={{ display: "flex" }}>
-        <div className="message">
-          <span>
-            <p>
-              <b>Right now;</b>
-            </p>{" "}
-            my main project i'm working on building and writing content for this
-            portfolio and exercising.
-          </span>
-        </div>
-        <div>
-          <img src="assets/web-development.png" className="icon-style"></img>
-        </div>
-      </div>
-      <span
-        className="message"
-        style={{ padding: "1rem", textAlign: "center" }}
-      >
+
+      <img src="assets/graduation-hat.png"></img>
+
+      <span>
+        <p>
+          {" "}
+          <b>Recent news;</b>
+        </p>
+        I graduated from computer science! (sem2, 22).
+      </span>
+
+      <span>
+        <p>
+          <b>Right now;</b>
+        </p>{" "}
+        my main project i'm working on building and writing content for this
+        portfolio and exercising.
+      </span>
+
+      <img src="assets/web-development.png"></img>
+
+      <span>
         <h3>Here are some projects i've completed and written about. </h3>
       </span>
 
