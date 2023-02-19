@@ -7,14 +7,23 @@
   align-items: center;
   overflow:hidden;
 
-  // .table{
-  //   background-color: aqua;
-    
-  // }
+  title{
+    min-height: fit-content;
+    min-height: 5rem;
+  }
 
-  // td{
-  //   background-color: aliceblue;
-  // }
+  .right-align{
+    text-align: right;
+  }
+
+
+  .content-table{
+    width:"90%"
+  }
+
+  h3{
+    font-size: 25px;
+  }
 
   .projects-cta{
     min-height: 5rem;
@@ -23,15 +32,23 @@
     padding-top: 1rem;
   }
 
+  p{
+    font-size: 1rem;
+  }
+
+  .text-td{
+    font-size: 20px;
+    width: 40rem;
+  }
   
  
 
   .icon-td{
 
-
+    text-align: center;
     @include mobile {
       max-width: 7rem;
-      background-color: aqua;
+      // background-color: aqua;
     }
   }
 

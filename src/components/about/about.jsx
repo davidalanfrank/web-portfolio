@@ -15,17 +15,25 @@ export default function About() {
   };
   return (
     <div className="about" id="about">
-      <br></br>
-      <h2>Welcome to my website!</h2>
-      <br></br>
+      <div className="title">
+        {" "}
+        <br></br>
+        <h3>Welcome to my website!</h3>
+        <br></br>
+      </div>
       <img className="avatar" src="assets/david-avatar.png"></img>
-      <Table striped bordered hover className="table">
-        <tbody>
+
+      <Table striped bordered hover style={{ width: "90%" }}>
+        <tbody className="content-table">
           <tr>
-            <td colSpan={1}>
+            <td colSpan={1} className="text-td">
               <span>
-                <p>A bit about me;</p>Mon- Fri I build and maintain digital
-                products that help people move big things all across Australia.
+                <span style={{ lineHeight: "2" }}>
+                  A bit about me;
+                  <br />
+                </span>
+                Mon- Fri I build and maintain digital products that help people
+                move big things all across Australia.
               </span>
             </td>
             <td className="icon-td">
@@ -36,7 +44,7 @@ export default function About() {
           </tr>
         </tbody>
       </Table>
-      <Table striped bordered hover className="table">
+      <Table striped bordered hover style={{ width: "90%" }}>
         <tbody>
           <tr>
             <td className="icon-td">
@@ -47,25 +55,23 @@ export default function About() {
                 ></img>
               </div>
             </td>
-            <td colSpan={1}>
-              <span>
-                <p>
-                  <b>Recent news;</b>
-                </p>
-                I graduated from computer science! (sem2, 22).
+            <td colSpan={1} className="text-td right-align">
+              <div></div>
+              <span style={{ lineHeight: "2" }}>
+                Recent news;
+                <br />I graduated from computer science! (sem2, 22).
               </span>
             </td>
           </tr>
         </tbody>
       </Table>
-      <Table striped bordered hover className="table">
+      <Table striped bordered hover style={{ width: "90%" }}>
         <tbody>
           <tr>
-            <td colSpan={1}>
+            <td colSpan={1} className="text-td">
               <span>
-                <p>
-                  <b>Right now;</b>
-                </p>
+                <span style={{ lineHeight: "2" }}>Right now;</span>
+                <br />
                 my main project i'm working on building and writing content for
                 this portfolio and exercising.
               </span>
