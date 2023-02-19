@@ -21,7 +21,6 @@ export default function About() {
         <h3>Welcome to my website!</h3>
         <br></br>
       </div>
-      {/* <img className="avatar" src="assets/david-avatar.png"></img> */}
 
       <Table striped bordered hover style={{ width: "90%" }}>
         <tbody className="content-table">
