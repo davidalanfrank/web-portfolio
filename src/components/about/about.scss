@@ -16,6 +16,17 @@
     text-align: right;
   }
 
+  .remove-section-mobile{
+    @include mobile {
+      display: none;
+    }
+  }
+
+
+    .button-style{
+      color: white;
+  font-size: 22px;
+    }
 
   .content-table{
     width:"90%"
@@ -29,7 +40,13 @@
     min-height: 5rem;
     display: contents;
     text-align: center;
-    padding-top: 1rem;
+    padding: 4rem;
+    font-size: 20px;
+
+    @include mobile {
+      min-height: 2rem;
+      padding-top: 1rem;
+    }
   }
 
   p{

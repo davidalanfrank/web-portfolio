@@ -21,7 +21,7 @@ export default function About() {
         <h3>Welcome to my website!</h3>
         <br></br>
       </div>
-      <img className="avatar" src="assets/david-avatar.png"></img>
+      {/* <img className="avatar" src="assets/david-avatar.png"></img> */}
 
       <Table striped bordered hover style={{ width: "90%" }}>
         <tbody className="content-table">
@@ -45,7 +45,7 @@ export default function About() {
         </tbody>
       </Table>
       <Table striped bordered hover style={{ width: "90%" }}>
-        <tbody>
+        <tbody className="remove-section-mobile">
           <tr>
             <td className="icon-td">
               <div>
@@ -57,8 +57,8 @@ export default function About() {
             </td>
             <td colSpan={1} className="text-td right-align">
               <div></div>
-              <span style={{ lineHeight: "2" }}>
-                Recent news;
+              <span>
+                <span style={{ lineHeight: "2" }}>Recent news;</span>
                 <br />I graduated from computer science! (sem2, 22).
               </span>
             </td>
@@ -87,23 +87,29 @@ export default function About() {
           </tr>
         </tbody>
       </Table>
-      <div className="projects-cta">
-        {" "}
-        <h3>Here are some projects i've completed and written about. </h3>
-        <button
-          onClick={goToProjects}
-          style={{
-            backgroundColor: "purple",
-            padding: "10px 20px",
-            borderRadius: "5px",
-            margin: "10px 0px",
-          }}
-          href="/projects"
-        >
-          {/* <Work className="icon" /> */}
-          <span style={{ color: "white", fontSize: "22px" }}>See Projects</span>
-        </button>
-      </div>
+      <br />
+      <br />
+      <br />
+      <Table striped bordered hover style={{ width: "90%" }}>
+        <tbody>
+          <tr>Here are some projects i've completed and written about.</tr>
+          <tr>
+            <button
+              onClick={goToProjects}
+              style={{
+                backgroundColor: "purple",
+                padding: "10px 20px",
+                borderRadius: "5px",
+                margin: "10px 0px",
+              }}
+              href="/projects"
+            >
+              {/* <Work className="icon" /> */}
+              <span className="button-style">See Projects</span>
+            </button>
+          </tr>
+        </tbody>
+      </Table>
     </div>
   );
 }
