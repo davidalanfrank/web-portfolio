@@ -17,20 +17,25 @@ export default function About() {
     <div className="about" id="about">
       <div className="title">
         <h1>Welcome;</h1>
-        <ul>
-          <li className="active">A bit about me</li>
-          <li>
-            Mon - Fri I build and maintain digital products for Australia's
-            largest freight marketplace.
-          </li>
-          <li>Recent New;</li>
-          <li>I graduated from computer science! (sem2, 22).</li>
-          <li>Right now;</li>
-          <li>
-            My main project i'm working on building and writing content for this
-            portfolio and exercising.
-          </li>
-        </ul>
+        <div>
+          A bit about me Mon - Fri I build and maintain digital products for
+          Australia's largest freight marketplace. Recent New; I graduated from
+          computer science! (sem2, 22). My main project i'm working on building
+          and writing content for this portfolio and exercising. Right now;
+          <button
+            onClick={goToProjects}
+            style={{
+              backgroundColor: "white",
+              padding: "10px 20px",
+              borderRadius: "5px",
+              margin: "10px 0px",
+            }}
+            href="/projects"
+          >
+            {/* <Work className="icon" /> */}
+            <span className="button-style">See Projects</span>
+          </button>
+        </div>
       </div>
     </div>
   );
