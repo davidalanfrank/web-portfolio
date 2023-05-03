@@ -7,121 +7,121 @@
   align-items: center;
   overflow:hidden;
 
-  title{
-    min-height: fit-content;
-    min-height: 5rem;
-  }
+  // title{
+  //   min-height: fit-content;
+  //   min-height: 5rem;
+  // }
 
-  .right-align{
-    text-align: right;
-  }
+  // .right-align{
+  //   text-align: right;
+  // }
 
-  .remove-section-mobile{
-    @include mobile {
-      display: none;
-    }
-  }
+  // .remove-section-mobile{
+  //   @include mobile {
+  //     display: none;
+  //   }
+  // }
 
 
-    .button-style{
-      color: white;
-  font-size: 22px;
-    }
+  //   .button-style{
+  //     color: white;
+  // font-size: 22px;
+  //   }
 
-  .content-table{
-    width:"90%"
-  }
+  // .content-table{
+  //   width:"90%"
+  // }
 
-  h3{
-    font-size: 25px;
-  }
+  // h3{
+  //   font-size: 25px;
+  // }
 
-  .projects-cta{
-    min-height: 5rem;
-    display: contents;
-    text-align: center;
-    padding: 4rem;
-    font-size: 20px;
+  // .projects-cta{
+  //   min-height: 5rem;
+  //   display: contents;
+  //   text-align: center;
+  //   padding: 4rem;
+  //   font-size: 20px;
 
-    @include mobile {
-      min-height: 2rem;
-      padding-top: 1rem;
-    }
-  }
+  //   @include mobile {
+  //     min-height: 2rem;
+  //     padding-top: 1rem;
+  //   }
+  // }
 
-  p{
-    font-size: 1rem;
-  }
+  // p{
+  //   font-size: 1rem;
+  // }
 
-  .text-td{
-    font-size: 20px;
-    width: 40rem;
-  }
+  // .text-td{
+  //   font-size: 20px;
+  //   width: 40rem;
+  // }
   
  
 
-  .icon-td{
+  // .icon-td{
 
-    text-align: center;
-    @include mobile {
-      max-width: 7rem;
-      // background-color: aqua;
-    }
-  }
+  //   text-align: center;
+  //   @include mobile {
+  //     max-width: 7rem;
+  //     // background-color: aqua;
+  //   }
+  // }
 
-  .avatar{
-    max-width: 10rem;
+  // .avatar{
+  //   max-width: 10rem;
 
-    @include mobile {
-      // min-height: 6rem;
-      max-height: 8rem;
-    }
-  }
+  //   @include mobile {
+  //     // min-height: 6rem;
+  //     max-height: 8rem;
+  //   }
+  // }
 
-  h2{
+  // h2{
     
-    font-size: 3rem;
-    min-height: 3rem;
-    @include mobile {
-      min-height: 2rem;
-      font-size: 27px;
-    }
+  //   font-size: 3rem;
+  //   min-height: 3rem;
+  //   @include mobile {
+  //     min-height: 2rem;
+  //     font-size: 27px;
+  //   }
 
-  }
-
-
-  .icon-style{
-    height: 7rem;
+  // }
 
 
-    @include mobile {
-      height: 5rem;
-      // width: 100%;
-      margin-right: 11rem;
-      overflow: auto;
-      min-width: 4rem;
-
-    }
-  }
+  // .icon-style{
+  //   height: 7rem;
 
 
-  .avatar-parent{
-    height: 22rem;
-    overflow: hidden; 
-    @include mobile {
-      height: 8rem;
-      overflow: hidden; 
-    }
-  }
-  .avatar-style{
-    max-width: 10rem;
-    min-height: 15rem;
-    @include mobile {
-       max-width: 5rem;
-       min-height: 0rem;
+  //   @include mobile {
+  //     height: 5rem;
+  //     // width: 100%;
+  //     margin-right: 11rem;
+  //     overflow: auto;
+  //     min-width: 4rem;
+
+  //   }
+  // }
+
+
+  // .avatar-parent{
+  //   height: 22rem;
+  //   overflow: hidden; 
+  //   @include mobile {
+  //     height: 8rem;
+  //     overflow: hidden; 
+  //   }
+  // }
+  // .avatar-style{
+  //   max-width: 10rem;
+  //   min-height: 15rem;
+  //   @include mobile {
+  //      max-width: 5rem;
+  //      min-height: 0rem;
       
-    }
-  }
+  //   }
+  // }
 
 
 
