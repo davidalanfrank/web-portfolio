@@ -16,14 +16,22 @@ export default function About() {
   return (
     <div className="about" id="about">
       <div className="title">
-        <h1>Welcome to my website</h1>
+        <h1>Welcome;</h1>
         <ul>
           <li className="active">A bit about me</li>
+          <li>
+            Mon - Fri I build and maintain digital products for Australia's
+            largest freight marketplace.
+          </li>
           <li>Recent New;</li>
-          <li>Currently;</li>
+          <li>I graduated from computer science! (sem2, 22).</li>
+          <li>Right now;</li>
+          <li>
+            My main project i'm working on building and writing content for this
+            portfolio and exercising.
+          </li>
         </ul>
       </div>
-      <div className="container">firmwareLOIUY</div>
     </div>
   );
 }
