@@ -16,24 +16,35 @@ export default function About() {
   return (
     <div className="about" id="about">
       <div className="title">
-        <h1>Welcome;</h1>
+        <h2>Welcome to my website;</h2>
         <div>
-          A bit about me Mon - Fri I build and maintain digital products for
-          Australia's largest freight marketplace. Recent New; I graduated from
-          computer science! (sem2, 22). My main project i'm working on building
-          and writing content for this portfolio and exercising. Right now;
+          <p>
+            As a software developer, I spend my weekdays building and
+            maintaining digital products for Australia's biggest freight
+            marketplace. I recently completed my Computer Science degree
+            (Semester 2, 2022) and am excited to bring my newfound knowledge and
+            skills to my work. In my free time, I am currently focused on
+            building and writing content for this portfolio, as well as engaging
+            in regular exercise. I am passionate about exploring new
+            technologies and pushing myself to constantly improve my craft.
+          </p>
+        </div>
+        <div>
+          <p>Here are some things i've worked on in the past:</p>
           <button
             onClick={goToProjects}
+            href="/projects"
             style={{
               backgroundColor: "white",
               padding: "10px 20px",
               borderRadius: "5px",
               margin: "10px 0px",
+              fontSize: "20px",
             }}
-            href="/projects"
           >
-            {/* <Work className="icon" /> */}
-            <span className="button-style">See Projects</span>
+            <span className="button-style">
+              <b>See Projects</b>
+            </span>
           </button>
         </div>
       </div>
