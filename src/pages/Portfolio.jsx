@@ -22,14 +22,13 @@ export default function Portfolio() {
   const history = useHistory();
 
   function goToPage(seeMore) {
-  //console.log("###goToPage", seeMore);
-//console.log("###did this webhook work?");
+    //console.log("###goToPage", seeMore);
+    //console.log("###did this webhook work?");
     history.push(seeMore);
   }
 
   useEffect(() => {
-
-    let seeMoreRoute = null; 
+    let seeMoreRoute = null;
     switch (selected) {
       case 1:
         setData(capstonePortfolio);
@@ -48,37 +47,33 @@ export default function Portfolio() {
         seeMoreRoute = videorentalsystemPortfolio.see_more;
         break;
       default:
-
     }
 
-    if(seeMoreRoute){
-      goToPage(seeMoreRoute)
+    if (seeMoreRoute) {
+      goToPage(seeMoreRoute);
     }
   }, [selected]);
   return (
     <div className="portfolio" id="portfolio">
-    <div className="container">
-    <div className="article-pad-l"></div>
+      <div className="container">
+        <div className="article-pad-l"></div>
         <div className="article">
-   
-        <h1>Projects</h1>
-        <table>
-          {projectData.map((d) => (
-            <PortfolioRow
-              date={d.date}
-              title={d.title}
-              seeMore={d.see_more}
-              tech={d.tech}
-              active={selected === d.id}
-              setSelected={setSelected}
-              id={d.id}
-            />
-          ))}
-        </table>
+          <h1>Projects</h1>
+          <table>
+            {projectData.map((d) => (
+              <PortfolioRow
+                date={d.date}
+                title={d.title}
+                seeMore={d.see_more}
+                tech={d.tech}
+                active={selected === d.id}
+                setSelected={setSelected}
+                id={d.id}
+              />
+            ))}
+          </table>
+        </div>
       </div>
     </div>
-    </div>
-
-
   );
 }

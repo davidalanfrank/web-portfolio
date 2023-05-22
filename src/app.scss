@@ -1,10 +1,10 @@
 .app {
   height: 100vh;
-
+  background-color:#222733;
+  color: white;
   .sections {
     width: 100%;
     height: calc(100vh - 70px);
-    background-color:#222733;
     position: relative;
     top: 70px;
     scroll-behavior: smooth;

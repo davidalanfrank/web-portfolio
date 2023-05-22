@@ -2,19 +2,19 @@
   padding-top: 70px;
 
   .container {
-    background-color: red;
+//    background-color: red;
     display: grid;
     // grid-template-columns: [first] 13% [line3] auto [five] 13% [end];
     // grid-template-rows: [row1-start] 100 auto [last-line];
     .article-pad-l {
-      background-color: white;
+  //    background-color: white;
     }
 
     .article {
       .list-style {
         list-style-type: circle;
       }
-      background-color: white;
+    //  background-color: white;
       h1 {
         padding-bottom: 8px;
       }
@@ -40,7 +40,7 @@
       }
     }
     .article-pad-r {
-      background-color: white;
+      //background-color: white;
     }
   }
 }
