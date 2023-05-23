@@ -4,22 +4,18 @@ import SyntaxHighLighter from "react-syntax-highlighter";
 import { useHistory } from "react-router-dom";
 
 export default function Billboard() {
-    const history = useHistory();
-    console.log("###history",history);
-    const goBack = () => {
-      console.log("###goBack");
-      history.push("#portfolio")
-    }
+  const history = useHistory();
+  const goBack = () => {
+    history.push("#portfolio");
+  };
   return (
     <div className="billboard" id="billboard">
       <div className="container">
         <div className="article-pad-l"></div>
         <div className="article">
           <h1>Billboard Management System</h1>
-          <button onClick={goBack}>gobacc</button>
           <h2>Design Patterns and TDD </h2>
           <div className="heading-date">Completed on 31 May, 2020</div>
-
           <p>
             There is some debate about the relevance of Design Patterns. Their
             original utility stemming from the wide understanding in the
@@ -32,10 +28,9 @@ export default function Billboard() {
             The development of this Billboard Management System offered a
             facility to implement some of these design patterns, in addition to
             exploring test driven development (TDD). I worked on this project as
-            a team member with three other CS students. <br></br>
-            Here are my official contributions to the project (as per the paper
-            work):
-            <ul type="circle">
+            a team member with three other CS students. Here are my official
+            contributions to the project (as per the paper work):
+            <ul className="list-style">
               <li>Test Driven Development of Billboard.Java</li>
               <li>Design, writing and refactor of Billboard class</li>
               <li>
@@ -50,20 +45,42 @@ export default function Billboard() {
             Students were given a requirement spec in addition to an overview
             "scenario" the business case. In essence:
             <div className="business-case-container">
-              <p>
+              <div>
                 a client corporation contracted our development team to create a
                 system for handling their electronic billboards. They many
                 screens displayed around their offices across the country, used
                 to show announcements, advertising and motivational content.
-              </p>
+              </div>
             </div>
             This corporation requires three separate applications:
             <ul type="circle"> </ul>
             <li>Billboard Viewer</li>
-            details
+            <ul>
+              <li>
+                a client corporation contracted our development team to create a
+                system for handling their electronic billboards. They many
+                screens displayed around their offices across the country, used
+                to show announcements, advertising and motivational content.
+              </li>
+            </ul>
             <li>Billboard Server</li>
-            details
-            <ul>Billboard Control Panel</ul>
+            <ul>
+              <li>
+                a client corporation contracted our development team to create a
+                system for handling their electronic billboards. They many
+                screens displayed around their offices across the country, used
+                to show announcements, advertising and motivational content.
+              </li>
+            </ul>
+            <li>Billboard Control Panel</li>{" "}
+            <ul>
+              <li>
+                a client corporation contracted our development team to create a
+                system for handling their electronic billboards. They many
+                screens displayed around their offices across the country, used
+                to show announcements, advertising and motivational content.
+              </li>
+            </ul>
             These applications were to be connected via the corporations
             intranet, such that, the Billboard viewer and control panel never
             directly communicate. The billboard viewer will only display

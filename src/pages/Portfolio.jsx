@@ -13,12 +13,7 @@ import { useHistory } from "react-router-dom";
 export default function Portfolio() {
   const [selected, setSelected] = useState([]);
   const [selectedData, setData] = useState([]);
-  const projectData = [
-    capstonePortfolio,
-    bbsystemPortfolio,
-    dustygaragePortfolio,
-    videorentalsystemPortfolio,
-  ];
+  const projectData = [bbsystemPortfolio];
   const history = useHistory();
 
   function goToPage(seeMore) {
@@ -30,22 +25,22 @@ export default function Portfolio() {
   useEffect(() => {
     let seeMoreRoute = null;
     switch (selected) {
+      // case 1:
+      //   setData(capstonePortfolio);
+      //   seeMoreRoute = capstonePortfolio.see_more;
+      //   break;
       case 1:
-        setData(capstonePortfolio);
-        seeMoreRoute = capstonePortfolio.see_more;
-        break;
-      case 2:
         setData(bbsystemPortfolio);
         seeMoreRoute = bbsystemPortfolio.see_more;
         break;
-      case 3:
-        setData(dustygaragePortfolio);
-        seeMoreRoute = dustygaragePortfolio.see_more;
-        break;
-      case 4:
-        setData(videorentalsystemPortfolio);
-        seeMoreRoute = videorentalsystemPortfolio.see_more;
-        break;
+      // case 3:
+      //   setData(dustygaragePortfolio);
+      //   seeMoreRoute = dustygaragePortfolio.see_more;
+      //   break;
+      // case 4:
+      //   setData(videorentalsystemPortfolio);
+      //   seeMoreRoute = videorentalsystemPortfolio.see_more;
+      //   break;
       default:
     }
 
