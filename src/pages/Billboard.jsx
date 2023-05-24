@@ -30,6 +30,7 @@ export default function Billboard() {
             exploring test driven development (TDD). I worked on this project as
             a team member with three other CS students. Here are my official
             contributions to the project (as per the paper work):
+            <div></div>
             <ul className="list-style">
               <li>Test Driven Development of Billboard.Java</li>
               <li>Design, writing and refactor of Billboard class</li>
@@ -45,7 +46,7 @@ export default function Billboard() {
             Students were given a requirement spec in addition to an overview
             "scenario" the business case. In essence:
             <div className="business-case-container">
-              <div>
+              <div className="business-case-child">
                 a client corporation contracted our development team to create a
                 system for handling their electronic billboards. They many
                 screens displayed around their offices across the country, used
@@ -53,34 +54,40 @@ export default function Billboard() {
               </div>
             </div>
             This corporation requires three separate applications:
-            <ul type="circle"> </ul>
-            <li>Billboard Viewer</li>
-            <ul>
-              <li>
-                a client corporation contracted our development team to create a
-                system for handling their electronic billboards. They many
-                screens displayed around their offices across the country, used
-                to show announcements, advertising and motivational content.
-              </li>
-            </ul>
-            <li>Billboard Server</li>
-            <ul>
-              <li>
-                a client corporation contracted our development team to create a
-                system for handling their electronic billboards. They many
-                screens displayed around their offices across the country, used
-                to show announcements, advertising and motivational content.
-              </li>
-            </ul>
-            <li>Billboard Control Panel</li>{" "}
-            <ul>
-              <li>
-                a client corporation contracted our development team to create a
-                system for handling their electronic billboards. They many
-                screens displayed around their offices across the country, used
-                to show announcements, advertising and motivational content.
-              </li>
-            </ul>
+            <div className="top-bottom-padding">
+              <ol>
+                <li className="li-title">1. Billboard Viewer</li>
+                <ul>
+                  <li>
+                    a client corporation contracted our development team to
+                    create a system for handling their electronic billboards.
+                    They many screens displayed around their offices across the
+                    country, used to show announcements, advertising and
+                    motivational content.
+                  </li>
+                </ul>
+                <li className="li-title">2. Billboard Server</li>
+                <ul>
+                  <li>
+                    a client corporation contracted our development team to
+                    create a system for handling their electronic billboards.
+                    They many screens displayed around their offices across the
+                    country, used to show announcements, advertising and
+                    motivational content.
+                  </li>
+                </ul>
+                <li className="li-title">3. Billboard Control Panel</li>{" "}
+                <ul>
+                  <li>
+                    a client corporation contracted our development team to
+                    create a system for handling their electronic billboards.
+                    They many screens displayed around their offices across the
+                    country, used to show announcements, advertising and
+                    motivational content.
+                  </li>
+                </ul>
+              </ol>
+            </div>
             These applications were to be connected via the corporations
             intranet, such that, the Billboard viewer and control panel never
             directly communicate. The billboard viewer will only display
@@ -101,27 +108,41 @@ export default function Billboard() {
             updates the viewer which the user can see.
             <br></br>
             <br></br>
-            MVC provided the team with 3 main benefits:
-            <br></br>
-            <br></br>
-            1. Model-View Cardinality
-            <br></br>MVC provides the ability to easily scale the amount of
-            viewers since only an instance of each viewer needs to be created
-            for display on a new screen. This one to many relationship was
-            essential to our business case. <br></br>
-            <br></br>
-            2. Asynchronicity <br></br>The ability to develop each application
-            separately allowed our team to be self-managing and fast.
-            <br></br>
-            <br></br>
-            3. Unit testing <br></br>The inherent modularity that comes with
-            developing using MVC allowed us an easier push for test coverage
-            across each application.
-            <br></br>
-            <br></br>I welcome the reader to explore the repo to get a detailed
+            MVC provided the team with 3 main benefits:{" "}
+            <div className="top-bottom-padding">
+              <ol>
+                <li className="li-title">1. Model-View Cardinality</li>
+                <ul>
+                  <li>
+                    MVC provides the ability to easily scale the amount of
+                    viewers since only an instance of each viewer needs to be
+                    created for display on a new screen. This one to many
+                    relationship was essential to our business case.
+                  </li>
+                </ul>
+                <li className="li-title"> 2. Asynchronicity </li>
+                <ul>
+                  <li>
+                    The ability to develop each application separately allowed
+                    our team to be self-managing and fast.
+                  </li>
+                </ul>
+                <li className="li-title"> 3. Unit testing </li>{" "}
+                <ul>
+                  <li>
+                    The inherent modularity that comes with developing using MVC
+                    allowed us an easier push for test coverage across each
+                    application.
+                  </li>
+                </ul>
+              </ol>
+            </div>
+            I welcome the reader to explore the repo to get a detailed
             understanding of how this system is constructed. The following will
             discuss my experience using Driven Development (TDD), our use of
             mocking and finally tracer-bullets.
+            <br></br>
+            <br></br>
             <h2>Test-driven development</h2>
             <SyntaxHighLighter language="java">
               {`public class Billboard {
