@@ -2,6 +2,10 @@
   padding-top: 70px;
 
   .container {
+     
+    .code-snip{
+      width: 90%;
+    }
     padding-left: 30px;
     display: grid;
     .article {
@@ -12,6 +16,9 @@
         
       }
       h1 {
+        padding-bottom: 8px;
+      }
+      h3 {
         padding-bottom: 8px;
       }
       .fig1 {

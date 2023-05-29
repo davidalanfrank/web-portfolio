@@ -2,6 +2,9 @@
   height: 100vh;
   background-color:#222733;
   color: white;
+  .figure{
+    border-radius: 0.5rem;
+  }
   .sections {
     width: 100%;
     height: calc(100vh - 70px);

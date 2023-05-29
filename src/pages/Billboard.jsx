@@ -56,7 +56,9 @@ export default function Billboard() {
             This corporation requires three separate applications:
             <div className="top-bottom-padding">
               <ol>
-                <li className="li-title">1. Billboard Viewer</li>
+                <li className="li-title">
+                  <h3>1. Billboard Viewer</h3>
+                </li>
                 <ul>
                   <li>
                     a client corporation contracted our development team to
@@ -66,7 +68,9 @@ export default function Billboard() {
                     motivational content.
                   </li>
                 </ul>
-                <li className="li-title">2. Billboard Server</li>
+                <li className="li-title">
+                  <h3>2. Billboard Server</h3>
+                </li>
                 <ul>
                   <li>
                     a client corporation contracted our development team to
@@ -76,7 +80,9 @@ export default function Billboard() {
                     motivational content.
                   </li>
                 </ul>
-                <li className="li-title">3. Billboard Control Panel</li>{" "}
+                <li className="li-title">
+                  <h3>3. Billboard Control Panel</h3>
+                </li>{" "}
                 <ul>
                   <li>
                     a client corporation contracted our development team to
@@ -98,7 +104,7 @@ export default function Billboard() {
             <img
               alt="hl network architecture diagram"
               src="../assets/hl-bb.png "
-              className="hl-bb"
+              className="hl-bb figure"
             ></img>
             <br></br>
             <br></br>
@@ -111,7 +117,9 @@ export default function Billboard() {
             MVC provided the team with 3 main benefits:{" "}
             <div className="top-bottom-padding">
               <ol>
-                <li className="li-title">1. Model-View Cardinality</li>
+                <li className="li-title">
+                  <h3>1. Model-View Cardinality</h3>
+                </li>
                 <ul>
                   <li>
                     MVC provides the ability to easily scale the amount of
@@ -120,14 +128,20 @@ export default function Billboard() {
                     relationship was essential to our business case.
                   </li>
                 </ul>
-                <li className="li-title"> 2. Asynchronicity </li>
+                <li className="li-title">
+                  {" "}
+                  <h3>2. Asynchronicity</h3>{" "}
+                </li>
                 <ul>
                   <li>
                     The ability to develop each application separately allowed
                     our team to be self-managing and fast.
                   </li>
                 </ul>
-                <li className="li-title"> 3. Unit testing </li>{" "}
+                <li className="li-title">
+                  {" "}
+                  <h3>3. Unit testing</h3>{" "}
+                </li>{" "}
                 <ul>
                   <li>
                     The inherent modularity that comes with developing using MVC
@@ -144,7 +158,8 @@ export default function Billboard() {
             <br></br>
             <br></br>
             <h2>Test-driven development</h2>
-            <SyntaxHighLighter language="java">
+            <br></br>
+            <SyntaxHighLighter language="java" className="figure code-snip">
               {`public class Billboard {
 
                   private String createdBy;
@@ -158,6 +173,7 @@ export default function Billboard() {
 
             `}
             </SyntaxHighLighter>
+            <br></br>
             TDD is a software development practice that puts emphasis on the
             definition of the functional utility of a method first, rather than
             the method's mechanics. This is done by writing the functional test
@@ -208,6 +224,7 @@ export default function Billboard() {
             <br></br>
             <br></br>
             <h2>Requests, Responses and Mocking</h2>
+            <br></br>
             In the MVC pattern, the controller makes changes to the model. In
             the case of the BMS, it is the control panel GUI that allows a user
             to create, edit, import and schedule a billboard on the viewer.
@@ -221,7 +238,10 @@ export default function Billboard() {
             also extended to the database interface. There were several
             immediate benefits to this:
             <ol>
-              <li>Readable code </li>
+              <br></br>
+              <li>
+                <h3>Readable code</h3>{" "}
+              </li>
               In the helpers class, we defined constants that would act as
               request "types" that could be referred to throughout the
               application [FIG2]. The code also implemented using response as
@@ -233,7 +253,11 @@ export default function Billboard() {
               effective relied on clear, concise communication. Whilst talking
               about an exception being thrown during VIEW_SCHEDULE, we all knew
               what we were talking about and where to look.
-              <li>Extendability </li>
+              <br></br>
+              <br></br>
+              <li>
+                <h3>Extendability</h3>{" "}
+              </li>
               Once this pattern was agreed upon and we had a few example
               request/responses to work with, it was easy for other team members
               to add to this list since we knew how it should be implemented. In
@@ -259,6 +283,7 @@ export default function Billboard() {
             <br></br>
             <br></br>
             <h2>Tracer-bullets</h2>
+            <br></br>
             Developing software as an undergraduate student has meant
             encountering a lot of technologies and programming pattern's that
             are unseen. Although I was familiar with OOP and Java before
@@ -286,7 +311,10 @@ export default function Billboard() {
             thus, we created a function that would turn out "request" message
             (which included some encapsulated data) into bytes that could be
             passed across the network to the server[fig6]
+            <br></br>
+            <br></br>
             <h2>Summary</h2>
+            <br></br>
             This project demonstrated the utility of using pre-defined design
             patterns. MVC is by no means a new pattern, though because of it's
             ongoing use in more modern, large scale applications, there is
@@ -306,9 +334,8 @@ export default function Billboard() {
             should follow across our applications minimize the risk of
             misunderstanding how we should encapsulate our data.
           </p>
-          <body></body>
+          <br></br>
         </div>
-        <div className="article-pad-r"></div>
       </div>
     </div>
   );
