@@ -72,11 +72,12 @@
 
   &.active {
     background-color: $mainColor;
-    color: white;
+    color: #222733;
+
     .hamburger {
       span {
         &:first-child {
-          background-color: white;
+          background-color: #222733;
           transform: rotate(45deg);
         }
         &:nth-child(2) {
@@ -84,7 +85,7 @@
         }
 
         &:last-child {
-          background-color: white;
+          background-color: #222733;
           transform: rotate(-45deg);
         }
       }

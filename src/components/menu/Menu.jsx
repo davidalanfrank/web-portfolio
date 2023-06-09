@@ -1,6 +1,6 @@
 import React from "react";
 import "./menu.scss";
-import { Home, Mail, Work } from "@material-ui/icons";
+import { Home, Mail, Work, Computer } from "@material-ui/icons";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
 export default function Menu({ menuOpen, setMenuOpen }) {
@@ -8,26 +8,30 @@ export default function Menu({ menuOpen, setMenuOpen }) {
     <div className={"menu " + (menuOpen && "active")}>
       <ul>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#intro">
+          <a href="/">
             {" "}
             <Home />
             &nbsp;Home
           </a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#about">
+          <a href="/#about">
             <Work />
             &nbsp;About
           </a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
           <a href="/projects">
-            <Work />
+            <Computer />
             &nbsp;Projects
           </a>
         </li>
         <li>
-          <a href="https://github.com/davidalanfrank/" className="icon">
+          <a
+            href="https://github.com/davidalanfrank/"
+            className="icon"
+            target="_blank"
+          >
             <div className="itemContainer">
               <GitHubIcon className="icon" />
               <span>&nbsp;Github</span>
@@ -35,14 +39,14 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           </a>
         </li>
         <li>
-          <div style={{ display: "flex" }}>
+          {/* <div style={{ display: "flex" }}>
             <Mail className="icon" />
             &nbsp;
             <span style={{ fontSize: 18 }}>
               davidfrankwebster
               <p>@gmail.com</p>
             </span>
-          </div>
+          </div> */}
         </li>
       </ul>
     </div>

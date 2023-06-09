@@ -17,40 +17,56 @@ export default function Billboard() {
           <h2>Design Patterns and TDD </h2>
           <div className="heading-date">Completed on 31 May, 2020</div>
           <p>
-            There is some debate about the relevance of Design Patterns. Their
-            original utility stemming from the wide understanding in the
-            software industry enabling more effective communication of
-            architectural ideas. This falls over when the tradition of new
-            practitioners no longer study these. For better or for worse, I have
-            Erich Gamma Et al. text on my shelf.
+            The relevance of Design Patterns is a topic of ongoing debate within
+            the software industry. Initially, these patterns were highly
+            valuable as they facilitated effective communication of
+            architectural ideas among professionals. However, with the decline
+            in the tradition of studying Design Patterns among new
+            practitioners, their utility has been called into question. Whether
+            this shift is beneficial or detrimental, the fact remains that I
+            have the esteemed text by Erich Gamma et al. on my shelf, which
+            serves as a valuable resource for understanding and applying these
+            patterns
             <br></br>
             <br></br>
-            The development of this Billboard Management System offered a
-            facility to implement some of these design patterns, in addition to
-            exploring test driven development (TDD). I worked on this project as
-            a team member with three other CS students. Here are my official
-            contributions to the project (as per the paper work):
+            As part of a team of four computer science students, I had the
+            opportunity to contribute to the development of the Billboard
+            Management System. Throughout the project, we leveraged various
+            design patterns to improve the system's architecture and also delved
+            into the practice of test-driven development (TDD). My official
+            contributions to the project, as documented in the paperwork,
+            include actively implementing design patterns to enhance the
+            system's functionality and advocating for the adoption of TDD
+            principles, ensuring robust code quality and facilitating future
+            modifications.
             <div></div>
             <ul className="list-style">
-              <li>Test Driven Development of Billboard.Java</li>
-              <li>Design, writing and refactor of Billboard class</li>
+              <li>- Test Driven Development of Billboard.Java</li>
+              <li>- Design, writing and refactor of Billboard class</li>
               <li>
-                Wiring design, implementation and refactor of GUIBillboardPanel
-                class
+                - Wiring design, implementation and refactor of
+                GUIBillboardPanel class
               </li>
-              <li>Writing and testing of XMLFileOpener class</li>
-              <li>Writing and testing of IMGFileOpener class</li>
-              <li>Writing and testing of URL Handler class</li>
-              <li>Writing of report walk through</li>
+              <li>- Writing and testing of XMLFileOpener class</li>
+              <li>- Writing and testing of IMGFileOpener class</li>
+              <li>- Writing and testing of URL Handler class</li>
+              <li>- Writing of report walk through</li>
             </ul>
-            Students were given a requirement spec in addition to an overview
-            "scenario" the business case. In essence:
+            In this project, students were provided with a requirement
+            specification document along with an overview of the business case,
+            commonly referred to as the "scenario.". In essence, this was:
             <div className="business-case-container">
               <div className="business-case-child">
-                a client corporation contracted our development team to create a
-                system for handling their electronic billboards. They many
-                screens displayed around their offices across the country, used
-                to show announcements, advertising and motivational content.
+                Our development team was contracted by a client corporation to
+                create a comprehensive system for managing their electronic
+                billboards. The client, with multiple screens spread across
+                their offices nationwide, required a solution that would
+                facilitate the display of announcements, advertising, and
+                motivational content. Our task was to design and develop a
+                robust system that would streamline the management and
+                scheduling of content across these electronic billboards,
+                ensuring efficient and impactful communication within the
+                client's organisation.
               </div>
             </div>
             This corporation requires three separate applications:
@@ -94,11 +110,13 @@ export default function Billboard() {
                 </ul>
               </ol>
             </div>
-            These applications were to be connected via the corporations
-            intranet, such that, the Billboard viewer and control panel never
-            directly communicate. The billboard viewer will only display
-            content, based on the instructions given by the Billboard server.
-            The figure below outlines the network architecture at a high-level.
+            The applications in question were intended to be interconnected
+            through the corporation's intranet, ensuring that the Billboard
+            viewer and control panel would not communicate directly. The primary
+            function of the billboard viewer was to display content according to
+            the instructions provided by the Billboard server. The high-level
+            network architecture, depicted in the figure below, illustrates the
+            overall connectivity and flow of information within the system.
             <br></br>
             <br></br>
             <img
@@ -108,10 +126,11 @@ export default function Billboard() {
             ></img>
             <br></br>
             <br></br>
-            Model-View-Controller is architectural design pattern used in this
-            project. In this pattern, the user can make changes to the model via
-            the controller. The model acts as a "single source of truth" that
-            updates the viewer which the user can see.
+            The Model-View-Controller (MVC) architectural design pattern is
+            employed in this project. In MVC, the user interacts with the
+            controller to make changes to the model. The model serves as the
+            authoritative data source, updating the viewer to reflect these
+            changes for the user to observe.
             <br></br>
             <br></br>
             MVC provided the team with 3 main benefits:{" "}
@@ -122,10 +141,13 @@ export default function Billboard() {
                 </li>
                 <ul>
                   <li>
-                    MVC provides the ability to easily scale the amount of
-                    viewers since only an instance of each viewer needs to be
-                    created for display on a new screen. This one to many
-                    relationship was essential to our business case.
+                    One of the key benefits of the Model-View-Controller (MVC)
+                    pattern is its inherent scalability, particularly when it
+                    comes to accommodating multiple viewers. With MVC, only a
+                    single instance of each viewer needs to be created, which
+                    can then be displayed on multiple screens. This one-to-many
+                    relationship between the viewers and screens proved to be
+                    crucial in fulfilling our business case requirements.
                   </li>
                 </ul>
                 <li className="li-title">
@@ -134,8 +156,9 @@ export default function Billboard() {
                 </li>
                 <ul>
                   <li>
-                    The ability to develop each application separately allowed
-                    our team to be self-managing and fast.
+                    The advantage of asynchronous development is that it
+                    empowers our team to be autonomous and efficient by enabling
+                    independent development of each application.
                   </li>
                 </ul>
                 <li className="li-title">
@@ -144,9 +167,9 @@ export default function Billboard() {
                 </li>{" "}
                 <ul>
                   <li>
-                    The inherent modularity that comes with developing using MVC
-                    allowed us an easier push for test coverage across each
-                    application.
+                    The built-in modularity provided by MVC development allows
+                    us to achieve better test coverage across each application
+                    with greater ease.
                   </li>
                 </ul>
               </ol>
@@ -174,69 +197,86 @@ export default function Billboard() {
             `}
             </SyntaxHighLighter>
             <br></br>
-            TDD is a software development practice that puts emphasis on the
-            definition of the functional utility of a method first, rather than
-            the method's mechanics. This is done by writing the functional test
-            before any code has been written. The advantages of this is to
-            produce code with high test coverage, leading to code that is easier
-            to maintain and extend.
             <br></br>
-            <br></br>Our system makes use of a class named billboard which is
-            used to encapsulate all information required to represent a
-            billboard object. Our team chose to implement this because it’s
-            repeated use across many classes involved with the Control Panel
-            Client, thus, getting this right early in the development would
-            yield lower risk in the future.
+            Test-Driven Development (TDD) is a software development practice
+            that prioritizes defining the functional utility of a method before
+            its mechanics. This approach involves writing functional tests prior
+            to writing any code. The benefits of TDD are significant, as it
+            results in code with extensive test coverage, leading to easier
+            maintenance and scalability.
             <br></br>
-            <br></br>To follow the TDD principles, we split the test writing and
-            fulfillment between myself and one of my team members. Test
-            fulfillment was was defined as having the test pass in the Junit
-            output window (note: Junit is the test utility available in
-            intelliJ).[FIG] add in image with Junit tests passing. Once
-            fulfilled, they could be refactored and re-tested to ensure they
-            still provided the same functionality. While the application grew
-            during the development process, these tests (and any other tests
-            that have been written) would be continually run to ensure this
-            class was behaving as it was intended.
             <br></br>
-            <br></br>My experience using TDD was overwhelmingly positive for
-            several reasons. First, the process forces you to think of an entire
-            class and it's uses to near completion, before you have the chance
-            to write any methods. It acted as a blueprint for what the class
-            should do and the requirements were asserted and validated only once
-            all tests were passed. Once they did, I one could be sure that the
-            functionality was complete, meaning that additional work was making
-            the code better. Secondly, (and i'm aware this is hard to quantify)
-            it offered piece of mind while working on the problems using that
-            class. It was liberating know that as long as the Junit tests were
-            passing, it was highly likely that the related methods were working
-            as they should be. It enable me to concentrate more deeply by
-            allowing me to abstract myself away from exactly how each function
-            worked. Finally, TDD offered a new lens to gauge the current
-            development speed. Since the tests are written first, it's easier to
-            track the progress of method completion, assuming of course the
-            project being worked on requires a testing suite. Having the test
-            written first makes sure that at the end of each development cycle,
-            each method has it's own test(s). This is easier than estimating
-            development speed first because efforts may be wasted in writing a
-            function that does not fulfil it's requirements only after it's
-            implementation.
+            In our system, we employ a class called "billboard" to encapsulate
+            all the necessary information for representing a billboard object.
+            This decision was made due to its frequent usage across multiple
+            classes involved with the Control Panel Client. By addressing this
+            early in the development process, we aimed to mitigate future risks
+            effectively.
+            <br></br>
+            <br></br>
+            To adhere to TDD principles, our team divided the test writing and
+            fulfillment responsibilities between myself and a team member. Test
+            fulfillment was considered achieved when the tests passed in the
+            JUnit output window (note: JUnit is the testing utility available in
+            IntelliJ). Once fulfilled, the tests could be refactored and
+            re-tested to ensure they maintained the same functionality.
+            Throughout the development process, as the application grew, these
+            tests, along with others, were continuously run to ensure the
+            desired behavior of the class.
+            <br></br>
+            <br></br>
+            My personal experience with TDD was overwhelmingly positive for
+            several reasons. Firstly, the process compelled me to conceptualize
+            and plan the entire class and its uses before writing any methods.
+            It served as a blueprint, allowing me to assert and validate
+            requirements only after all tests had passed. This ensured that once
+            the tests were successful, the functionality was considered
+            complete, and any additional work focused on improving the code.
+            <br></br>
+            <br></br>
+            Secondly, TDD provided a sense of peace of mind while working on the
+            class. Knowing that the JUnit tests were passing gave me confidence
+            that the related methods were functioning as intended. It allowed me
+            to concentrate deeply on the problem at hand by abstracting myself
+            from the exact inner workings of each function.
+            <br></br>
+            <br></br>
+            Lastly, TDD offered a new perspective for gauging development
+            progress. Since tests are written first, it becomes easier to track
+            the completion of each method, assuming the project requires a
+            testing suite. Having tests written beforehand ensures that at the
+            end of each development cycle, each method has its own test(s). This
+            approach is more efficient than estimating development speed
+            upfront, as it avoids the potential waste of efforts in implementing
+            a function that fails to meet its requirements.
+            <br></br>
+            <br></br>
+            In summary, TDD not only improved the overall quality of the
+            codebase but also provided a structured and focused approach to
+            development. It encouraged thoughtful planning, instilled confidence
+            through passing tests, and offered valuable insights into
+            development progress.
             <br></br>
             <br></br>
             <h2>Requests, Responses and Mocking</h2>
             <br></br>
-            In the MVC pattern, the controller makes changes to the model. In
-            the case of the BMS, it is the control panel GUI that allows a user
-            to create, edit, import and schedule a billboard on the viewer.
-            Thus, the majority of the information exchange is being passed from
-            actions made on the control panel to the server. Beyond billboard
-            management, users can create and grand privileges to other users to
-            use certain features. Due to the large amount of features making
-            changes to the model, we needed a uniform way for passing data from
-            the control panel to the server. We implemented a <b>request</b>
-            and <b>response</b> pattern between these two applications, this
-            also extended to the database interface. There were several
-            immediate benefits to this:
+            In the MVC pattern, the controller assumes the responsibility of
+            modifying the model. In the context of the BMS (Billboard Management
+            System), it is the control panel GUI that empowers users to perform
+            actions such as creating, editing, importing, and scheduling
+            billboards on the viewer. Consequently, a significant portion of the
+            information exchange occurs from user interactions on the control
+            panel, which is then transmitted to the server. Apart from billboard
+            management, users also have the ability to create and assign
+            privileges to other users for specific features. Given the extensive
+            range of features that involve modifying the model, it became
+            imperative for us to establish a standardized approach for passing
+            data from the control panel to the server. To address this
+            requirement, we implemented a <b>request</b> and <b>response</b>{" "}
+            pattern between these two applications, extending its implementation
+            to the database interface as well. This pattern facilitated
+            consistent and structured data exchange, offering several immediate
+            benefits to our system's functionality and performance.
             <ol>
               <br></br>
               <li>

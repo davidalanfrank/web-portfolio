@@ -9,7 +9,11 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 80,
-      strings: ["Software Developer", "Intelligent systems builder", "Music enthusiast"],
+      strings: [
+        "Software Developer",
+        "Intelligent systems builder",
+        "Music enthusiast",
+      ],
     });
     console.log(textRef);
   }, []);
@@ -30,10 +34,8 @@ export default function Intro() {
         </div>
 
         <a href="#about">
-          <img src="assets/down.png" alt="" />
+          <img src="assets/down-white.png" alt="" />
         </a>
-
-
       </div>
     </div>
   );
