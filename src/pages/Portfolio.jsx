@@ -51,7 +51,6 @@ export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
       <div className="container">
-        <div className="article-pad-l"></div>
         <div className="article">
           <h1>Projects</h1>
           <table>
