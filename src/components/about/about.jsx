@@ -23,14 +23,12 @@ export default function About() {
             maintaining digital products for Australia's biggest freight
             marketplace. I recently completed my Computer Science degree
             (Semester 2, 2022) and am excited to bring my newfound knowledge and
-            skills to my work. In my free time, I am currently focused on
-            building and writing content for this portfolio, as well as engaging
-            in regular exercise. I am passionate about exploring new
-            technologies and pushing myself to constantly improve my craft.
+            skills to my work. Currently in my free time, you'll likely find me
+            building and writing content for this portfolio.
           </p>
         </div>
         <div>
-          <p>Here are some things i've worked on in the past:</p>
+          <p>Click below read about some things i've worked on in the past:</p>
           <button
             onClick={goToProjects}
             href="/projects"

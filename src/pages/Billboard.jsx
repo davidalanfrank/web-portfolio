@@ -73,39 +73,39 @@ export default function Billboard() {
             <div className="top-bottom-padding">
               <ol>
                 <li className="li-title">
-                  <h3>1. Billboard Viewer</h3>
-                </li>
-                <ul>
-                  <li>
-                    a client corporation contracted our development team to
-                    create a system for handling their electronic billboards.
-                    They many screens displayed around their offices across the
-                    country, used to show announcements, advertising and
-                    motivational content.
-                  </li>
-                </ul>
-                <li className="li-title">
-                  <h3>2. Billboard Server</h3>
-                </li>
-                <ul>
-                  <li>
-                    a client corporation contracted our development team to
-                    create a system for handling their electronic billboards.
-                    They many screens displayed around their offices across the
-                    country, used to show announcements, advertising and
-                    motivational content.
-                  </li>
-                </ul>
-                <li className="li-title">
-                  <h3>3. Billboard Control Panel</h3>
+                  <h3>1. Billboard Control Panel</h3>
                 </li>{" "}
                 <ul>
                   <li>
-                    a client corporation contracted our development team to
-                    create a system for handling their electronic billboards.
-                    They many screens displayed around their offices across the
-                    country, used to show announcements, advertising and
-                    motivational content.
+                    This application serves as a user interface that enables
+                    users to perform Create, Read, Update and Delete (CRUD)
+                    operations on Billboards. Additionally, it facilitates the
+                    scheduling of a Billboard and allows an admin to create new
+                    users and define their permissions over billboard creation
+                    and scheduling.
+                  </li>
+                </ul>
+                <li className="li-title">
+                  <h3>2. Billboard Viewer</h3>
+                </li>
+                <ul>
+                  <li>
+                    This application enables the viewing of a Billboard on a
+                    device. While running, this application sends a request for
+                    the next scheduled Billboard.{" "}
+                  </li>
+                </ul>
+                <li className="li-title">
+                  <h3>3. Billboard Server</h3>
+                </li>
+                <ul>
+                  <li>
+                    This application functions as a server for both the
+                    Billboard Viewer and Billboard Control Panel applications.
+                    It handles incoming requests to carry out various actions,
+                    such as creating a new billboard through the Billboard
+                    Control Panel and retrieving the next billboard to be
+                    displayed through the Billboard Viewer.
                   </li>
                 </ul>
               </ol>
@@ -277,102 +277,123 @@ export default function Billboard() {
             to the database interface as well. This pattern facilitated
             consistent and structured data exchange, offering several immediate
             benefits to our system's functionality and performance.
+            <br></br>
+            <br></br>
             <ol>
-              <br></br>
               <li>
                 <h3>Readable code</h3>{" "}
               </li>
-              In the helpers class, we defined constants that would act as
-              request "types" that could be referred to throughout the
-              application [FIG2]. The code also implemented using response as
-              the return variables
-              <li>Communication speed </li>
-              This project was developed during the first part of 2020 and like
-              most software work at that time, distributed teams were the only
-              option for some projects. Therefore, ensuring meetings were
-              effective relied on clear, concise communication. Whilst talking
-              about an exception being thrown during VIEW_SCHEDULE, we all knew
-              what we were talking about and where to look.
+              In the{" "}
+              <a
+                href="https://github.com/davidalanfrank/billboard-system/blob/master/src/helpers/Constants.java"
+                target="_blank"
+              >
+                helpers class
+              </a>
+              we established constants as request "types" to be utilised
+              throughout the application. By defining these types early on, we
+              were able to create meaningful interfaces between the
+              applications, reducing friction during the integration process.
+              This approach facilitated the seamless wiring of the applications
+              together, enhancing their overall robustness.
+              <li>
+                <h3>Communication speed </h3>
+              </li>
+              During the initial months of 2020, this project was undertaken,
+              and like many software endeavors during that period, distributed
+              teams became the norm for certain projects. As a result, effective
+              meetings hinged upon the need for clear and concise communication.
+              In discussing a specific exception related to VIEW_SCHEDULE,
+              everyone involved had a shared understanding of the context and
+              the specific area to investigate, facilitating efficient
+              troubleshooting and problem-solving.
               <br></br>
               <br></br>
               <li>
-                <h3>Extendability</h3>{" "}
+                <h3>Extendability</h3>
               </li>
-              Once this pattern was agreed upon and we had a few example
-              request/responses to work with, it was easy for other team members
-              to add to this list since we knew how it should be implemented. In
-              addition, if a team member wanted to refactor someone's "request",
-              we knew what to expect in the response. [FIG4] show examples of
-              how we encapsulated this data.
+              After establishing and agreeing upon this pattern, with a few
+              initial request/responses as examples, other team members found it
+              easy to contribute to the list, as we had a clear understanding of
+              its implementation. Furthermore, if a team member desired to
+              refactor a specific "request," we had a solid understanding of the
+              expected response.
               <br></br>
               <br></br>
-              This pattern allowed for the development of the control panel and
-              server to progress steadily. Though, there was a point where we
-              needed to begin receiving some information from the not yet
-              implemented database to test the functionality of the server. We
-              needed something relatively changeable and temporary since the
-              requirements for columns and tables were still being figured out.
-              MockDatabase.java is a file we used to simulate a pseudo-database
-              that allowed us to continue with testing the server's
-              request/responses, since most of the features available on the
-              control panel create or modify rows in the database. [Fig5] -
-              diagram about how mocking works compared to the normal
-              implementation. This allowed for cheaper changes to the design of
-              our database before any SQL were written.
+              The adoption of this pattern provided a steady progression in the
+              development of the control panel and server. However, there came a
+              point where it became necessary to receive some data from the
+              yet-to-be-implemented database in order to test the server's
+              functionality. Given that the requirements for columns and tables
+              were still being finalized, we required a flexible and temporary
+              solution. To address this, we utilized the MockDatabase.java file,
+              which acted as a simulated pseudo-database. This allowed us to
+              continue testing the server's request/responses, as most of the
+              control panel features involved creating or modifying rows in the
+              database.This approach enabled us to make cost-effective changes
+              to the database design prior to writing any SQL statements.
             </ol>
             <br></br>
             <br></br>
             <h2>Tracer-bullets</h2>
             <br></br>
-            Developing software as an undergraduate student has meant
-            encountering a lot of technologies and programming pattern's that
-            are unseen. Although I was familiar with OOP and Java before
-            undertaking this project, I was not familiar with how one networks
-            several java application together; leaving not guarantee that the
-            way we designed our data encapsulation would be easily transferable
-            across the network. It was risky to make these decisions early on in
-            the design process only to figure out later that infact certain
-            objects would be cumbersome to handle across the network, resulting
-            in writing some parsers (which would be superfluous) or re-design
-            this encapsulation and refactoring potentially a lot of code.
-            Previous to this project I learned first hand of the expense of
-            having to re-work parts of the data-pipeline. A method I pushed for
-            to help lower the risk of major refactors later was the use of
-            tracer-bullets. As the name suggests, this method is as a guide, a
-            way to trace how an application(s) passes data between different
-            technologies. Understanding how this works earlier in the
-            development process allows for an understanding of how data needs to
-            be handled at each point along the pipeline. For examples, it was
-            important to know how a user pressing delete on the billboard
-            control panel will be translated in an MYSQL command being fired to
-            remove a row the billboards table. Using tracer-bullets revealed to
-            us that we could not directly pass objects in our request functions
-            to the server. Objects had to be explicitly serialized first and
-            thus, we created a function that would turn out "request" message
-            (which included some encapsulated data) into bytes that could be
-            passed across the network to the server[fig6]
+            Developing software as an undergraduate student has exposed me to
+            various technologies and programming patterns that were previously
+            unfamiliar to me. While I had a basic understanding of
+            object-oriented programming (OOP) and Java before embarking on this
+            project, I lacked knowledge on how to network multiple Java
+            applications together. This created uncertainty about whether our
+            chosen data encapsulation approach would seamlessly transfer across
+            the network. Making critical design decisions early on without
+            considering the network implications could result in the need to
+            write unnecessary parsers or undertake extensive code refactoring.
+            My prior experience had taught me the costliness of reworking
+            components within a data pipeline.
+            <br></br>
+            To mitigate the risks associated with major refactors later on, I
+            advocated for the use of tracer bullets. This method served as a
+            guide, allowing us to trace how data flows between different
+            technologies within the application(s). By understanding this
+            process early in the development stage, we could determine how data
+            needed to be handled at each point along the pipeline. For instance,
+            it was crucial to comprehend how a user's action, such as pressing
+            the delete button on the billboard control panel, would translate
+            into a MySQL command for removing a row from the billboards table.
+            Through the use of tracer bullets, we discovered that we couldn't
+            directly pass objects in our request functions to the server.
+            Instead, objects had to be explicitly serialized. Consequently, we
+            developed a function that would convert our "request" message, which
+            included encapsulated data, into bytes that could be transmitted
+            across the network to the server.
             <br></br>
             <br></br>
             <h2>Summary</h2>
             <br></br>
-            This project demonstrated the utility of using pre-defined design
-            patterns. MVC is by no means a new pattern, though because of it's
-            ongoing use in more modern, large scale applications, there is
-            evidence to suggest it's had a place in a wide variety of use cases.
-            TDD allowed the team to progress in the development process with
-            confidence that one of the first classes we develop would work
-            exactly how it was expected to. Furthermore, the request and
-            response pattern that we used for our client-server interface would
-            be easily understood by all software developers, making it safe to
-            assume that this code would be easily extendible. Since developing
-            the databases early could have been expensive to update and maintain
-            through the development process, creating a Mock database enabled
-            the team to return pseudo data in place of actual SQL results. This
-            presented the opportunity to avoid changes to tables and script
-            while the requirements of the database were still being formulated.
-            Finally, using tracer-bullets to gain some understanding of how data
-            should follow across our applications minimize the risk of
-            misunderstanding how we should encapsulate our data.
+            Throughout this project, the value of employing pre-defined design
+            patterns became evident. While MVC (Model-View-Controller) is not a
+            new pattern, its continued relevance in modern, large-scale
+            applications indicates its versatility across a wide range of use
+            cases. By embracing Test-Driven Development (TDD), our team
+            confidently progressed in the development process, ensuring that the
+            first classes we created operated precisely as intended.
+            Additionally, our client-server interface utilized a straightforward
+            request and response pattern that all software developers could
+            easily comprehend, guaranteeing the code's extensibility.
+            <br></br>
+            Developing the databases early on could have been a costly endeavor,
+            considering the potential need for frequent updates and maintenance
+            throughout the development process. To address this, we devised a
+            clever solution by implementing a Mock database. This allowed us to
+            generate pseudo data instead of relying on actual SQL results.
+            Consequently, we avoided making changes to tables and scripts while
+            the database requirements were still in the formulation phase.
+            <br></br>
+            Lastly, our utilization of tracer-bullets provided valuable insights
+            into how data should flow across our applications, significantly
+            reducing the risk of misunderstanding how we should encapsulate our
+            data. These tracer-bullets acted as our trusty guides, ensuring our
+            data journeyed seamlessly through our system without any confusion
+            or misadventures along the way.
           </p>
           <br></br>
         </div>

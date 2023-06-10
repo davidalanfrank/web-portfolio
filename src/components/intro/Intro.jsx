@@ -9,11 +9,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 80,
-      strings: [
-        "Software Developer",
-        "Intelligent systems builder",
-        "Music enthusiast",
-      ],
+      strings: ["Software Developer", "AI Enthusiast", "Music Lover"],
     });
     console.log(textRef);
   }, []);
