@@ -121,7 +121,7 @@ export default function Billboard() {
             <br></br>
             <img
               alt="hl network architecture diagram"
-              src="../assets/hl-bb.png "
+              src="../assets/hl-bb.png"
               className="hl-bb figure"
             ></img>
             <br></br>
@@ -350,6 +350,7 @@ export default function Billboard() {
             My prior experience had taught me the costliness of reworking
             components within a data pipeline.
             <br></br>
+            <br></br>
             To mitigate the risks associated with major refactors later on, I
             advocated for the use of tracer bullets. This method served as a
             guide, allowing us to trace how data flows between different
@@ -380,6 +381,7 @@ export default function Billboard() {
             request and response pattern that all software developers could
             easily comprehend, guaranteeing the code's extensibility.
             <br></br>
+            <br></br>
             Developing the databases early on could have been a costly endeavor,
             considering the potential need for frequent updates and maintenance
             throughout the development process. To address this, we devised a
@@ -387,6 +389,7 @@ export default function Billboard() {
             generate pseudo data instead of relying on actual SQL results.
             Consequently, we avoided making changes to tables and scripts while
             the database requirements were still in the formulation phase.
+            <br></br>
             <br></br>
             Lastly, our utilization of tracer-bullets provided valuable insights
             into how data should flow across our applications, significantly

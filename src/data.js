@@ -2,7 +2,7 @@ export const bbsystemPortfolio = {
   id: 1,
   title: "Electronic Billboard Management System",
   tech: "Java, MariaDB",
-  date: "15th June, 2021",
+  date: "31st May, 2020",
   desc: "Undertaken as an exercise in the implementation of software design patterns in distributed systems, this project's aim was to create a billboard design, viewing and scheduling system; allowing a business the ability to design and show billboards on screens connected to their intranet. As a part of a team of four other students, we developed three distinct pieces of this system (Billboard Viewer, Billboard Server, Billboard Control Panel) that operate on a model-view-controller architecture. This project was completed for a 3rd year university subject, in which we all achieved top marks.",
   img: "../assets/billboard_image.png",
   code: "https://github.com/davidalanfrank/billboard-system",

@@ -11,7 +11,7 @@
   }
 
   .button-color{
-    cursor:pointer;
+    
     background-color: rgb(0,158,180);
   }
 
@@ -21,6 +21,13 @@
     font-size: 20px;
     line-height: 4rem;
     padding:2rem;
+    @include mobile {
+      margin-left: 0rem;
+      margin-right: 0rem;
+      padding:1rem;
+      line-height: 3rem;
+    }
+
  }
 
 

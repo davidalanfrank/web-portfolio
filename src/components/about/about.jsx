@@ -28,7 +28,9 @@ export default function About() {
           </p>
         </div>
         <div>
-          <p>Click below read about some things i've worked on in the past:</p>
+          <p>
+            Click below to read about some things i've worked on in the past:
+          </p>
           <button
             onClick={goToProjects}
             href="/projects"
