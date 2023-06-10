@@ -17,6 +17,11 @@
     padding-right:30px;
     display: grid;
     .article {
+
+      a{
+        color: rgb(186,149,94);
+      }
+      
       .list-style {
         list-style-type: circle;
         padding:1rem;

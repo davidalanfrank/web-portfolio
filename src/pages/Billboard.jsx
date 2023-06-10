@@ -24,21 +24,17 @@ export default function Billboard() {
             in the tradition of studying Design Patterns among new
             practitioners, their utility has been called into question. Whether
             this shift is beneficial or detrimental, the fact remains that I
-            have the esteemed text by Erich Gamma et al. on my shelf, which
-            serves as a valuable resource for understanding and applying these
-            patterns
+            still keep the text by Erich Gamma et al. on my shelf, which serves
+            as a valuable resource for understanding and applying these patterns
             <br></br>
             <br></br>
             As part of a team of four computer science students, I had the
             opportunity to contribute to the development of the Billboard
-            Management System. Throughout the project, we leveraged various
-            design patterns to improve the system's architecture and also delved
-            into the practice of test-driven development (TDD). My official
-            contributions to the project, as documented in the paperwork,
-            include actively implementing design patterns to enhance the
-            system's functionality and advocating for the adoption of TDD
-            principles, ensuring robust code quality and facilitating future
-            modifications.
+            Management System (for brevity, we'll acronymise this to BMS).
+            Throughout the project, we leveraged various design patterns to
+            improve the system's architecture and also delved into the practice
+            of test-driven development (TDD). My official contributions to the
+            project, as documented in the paperwork:
             <div></div>
             <ul className="list-style">
               <li>- Test Driven Development of Billboard.Java</li>
@@ -53,8 +49,8 @@ export default function Billboard() {
               <li>- Writing of report walk through</li>
             </ul>
             In this project, students were provided with a requirement
-            specification document along with an overview of the business case,
-            commonly referred to as the "scenario.". In essence, this was:
+            specification document along with an overview of the business The
+            overview, in essence, was as follows:
             <div className="business-case-container">
               <div className="business-case-child">
                 Our development team was contracted by a client corporation to
@@ -69,7 +65,7 @@ export default function Billboard() {
                 client's organisation.
               </div>
             </div>
-            This corporation requires three separate applications:
+            This corporation required three separate applications:
             <div className="top-bottom-padding">
               <ol>
                 <li className="li-title">
@@ -79,10 +75,10 @@ export default function Billboard() {
                   <li>
                     This application serves as a user interface that enables
                     users to perform Create, Read, Update and Delete (CRUD)
-                    operations on Billboards. Additionally, it facilitates the
-                    scheduling of a Billboard and allows an admin to create new
-                    users and define their permissions over billboard creation
-                    and scheduling.
+                    operations on a Billboard. Additionally, it facilitates the
+                    scheduling of a Billboard and allows an admin users to
+                    create new users and define their permissions over billboard
+                    creation and scheduling.
                   </li>
                 </ul>
                 <li className="li-title">
@@ -92,7 +88,7 @@ export default function Billboard() {
                   <li>
                     This application enables the viewing of a Billboard on a
                     device. While running, this application sends a request for
-                    the next scheduled Billboard.{" "}
+                    the next scheduled Billboard to view.
                   </li>
                 </ul>
                 <li className="li-title">
@@ -110,13 +106,22 @@ export default function Billboard() {
                 </ul>
               </ol>
             </div>
+            <br></br>
+            <br></br>
+            The Model-View-Controller (MVC) architectural design pattern is
+            employed in this project. In MVC, the user interacts with the
+            controller to make changes to the model. The model serves as the
+            authoritative data source, updating the viewer to reflect these
+            changes for the user to observe.
+            <br></br>
+            <br></br>
             The applications in question were intended to be interconnected
-            through the corporation's intranet, ensuring that the Billboard
-            viewer and control panel would not communicate directly. The primary
-            function of the billboard viewer was to display content according to
-            the instructions provided by the Billboard server. The high-level
-            network architecture, depicted in the figure below, illustrates the
-            overall connectivity and flow of information within the system.
+            through the corporation's intranet, whereby the viewer and control
+            panel would not be connected directly, rather, the billboard viewer
+            was to display content according to the instructions provided by the
+            Billboard server. The high-level network architecture, depicted in
+            the figure below, illustrates the overall connectivity and flow of
+            information within the system.
             <br></br>
             <br></br>
             <img
@@ -125,12 +130,6 @@ export default function Billboard() {
               className="hl-bb figure"
             ></img>
             <br></br>
-            <br></br>
-            The Model-View-Controller (MVC) architectural design pattern is
-            employed in this project. In MVC, the user interacts with the
-            controller to make changes to the model. The model serves as the
-            authoritative data source, updating the viewer to reflect these
-            changes for the user to observe.
             <br></br>
             <br></br>
             MVC provided the team with 3 main benefits:{" "}
@@ -168,16 +167,17 @@ export default function Billboard() {
                 <ul>
                   <li>
                     The built-in modularity provided by MVC development allows
-                    us to achieve better test coverage across each application
-                    with greater ease.
+                    us to more easily achieve better test coverage across each
+                    application.
                   </li>
                 </ul>
               </ol>
             </div>
             I welcome the reader to explore the repo to get a detailed
             understanding of how this system is constructed. The following will
-            discuss my experience using Driven Development (TDD), our use of
-            mocking and finally tracer-bullets.
+            discuss my experience using Driven Development (TDD), our use of a
+            Request/Response pattern, Database mocking and finally
+            tracer-bullets.
             <br></br>
             <br></br>
             <h2>Test-driven development</h2>
@@ -193,6 +193,7 @@ export default function Billboard() {
                   private String messageColour;
                   private String informationColour;
                   private String name;
+              }
 
             `}
             </SyntaxHighLighter>
@@ -226,7 +227,7 @@ export default function Billboard() {
             <br></br>
             <br></br>
             My personal experience with TDD was overwhelmingly positive for
-            several reasons. Firstly, the process compelled me to conceptualize
+            several reasons. Firstly, the process compelled me to conceptualise
             and plan the entire class and its uses before writing any methods.
             It served as a blueprint, allowing me to assert and validate
             requirements only after all tests had passed. This ensured that once
@@ -261,22 +262,22 @@ export default function Billboard() {
             <h2>Requests, Responses and Mocking</h2>
             <br></br>
             In the MVC pattern, the controller assumes the responsibility of
-            modifying the model. In the context of the BMS (Billboard Management
-            System), it is the control panel GUI that empowers users to perform
-            actions such as creating, editing, importing, and scheduling
-            billboards on the viewer. Consequently, a significant portion of the
-            information exchange occurs from user interactions on the control
-            panel, which is then transmitted to the server. Apart from billboard
-            management, users also have the ability to create and assign
-            privileges to other users for specific features. Given the extensive
-            range of features that involve modifying the model, it became
-            imperative for us to establish a standardized approach for passing
-            data from the control panel to the server. To address this
-            requirement, we implemented a <b>request</b> and <b>response</b>{" "}
-            pattern between these two applications, extending its implementation
-            to the database interface as well. This pattern facilitated
-            consistent and structured data exchange, offering several immediate
-            benefits to our system's functionality and performance.
+            modifying the model. In the context of the BMS, it is the control
+            panel GUI that empowers users to perform actions such as creating,
+            editing, importing, and scheduling billboards on the viewer.
+            Consequently, a significant portion of the information exchange
+            occurs from user interactions on the control panel, which is then
+            transmitted to the server. Apart from billboard management, users
+            also have the ability to create and assign privileges to other users
+            for specific features. Given the extensive range of features that
+            involve modifying the model, it became imperative for us to
+            establish a standardised approach for passing data from the control
+            panel to the server. To address this requirement, we implemented a{" "}
+            <b>request</b> and <b>response</b> pattern between these two
+            applications, extending its implementation to the database interface
+            as well. This pattern facilitated consistent and structured data
+            exchange, offering several immediate benefits to our system's
+            functionality and performance.
             <br></br>
             <br></br>
             <ol>
@@ -296,6 +297,8 @@ export default function Billboard() {
               applications, reducing friction during the integration process.
               This approach facilitated the seamless wiring of the applications
               together, enhancing their overall robustness.
+              <br></br>
+              <br></br>
               <li>
                 <h3>Communication speed </h3>
               </li>
@@ -352,20 +355,26 @@ export default function Billboard() {
             <br></br>
             <br></br>
             To mitigate the risks associated with major refactors later on, I
-            advocated for the use of tracer bullets. This method served as a
-            guide, allowing us to trace how data flows between different
-            technologies within the application(s). By understanding this
-            process early in the development stage, we could determine how data
-            needed to be handled at each point along the pipeline. For instance,
-            it was crucial to comprehend how a user's action, such as pressing
-            the delete button on the billboard control panel, would translate
-            into a MySQL command for removing a row from the billboards table.
-            Through the use of tracer bullets, we discovered that we couldn't
-            directly pass objects in our request functions to the server.
-            Instead, objects had to be explicitly serialized. Consequently, we
-            developed a function that would convert our "request" message, which
-            included encapsulated data, into bytes that could be transmitted
-            across the network to the server.
+            advocated for the use of{" "}
+            <a
+              href="http://atbrox.com/2012/01/24/tracerbullet-hadoop/"
+              target="_blank"
+            >
+              tracer bullets
+            </a>
+            . This method served as a guide, allowing us to trace how data flows
+            between different technologies within the application(s). By
+            understanding this process early in the development stage, we could
+            determine how data needed to be handled at each point along the
+            pipeline. For instance, it was crucial to comprehend how a user's
+            action, such as pressing the delete button on the billboard control
+            panel, would translate into a MySQL command for removing a row from
+            the billboards table. Through the use of tracer bullets, we
+            discovered that we couldn't directly pass objects in our request
+            functions to the server. Instead, objects had to be explicitly
+            serialized. Consequently, we developed a function that would convert
+            our "request" message, which included encapsulated data, into bytes
+            that could be transmitted across the network to the server.
             <br></br>
             <br></br>
             <h2>Summary</h2>
