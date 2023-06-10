@@ -9,17 +9,20 @@
       /***/ function (module, __webpack_exports__, __webpack_require__) {
         "use strict";
         __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
-        );
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
-        );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ =
+          __webpack_require__(
+            /*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
+          );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default =
+          /*#__PURE__*/ __webpack_require__.n(
+            _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
+          );
         // Imports
 
-        var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
-          true
-        );
+        var ___CSS_LOADER_EXPORT___ =
+          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
+            true
+          );
         // Module
         ___CSS_LOADER_EXPORT___.push([
           module.i,
@@ -38,9 +41,8 @@
           },
         ]);
         // Exports
-        /* harmony default export */ __webpack_exports__[
-          "default"
-        ] = ___CSS_LOADER_EXPORT___;
+        /* harmony default export */ __webpack_exports__["default"] =
+          ___CSS_LOADER_EXPORT___;
 
         /***/
       },
@@ -53,21 +55,24 @@
       /***/ function (module, __webpack_exports__, __webpack_require__) {
         "use strict";
         __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
-        );
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
-        );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ =
+          __webpack_require__(
+            /*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
+          );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default =
+          /*#__PURE__*/ __webpack_require__.n(
+            _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
+          );
         // Imports
 
-        var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
-          true
-        );
+        var ___CSS_LOADER_EXPORT___ =
+          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
+            true
+          );
         // Module
         ___CSS_LOADER_EXPORT___.push([
           module.i,
-          ".intro {\n  background-color: white;\n  display: flex;\n}\n@media (max-width: 768px) {\n  .intro {\n    flex-direction: column;\n    align-items: center;\n  }\n}\n.intro .left {\n  flex: 0.5 1;\n  overflow: hidden;\n}\n.intro .left .imgContainer {\n  width: 655px;\n  height: 655px;\n  background-color: crimson;\n  border-radius: 50%;\n  display: flex;\n  align-items: flex-end;\n  justify-content: center;\n  float: right;\n}\n@media (max-width: 768px) {\n  .intro .left .imgContainer {\n    align-items: flex-start;\n  }\n}\n.intro .left .imgContainer img {\n  height: 140%;\n  object-fit: cover;\n}\n@media (max-width: 768px) {\n  .intro .left .imgContainer img {\n    height: 70%;\n  }\n}\n.intro .right {\n  flex: 0.5 1;\n  position: relative;\n}\n.intro .right .wrapper {\n  width: 100%;\n  height: 100%;\n  padding-left: 50px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n@media (max-width: 768px) {\n  .intro .right .wrapper {\n    padding-left: 0;\n    align-items: center;\n  }\n}\n.intro .right .wrapper h1 {\n  font-size: 60px;\n  margin: 10px 0;\n}\n@media (max-width: 768px) {\n  .intro .right .wrapper h1 {\n    font-size: 40px;\n  }\n}\n.intro .right .wrapper h2 {\n  font-size: 35px;\n}\n.intro .right .wrapper h3 {\n  font-size: 30px;\n}\n@media (max-width: 768px) {\n  .intro .right .wrapper h3 {\n    font-size: 20px;\n  }\n}\n.intro .right .wrapper h3 span {\n  font-size: inherit;\n  color: crimson;\n}\n.intro .right .wrapper h3 .ityped-cursor {\n  animation: blink 1s infinite;\n}\n@keyframes blink {\n  50% {\n    opacity: 1;\n  }\n  100% {\n    opacity: 0;\n  }\n}\n.intro .right a {\n  position: absolute;\n  bottom: 10px;\n  left: 40%;\n}\n.intro .right a img {\n  width: 100px;\n  animation: arrowBlink 2s infinite;\n}\n@keyframes arrowBlink {\n  100% {\n    opacity: 0;\n  }\n}",
+          ".intro {\n  background-color: white;\n  display: flex;\n}\n@media (max-width: 768px) {\n  .intro {\n    flex-direction: column;\n    align-items: center;\n  }\n}\n.intro .left {\n  flex: 0.5 1;\n  overflow: hidden;\n}\n.intro .left .imgContainer {\n  width: 655px;\n  height: 655px;\n  background-color: rbg(0,158,180);\n  border-radius: 50%;\n  display: flex;\n  align-items: flex-end;\n  justify-content: center;\n  float: right;\n}\n@media (max-width: 768px) {\n  .intro .left .imgContainer {\n    align-items: flex-start;\n  }\n}\n.intro .left .imgContainer img {\n  height: 140%;\n  object-fit: cover;\n}\n@media (max-width: 768px) {\n  .intro .left .imgContainer img {\n    height: 70%;\n  }\n}\n.intro .right {\n  flex: 0.5 1;\n  position: relative;\n}\n.intro .right .wrapper {\n  width: 100%;\n  height: 100%;\n  padding-left: 50px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n@media (max-width: 768px) {\n  .intro .right .wrapper {\n    padding-left: 0;\n    align-items: center;\n  }\n}\n.intro .right .wrapper h1 {\n  font-size: 60px;\n  margin: 10px 0;\n}\n@media (max-width: 768px) {\n  .intro .right .wrapper h1 {\n    font-size: 40px;\n  }\n}\n.intro .right .wrapper h2 {\n  font-size: 35px;\n}\n.intro .right .wrapper h3 {\n  font-size: 30px;\n}\n@media (max-width: 768px) {\n  .intro .right .wrapper h3 {\n    font-size: 20px;\n  }\n}\n.intro .right .wrapper h3 span {\n  font-size: inherit;\n  color: rbg(0,158,180);\n}\n.intro .right .wrapper h3 .ityped-cursor {\n  animation: blink 1s infinite;\n}\n@keyframes blink {\n  50% {\n    opacity: 1;\n  }\n  100% {\n    opacity: 0;\n  }\n}\n.intro .right a {\n  position: absolute;\n  bottom: 10px;\n  left: 40%;\n}\n.intro .right a img {\n  width: 100px;\n  animation: arrowBlink 2s infinite;\n}\n@keyframes arrowBlink {\n  100% {\n    opacity: 0;\n  }\n}",
           "",
           {
             version: 3,
@@ -79,16 +84,15 @@
             mappings:
               "AAEA;EACE,uBAAA;EACA,aAAA;AADF;ACEE;EDHF;IAKI,sBAAA;IACA,mBAAA;EAAF;AACF;AAEE;EACE,WAAA;EACA,gBAAA;AAAJ;AAEI;EACE,YAAA;EACA,aAAA;EAEA,yBAAA;EACA,kBAAA;EACA,aAAA;EACA,qBAAA;EACA,uBAAA;EACA,YAAA;AADN;AClBE;EDUE;IAYI,uBAAA;EAAN;AACF;AAEM;EACE,YAAA;EACA,iBAAA;AAAR;AC3BE;EDyBI;IAKI,WAAA;EACR;AACF;AAGE;EACE,WAAA;EACA,kBAAA;AADJ;AAGI;EACE,WAAA;EACA,YAAA;EACA,kBAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;AADN;AC5CE;EDuCE;IASI,eAAA;IACA,mBAAA;EAAN;AACF;AAEM;EACE,eAAA;EACA,cAAA;AAAR;ACtDE;EDoDI;IAKI,eAAA;EACR;AACF;AACM;EACE,eAAA;AACR;AACM;EACE,eAAA;AACR;ACjEE;ED+DI;IAII,eAAA;EAER;AACF;AAAQ;EACE,kBAAA;EACA,cAAA;AAEV;AACQ;EACE,4BAAA;AACV;AAEQ;EACE;IACE,UAAA;EAAV;EAEQ;IACE,UAAA;EAAV;AACF;AAII;EACE,kBAAA;EACA,YAAA;EACA,SAAA;AAFN;AAIM;EACE,YAAA;EACA,iCAAA;AAFR;AAKM;EACE;IACE,UAAA;EAHR;AACF",
             sourcesContent: [
-              '@import "../../global.scss";\n\n.intro {\n  background-color: white;\n  display: flex;\n\n  @include mobile {\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .left {\n    flex: 0.5;\n    overflow: hidden;\n\n    .imgContainer {\n      width: 655px;\n      height: 655px;\n\n      background-color: crimson;\n      border-radius: 50%;\n      display: flex;\n      align-items: flex-end;\n      justify-content: center;\n      float: right;\n\n      @include mobile {\n        align-items: flex-start;\n      }\n\n      img {\n        height: 140%;\n        object-fit: cover;\n\n        @include mobile {\n          height: 70%;\n        }\n      }\n    }\n  }\n  .right {\n    flex: 0.5;\n    position: relative;\n\n    .wrapper {\n      width: 100%;\n      height: 100%;\n      padding-left: 50px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n\n      @include mobile {\n        padding-left: 0;\n        align-items: center;\n      }\n\n      h1 {\n        font-size: 60px;\n        margin: 10px 0;\n\n        @include mobile {\n          font-size: 40px;\n        }\n      }\n      h2 {\n        font-size: 35px;\n      }\n      h3 {\n        font-size: 30px;\n\n        @include mobile {\n          font-size: 20px;\n        }\n\n        span {\n          font-size: inherit;\n          color: crimson;\n        }\n\n        .ityped-cursor {\n          animation: blink 1s infinite;\n        }\n\n        @keyframes blink {\n          50% {\n            opacity: 1;\n          }\n          100% {\n            opacity: 0;\n          }\n        }\n      }\n    }\n    a {\n      position: absolute;\n      bottom: 10px;\n      left: 40%;\n\n      img {\n        width: 100px;\n        animation: arrowBlink 2s infinite;\n      }\n\n      @keyframes arrowBlink {\n        100% {\n          opacity: 0;\n        }\n      }\n    }\n  }\n}\n',
+              '@import "../../global.scss";\n\n.intro {\n  background-color: white;\n  display: flex;\n\n  @include mobile {\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .left {\n    flex: 0.5;\n    overflow: hidden;\n\n    .imgContainer {\n      width: 655px;\n      height: 655px;\n\n      background-color: rbg(0,158,180);\n      border-radius: 50%;\n      display: flex;\n      align-items: flex-end;\n      justify-content: center;\n      float: right;\n\n      @include mobile {\n        align-items: flex-start;\n      }\n\n      img {\n        height: 140%;\n        object-fit: cover;\n\n        @include mobile {\n          height: 70%;\n        }\n      }\n    }\n  }\n  .right {\n    flex: 0.5;\n    position: relative;\n\n    .wrapper {\n      width: 100%;\n      height: 100%;\n      padding-left: 50px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n\n      @include mobile {\n        padding-left: 0;\n        align-items: center;\n      }\n\n      h1 {\n        font-size: 60px;\n        margin: 10px 0;\n\n        @include mobile {\n          font-size: 40px;\n        }\n      }\n      h2 {\n        font-size: 35px;\n      }\n      h3 {\n        font-size: 30px;\n\n        @include mobile {\n          font-size: 20px;\n        }\n\n        span {\n          font-size: inherit;\n          color: rbg(0,158,180);\n        }\n\n        .ityped-cursor {\n          animation: blink 1s infinite;\n        }\n\n        @keyframes blink {\n          50% {\n            opacity: 1;\n          }\n          100% {\n            opacity: 0;\n          }\n        }\n      }\n    }\n    a {\n      position: absolute;\n      bottom: 10px;\n      left: 40%;\n\n      img {\n        width: 100px;\n        animation: arrowBlink 2s infinite;\n      }\n\n      @keyframes arrowBlink {\n        100% {\n          opacity: 0;\n        }\n      }\n    }\n  }\n}\n',
               "$mainColor: purple;\n\n$width: 768px;\n\n@mixin mobile {\n  @media (max-width: #{$width}) {\n    @content;\n  }\n}\n",
             ],
             sourceRoot: "",
           },
         ]);
         // Exports
-        /* harmony default export */ __webpack_exports__[
-          "default"
-        ] = ___CSS_LOADER_EXPORT___;
+        /* harmony default export */ __webpack_exports__["default"] =
+          ___CSS_LOADER_EXPORT___;
 
         /***/
       },
@@ -101,17 +105,20 @@
       /***/ function (module, __webpack_exports__, __webpack_require__) {
         "use strict";
         __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
-        );
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
-        );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ =
+          __webpack_require__(
+            /*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
+          );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default =
+          /*#__PURE__*/ __webpack_require__.n(
+            _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
+          );
         // Imports
 
-        var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
-          true
-        );
+        var ___CSS_LOADER_EXPORT___ =
+          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
+            true
+          );
         // Module
         ___CSS_LOADER_EXPORT___.push([
           module.i,
@@ -134,9 +141,8 @@
           },
         ]);
         // Exports
-        /* harmony default export */ __webpack_exports__[
-          "default"
-        ] = ___CSS_LOADER_EXPORT___;
+        /* harmony default export */ __webpack_exports__["default"] =
+          ___CSS_LOADER_EXPORT___;
 
         /***/
       },
@@ -149,21 +155,24 @@
       /***/ function (module, __webpack_exports__, __webpack_require__) {
         "use strict";
         __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
-        );
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
-        );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ =
+          __webpack_require__(
+            /*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
+          );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default =
+          /*#__PURE__*/ __webpack_require__.n(
+            _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
+          );
         // Imports
 
-        var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
-          true
-        );
+        var ___CSS_LOADER_EXPORT___ =
+          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
+            true
+          );
         // Module
         ___CSS_LOADER_EXPORT___.push([
           module.i,
-          '.portfolio {\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.portfolio h1 {\n  font-size: 50px;\n}\n@media (max-width: 768px) {\n  .portfolio h1 {\n    font-size: 20px;\n  }\n}\n.portfolio ul {\n  margin: 10px;\n  padding: 0;\n  list-style: none;\n  display: flex;\n}\n@media (max-width: 768px) {\n  .portfolio ul {\n    margin: 10px 0;\n    flex-wrap: wrap;\n    justify-content: center;\n  }\n}\n.portfolio ul li {\n  font-size: 14px;\n  margin-right: 50px;\n  padding: 7px;\n  border-radius: 10px;\n  cursor: pointer;\n}\n.portfolio ul li.active {\n  background-color: purple;\n  color: white;\n}\n.portfolio .container {\n  display: flex;\n  width: 100%;\n  height: 70%;\n}\n.portfolio .container .left {\n  flex: 1 1;\n  overflow: hidden;\n  text-align: left;\n  padding-top: 20px;\n  padding-left: 5%;\n  padding-right: 5%;\n}\n.portfolio .container .left .buttonContainer {\n  padding-top: 100px;\n}\n.portfolio .container .left .buttonContainer button {\n  width: 100px;\n  height: 28px;\n  color: white;\n  align-content: flex-end;\n  font-weight: bold;\n  background-color: crimson;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n}\n.portfolio .container .left .buttonContainer .divider {\n  width: 5px;\n  height: auto;\n  display: inline-block;\n}\n.portfolio .container .left h2 {\n  padding-bottom: 10px;\n}\n.portfolio .container .left h3 {\n  font-weight: 20;\n  color: lightgrey;\n  font-family: "Roboto Mono", monospace;\n  padding-bottom: 10px;\n}\n.portfolio .container .left img {\n  height: 100%;\n}\n.portfolio .container .left body {\n  line-height: 1.6;\n}\n.portfolio .container .right {\n  flex: 1 1;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  border-left: 3px solid #f8f8f8;\n}\n@media (max-width: 768px) {\n  .portfolio .container .right {\n    display: none;\n  }\n}\n.portfolio .container .right .imgContainer img {\n  width: 90%;\n  border-radius: 10%;\n}\n.portfolio .container .right h2 {\n  font-size: 30px;\n}',
+          '.portfolio {\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.portfolio h1 {\n  font-size: 50px;\n}\n@media (max-width: 768px) {\n  .portfolio h1 {\n    font-size: 20px;\n  }\n}\n.portfolio ul {\n  margin: 10px;\n  padding: 0;\n  list-style: none;\n  display: flex;\n}\n@media (max-width: 768px) {\n  .portfolio ul {\n    margin: 10px 0;\n    flex-wrap: wrap;\n    justify-content: center;\n  }\n}\n.portfolio ul li {\n  font-size: 14px;\n  margin-right: 50px;\n  padding: 7px;\n  border-radius: 10px;\n  cursor: pointer;\n}\n.portfolio ul li.active {\n  background-color: purple;\n  color: white;\n}\n.portfolio .container {\n  display: flex;\n  width: 100%;\n  height: 70%;\n}\n.portfolio .container .left {\n  flex: 1 1;\n  overflow: hidden;\n  text-align: left;\n  padding-top: 20px;\n  padding-left: 5%;\n  padding-right: 5%;\n}\n.portfolio .container .left .buttonContainer {\n  padding-top: 100px;\n}\n.portfolio .container .left .buttonContainer button {\n  width: 100px;\n  height: 28px;\n  color: white;\n  align-content: flex-end;\n  font-weight: bold;\n  background-color: rbg(0,158,180);\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n}\n.portfolio .container .left .buttonContainer .divider {\n  width: 5px;\n  height: auto;\n  display: inline-block;\n}\n.portfolio .container .left h2 {\n  padding-bottom: 10px;\n}\n.portfolio .container .left h3 {\n  font-weight: 20;\n  color: lightgrey;\n  font-family: "Roboto Mono", monospace;\n  padding-bottom: 10px;\n}\n.portfolio .container .left img {\n  height: 100%;\n}\n.portfolio .container .left body {\n  line-height: 1.6;\n}\n.portfolio .container .right {\n  flex: 1 1;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  border-left: 3px solid #f8f8f8;\n}\n@media (max-width: 768px) {\n  .portfolio .container .right {\n    display: none;\n  }\n}\n.portfolio .container .right .imgContainer img {\n  width: 90%;\n  border-radius: 10%;\n}\n.portfolio .container .right h2 {\n  font-size: 30px;\n}',
           "",
           {
             version: 3,
@@ -175,16 +184,15 @@
             mappings:
               "AAEA;EACE,uBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;AADF;AAEE;EACE,eAAA;AAAJ;ACHE;EDEA;IAII,eAAA;EACJ;AACF;AAEE;EACE,YAAA;EACA,UAAA;EACA,gBAAA;EACA,aAAA;AAAJ;ACdE;EDUA;IAOI,cAAA;IACA,eAAA;IACA,uBAAA;EACJ;AACF;AACI;EACE,eAAA;EACA,kBAAA;EACA,YAAA;EACA,mBAAA;EACA,eAAA;AACN;AACM;EACE,wBCnCI;EDoCJ,YAAA;AACR;AAGE;EACE,aAAA;EACA,WAAA;EACA,WAAA;AADJ;AAGI;EACE,SAAA;EACA,gBAAA;EACA,gBAAA;EACA,iBAAA;EACA,gBAAA;EACA,iBAAA;AADN;AAGM;EAkBE,kBAAA;AAlBR;AACQ;EACE,YAAA;EACA,YAAA;EACA,YAAA;EACA,uBAAA;EACA,iBAAA;EACA,yBAAA;EACA,YAAA;EACA,kBAAA;EAEA,eAAA;AAAV;AAEQ;EACE,UAAA;EACA,YAAA;EACA,qBAAA;AAAV;AAKM;EACE,oBAAA;AAHR;AAKM;EACE,eAAA;EACA,gBAAA;EACA,qCAAA;EACA,oBAAA;AAHR;AAKM;EACE,YAAA;AAHR;AAKM;EACE,gBAAA;AAHR;AAMI;EACE,SAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,8BAAA;AAJN;ACvFE;EDqFE;IASI,aAAA;EAHN;AACF;AAMQ;EACE,UAAA;EACA,kBAAA;AAJV;AAQM;EACE,eAAA;AANR",
             sourcesContent: [
-              '@import "../../global.scss";\n\n.portfolio {\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  h1 {\n    font-size: 50px;\n\n    @include mobile {\n      font-size: 20px;\n    }\n  }\n\n  ul {\n    margin: 10px;\n    padding: 0;\n    list-style: none;\n    display: flex;\n\n    @include mobile {\n      margin: 10px 0;\n      flex-wrap: wrap;\n      justify-content: center;\n    }\n\n    li {\n      font-size: 14px;\n      margin-right: 50px;\n      padding: 7px;\n      border-radius: 10px;\n      cursor: pointer;\n\n      &.active {\n        background-color: $mainColor;\n        color: white;\n      }\n    }\n  }\n  .container {\n    display: flex;\n    width: 100%;\n    height: 70%;\n\n    .left {\n      flex: 1;\n      overflow: hidden;\n      text-align: left;\n      padding-top: 20px;\n      padding-left: 5%;\n      padding-right: 5%;\n\n      .buttonContainer {\n        button {\n          width: 100px;\n          height: 28px;\n          color: white;\n          align-content: flex-end;\n          font-weight: bold;\n          background-color: crimson;\n          border: none;\n          border-radius: 5px;\n\n          cursor: pointer;\n        }\n        .divider {\n          width: 5px;\n          height: auto;\n          display: inline-block;\n        }\n        padding-top: 100px;\n      }\n\n      h2 {\n        padding-bottom: 10px;\n      }\n      h3 {\n        font-weight: 20;\n        color: lightgrey;\n        font-family: "Roboto Mono", monospace;\n        padding-bottom: 10px;\n      }\n      img {\n        height: 100%;\n      }\n      body {\n        line-height: 1.6;\n      }\n    }\n    .right {\n      flex: 1;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      border-left: 3px solid #f8f8f8;\n\n      @include mobile {\n        display: none;\n      }\n\n      .imgContainer {\n        img {\n          width: 90%;\n          border-radius: 10%;\n        }\n      }\n\n      h2 {\n        font-size: 30px;\n      }\n    }\n  }\n}\n',
+              '@import "../../global.scss";\n\n.portfolio {\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  h1 {\n    font-size: 50px;\n\n    @include mobile {\n      font-size: 20px;\n    }\n  }\n\n  ul {\n    margin: 10px;\n    padding: 0;\n    list-style: none;\n    display: flex;\n\n    @include mobile {\n      margin: 10px 0;\n      flex-wrap: wrap;\n      justify-content: center;\n    }\n\n    li {\n      font-size: 14px;\n      margin-right: 50px;\n      padding: 7px;\n      border-radius: 10px;\n      cursor: pointer;\n\n      &.active {\n        background-color: $mainColor;\n        color: white;\n      }\n    }\n  }\n  .container {\n    display: flex;\n    width: 100%;\n    height: 70%;\n\n    .left {\n      flex: 1;\n      overflow: hidden;\n      text-align: left;\n      padding-top: 20px;\n      padding-left: 5%;\n      padding-right: 5%;\n\n      .buttonContainer {\n        button {\n          width: 100px;\n          height: 28px;\n          color: white;\n          align-content: flex-end;\n          font-weight: bold;\n          background-color: rbg(0,158,180);\n          border: none;\n          border-radius: 5px;\n\n          cursor: pointer;\n        }\n        .divider {\n          width: 5px;\n          height: auto;\n          display: inline-block;\n        }\n        padding-top: 100px;\n      }\n\n      h2 {\n        padding-bottom: 10px;\n      }\n      h3 {\n        font-weight: 20;\n        color: lightgrey;\n        font-family: "Roboto Mono", monospace;\n        padding-bottom: 10px;\n      }\n      img {\n        height: 100%;\n      }\n      body {\n        line-height: 1.6;\n      }\n    }\n    .right {\n      flex: 1;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      border-left: 3px solid #f8f8f8;\n\n      @include mobile {\n        display: none;\n      }\n\n      .imgContainer {\n        img {\n          width: 90%;\n          border-radius: 10%;\n        }\n      }\n\n      h2 {\n        font-size: 30px;\n      }\n    }\n  }\n}\n',
               "$mainColor: purple;\n\n$width: 768px;\n\n@mixin mobile {\n  @media (max-width: #{$width}) {\n    @content;\n  }\n}\n",
             ],
             sourceRoot: "",
           },
         ]);
         // Exports
-        /* harmony default export */ __webpack_exports__[
-          "default"
-        ] = ___CSS_LOADER_EXPORT___;
+        /* harmony default export */ __webpack_exports__["default"] =
+          ___CSS_LOADER_EXPORT___;
 
         /***/
       },
@@ -197,17 +205,20 @@
       /***/ function (module, __webpack_exports__, __webpack_require__) {
         "use strict";
         __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
-        );
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
-        );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ =
+          __webpack_require__(
+            /*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
+          );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default =
+          /*#__PURE__*/ __webpack_require__.n(
+            _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
+          );
         // Imports
 
-        var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
-          true
-        );
+        var ___CSS_LOADER_EXPORT___ =
+          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
+            true
+          );
         // Module
         ___CSS_LOADER_EXPORT___.push([
           module.i,
@@ -230,9 +241,8 @@
           },
         ]);
         // Exports
-        /* harmony default export */ __webpack_exports__[
-          "default"
-        ] = ___CSS_LOADER_EXPORT___;
+        /* harmony default export */ __webpack_exports__["default"] =
+          ___CSS_LOADER_EXPORT___;
 
         /***/
       },
@@ -245,17 +255,20 @@
       /***/ function (module, __webpack_exports__, __webpack_require__) {
         "use strict";
         __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
-        );
-        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
-        );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ =
+          __webpack_require__(
+            /*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js"
+          );
+        /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default =
+          /*#__PURE__*/ __webpack_require__.n(
+            _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__
+          );
         // Imports
 
-        var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
-          true
-        );
+        var ___CSS_LOADER_EXPORT___ =
+          _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(
+            true
+          );
         // Module
         ___CSS_LOADER_EXPORT___.push([
           module.i,
@@ -278,9 +291,8 @@
           },
         ]);
         // Exports
-        /* harmony default export */ __webpack_exports__[
-          "default"
-        ] = ___CSS_LOADER_EXPORT___;
+        /* harmony default export */ __webpack_exports__["default"] =
+          ___CSS_LOADER_EXPORT___;
 
         /***/
       },
@@ -297,39 +309,46 @@
           __react_refresh_utils__,
           __react_refresh_error_overlay__
         ) {
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-            /*! react */ "./node_modules/react/index.js"
-          );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-            react__WEBPACK_IMPORTED_MODULE_0__
-          );
-          /* harmony import */ var _components_topbar_Topbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-            /*! ./components/topbar/Topbar */ "./src/components/topbar/Topbar.jsx"
-          );
-          /* harmony import */ var _components_intro_Intro__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-            /*! ./components/intro/Intro */ "./src/components/intro/Intro.jsx"
-          );
-          /* harmony import */ var _components_portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-            /*! ./components/portfolio/Portfolio */ "./src/components/portfolio/Portfolio.jsx"
-          );
-          /* harmony import */ var _components_menu_Menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-            /*! ./components/menu/Menu */ "./src/components/menu/Menu.jsx"
-          );
-          /* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-            /*! ./app.scss */ "./src/app.scss"
-          );
-          /* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/ __webpack_require__.n(
-            _app_scss__WEBPACK_IMPORTED_MODULE_5__
-          );
-          /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-            /*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-            /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/ __webpack_require__.n(
-            react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__
-          );
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ =
+            __webpack_require__(/*! react */ "./node_modules/react/index.js");
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react__WEBPACK_IMPORTED_MODULE_0__
+            );
+          /* harmony import */ var _components_topbar_Topbar__WEBPACK_IMPORTED_MODULE_1__ =
+            __webpack_require__(
+              /*! ./components/topbar/Topbar */ "./src/components/topbar/Topbar.jsx"
+            );
+          /* harmony import */ var _components_intro_Intro__WEBPACK_IMPORTED_MODULE_2__ =
+            __webpack_require__(
+              /*! ./components/intro/Intro */ "./src/components/intro/Intro.jsx"
+            );
+          /* harmony import */ var _components_portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_3__ =
+            __webpack_require__(
+              /*! ./components/portfolio/Portfolio */ "./src/components/portfolio/Portfolio.jsx"
+            );
+          /* harmony import */ var _components_menu_Menu__WEBPACK_IMPORTED_MODULE_4__ =
+            __webpack_require__(
+              /*! ./components/menu/Menu */ "./src/components/menu/Menu.jsx"
+            );
+          /* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_5__ =
+            __webpack_require__(/*! ./app.scss */ "./src/app.scss");
+          /* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_5___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              _app_scss__WEBPACK_IMPORTED_MODULE_5__
+            );
+          /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ =
+            __webpack_require__(
+              /*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js"
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__ =
+            __webpack_require__(
+              /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__
+            );
           __webpack_require__.$Refresh$.runtime = __webpack_require__(
             /*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js"
           );
@@ -655,7 +674,7 @@
             }
           }
           /* WEBPACK VAR INJECTION */
-        }.call(
+        }).call(
           this,
           __webpack_require__(
             /*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"
@@ -663,7 +682,7 @@
           __webpack_require__(
             /*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js"
           )
-        ));
+        );
 
         /***/
       },
@@ -784,27 +803,32 @@
               return Intro;
             }
           );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-            /*! react */ "./node_modules/react/index.js"
-          );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-            react__WEBPACK_IMPORTED_MODULE_0__
-          );
-          /* harmony import */ var _intro_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-            /*! ./intro.scss */ "./src/components/intro/intro.scss"
-          );
-          /* harmony import */ var _intro_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-            _intro_scss__WEBPACK_IMPORTED_MODULE_1__
-          );
-          /* harmony import */ var ityped__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-            /*! ityped */ "./node_modules/ityped/src/index.js"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-            /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/ __webpack_require__.n(
-            react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__
-          );
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ =
+            __webpack_require__(/*! react */ "./node_modules/react/index.js");
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react__WEBPACK_IMPORTED_MODULE_0__
+            );
+          /* harmony import */ var _intro_scss__WEBPACK_IMPORTED_MODULE_1__ =
+            __webpack_require__(
+              /*! ./intro.scss */ "./src/components/intro/intro.scss"
+            );
+          /* harmony import */ var _intro_scss__WEBPACK_IMPORTED_MODULE_1___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              _intro_scss__WEBPACK_IMPORTED_MODULE_1__
+            );
+          /* harmony import */ var ityped__WEBPACK_IMPORTED_MODULE_2__ =
+            __webpack_require__(
+              /*! ityped */ "./node_modules/ityped/src/index.js"
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ =
+            __webpack_require__(
+              /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__
+            );
           __webpack_require__.$Refresh$.runtime = __webpack_require__(
             /*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js"
           );
@@ -1157,7 +1181,7 @@
             }
           }
           /* WEBPACK VAR INJECTION */
-        }.call(
+        }).call(
           this,
           __webpack_require__(
             /*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"
@@ -1165,7 +1189,7 @@
           __webpack_require__(
             /*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js"
           )
-        ));
+        );
 
         /***/
       },
@@ -1286,24 +1310,28 @@
               return Menu;
             }
           );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-            /*! react */ "./node_modules/react/index.js"
-          );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-            react__WEBPACK_IMPORTED_MODULE_0__
-          );
-          /* harmony import */ var _menu_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-            /*! ./menu.scss */ "./src/components/menu/menu.scss"
-          );
-          /* harmony import */ var _menu_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-            _menu_scss__WEBPACK_IMPORTED_MODULE_1__
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-            /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/ __webpack_require__.n(
-            react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__
-          );
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ =
+            __webpack_require__(/*! react */ "./node_modules/react/index.js");
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react__WEBPACK_IMPORTED_MODULE_0__
+            );
+          /* harmony import */ var _menu_scss__WEBPACK_IMPORTED_MODULE_1__ =
+            __webpack_require__(
+              /*! ./menu.scss */ "./src/components/menu/menu.scss"
+            );
+          /* harmony import */ var _menu_scss__WEBPACK_IMPORTED_MODULE_1___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              _menu_scss__WEBPACK_IMPORTED_MODULE_1__
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ =
+            __webpack_require__(
+              /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__
+            );
           __webpack_require__.$Refresh$.runtime = __webpack_require__(
             /*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js"
           );
@@ -1631,7 +1659,7 @@
             }
           }
           /* WEBPACK VAR INJECTION */
-        }.call(
+        }).call(
           this,
           __webpack_require__(
             /*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"
@@ -1639,7 +1667,7 @@
           __webpack_require__(
             /*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js"
           )
-        ));
+        );
 
         /***/
       },
@@ -1760,30 +1788,34 @@
               return Portfolio;
             }
           );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-            /*! react */ "./node_modules/react/index.js"
-          );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-            react__WEBPACK_IMPORTED_MODULE_0__
-          );
-          /* harmony import */ var _portfolio_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-            /*! ./portfolio.scss */ "./src/components/portfolio/portfolio.scss"
-          );
-          /* harmony import */ var _portfolio_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-            _portfolio_scss__WEBPACK_IMPORTED_MODULE_1__
-          );
-          /* harmony import */ var _portfolioList_PortfolioList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-            /*! ../portfolioList/PortfolioList */ "./src/components/portfolioList/PortfolioList.jsx"
-          );
-          /* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-            /*! ../../data */ "./src/data.js"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-            /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/ __webpack_require__.n(
-            react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__
-          );
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ =
+            __webpack_require__(/*! react */ "./node_modules/react/index.js");
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react__WEBPACK_IMPORTED_MODULE_0__
+            );
+          /* harmony import */ var _portfolio_scss__WEBPACK_IMPORTED_MODULE_1__ =
+            __webpack_require__(
+              /*! ./portfolio.scss */ "./src/components/portfolio/portfolio.scss"
+            );
+          /* harmony import */ var _portfolio_scss__WEBPACK_IMPORTED_MODULE_1___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              _portfolio_scss__WEBPACK_IMPORTED_MODULE_1__
+            );
+          /* harmony import */ var _portfolioList_PortfolioList__WEBPACK_IMPORTED_MODULE_2__ =
+            __webpack_require__(
+              /*! ../portfolioList/PortfolioList */ "./src/components/portfolioList/PortfolioList.jsx"
+            );
+          /* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_3__ =
+            __webpack_require__(/*! ../../data */ "./src/data.js");
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ =
+            __webpack_require__(
+              /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__
+            );
           __webpack_require__.$Refresh$.runtime = __webpack_require__(
             /*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js"
           );
@@ -2364,7 +2396,7 @@
             }
           }
           /* WEBPACK VAR INJECTION */
-        }.call(
+        }).call(
           this,
           __webpack_require__(
             /*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"
@@ -2372,7 +2404,7 @@
           __webpack_require__(
             /*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js"
           )
-        ));
+        );
 
         /***/
       },
@@ -2493,24 +2525,28 @@
               return PortfolioList;
             }
           );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-            /*! react */ "./node_modules/react/index.js"
-          );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-            react__WEBPACK_IMPORTED_MODULE_0__
-          );
-          /* harmony import */ var _portfolioList_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-            /*! ./portfolioList.scss */ "./src/components/portfolioList/portfolioList.scss"
-          );
-          /* harmony import */ var _portfolioList_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-            _portfolioList_scss__WEBPACK_IMPORTED_MODULE_1__
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-            /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/ __webpack_require__.n(
-            react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__
-          );
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ =
+            __webpack_require__(/*! react */ "./node_modules/react/index.js");
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react__WEBPACK_IMPORTED_MODULE_0__
+            );
+          /* harmony import */ var _portfolioList_scss__WEBPACK_IMPORTED_MODULE_1__ =
+            __webpack_require__(
+              /*! ./portfolioList.scss */ "./src/components/portfolioList/portfolioList.scss"
+            );
+          /* harmony import */ var _portfolioList_scss__WEBPACK_IMPORTED_MODULE_1___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              _portfolioList_scss__WEBPACK_IMPORTED_MODULE_1__
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ =
+            __webpack_require__(
+              /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__
+            );
           __webpack_require__.$Refresh$.runtime = __webpack_require__(
             /*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js"
           );
@@ -2638,7 +2674,7 @@
             }
           }
           /* WEBPACK VAR INJECTION */
-        }.call(
+        }).call(
           this,
           __webpack_require__(
             /*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"
@@ -2646,7 +2682,7 @@
           __webpack_require__(
             /*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js"
           )
-        ));
+        );
 
         /***/
       },
@@ -2767,33 +2803,40 @@
               return Topbar;
             }
           );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-            /*! react */ "./node_modules/react/index.js"
-          );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-            react__WEBPACK_IMPORTED_MODULE_0__
-          );
-          /* harmony import */ var _topbar_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-            /*! ./topbar.scss */ "./src/components/topbar/topbar.scss"
-          );
-          /* harmony import */ var _topbar_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-            _topbar_scss__WEBPACK_IMPORTED_MODULE_1__
-          );
-          /* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-            /*! @material-ui/icons */ "./node_modules/@material-ui/icons/esm/index.js"
-          );
-          /* harmony import */ var _material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-            /*! @material-ui/icons/GitHub */ "./node_modules/@material-ui/icons/GitHub.js"
-          );
-          /* harmony import */ var _material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/ __webpack_require__.n(
-            _material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_3__
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-            /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/ __webpack_require__.n(
-            react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__
-          );
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ =
+            __webpack_require__(/*! react */ "./node_modules/react/index.js");
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react__WEBPACK_IMPORTED_MODULE_0__
+            );
+          /* harmony import */ var _topbar_scss__WEBPACK_IMPORTED_MODULE_1__ =
+            __webpack_require__(
+              /*! ./topbar.scss */ "./src/components/topbar/topbar.scss"
+            );
+          /* harmony import */ var _topbar_scss__WEBPACK_IMPORTED_MODULE_1___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              _topbar_scss__WEBPACK_IMPORTED_MODULE_1__
+            );
+          /* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_2__ =
+            __webpack_require__(
+              /*! @material-ui/icons */ "./node_modules/@material-ui/icons/esm/index.js"
+            );
+          /* harmony import */ var _material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_3__ =
+            __webpack_require__(
+              /*! @material-ui/icons/GitHub */ "./node_modules/@material-ui/icons/GitHub.js"
+            );
+          /* harmony import */ var _material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_3___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              _material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_3__
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ =
+            __webpack_require__(
+              /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__
+            );
           __webpack_require__.$Refresh$.runtime = __webpack_require__(
             /*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js"
           );
@@ -3203,7 +3246,7 @@
             }
           }
           /* WEBPACK VAR INJECTION */
-        }.call(
+        }).call(
           this,
           __webpack_require__(
             /*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"
@@ -3211,7 +3254,7 @@
           __webpack_require__(
             /*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js"
           )
-        ));
+        );
 
         /***/
       },
@@ -3370,8 +3413,7 @@
               id: 1,
               title: "Anti-Fraud system for Queensland Police",
               tech: "React, Azure, Node.js, NGNIX, Python, MariaDB",
-              desc:
-                "The lives of tens of thousands of Australians each year are destroyed by online fraudsters using text-based communication to manipulate them into sending money. This takes place across many forms of frauds and exploits the vulnerabilities of people communicating in an online environment where their life learnt skills of assessing a person’s body language is not available. ",
+              desc: "The lives of tens of thousands of Australians each year are destroyed by online fraudsters using text-based communication to manipulate them into sending money. This takes place across many forms of frauds and exploits the vulnerabilities of people communicating in an online environment where their life learnt skills of assessing a person’s body language is not available. ",
               img: "../assets/rfsa_green.png",
               code: "https://github.com/davidalanfrank/",
               demo: "https://github.com/davidalanfrank/",
@@ -3383,8 +3425,7 @@
               id: 2,
               title: "Electronic Billboard Management System",
               tech: "Java, MariaDB",
-              desc:
-                "The setup this corporation wants is three software applications, all connected via a network. One application, henceforth referred to as the Billboard Viewer, is a GUI application that will actually display the contents, filling the screen. It will connect to the Billboard Server, which acts as the central control hub for all billboard viewers connected to it. The server will not be a GUI application and users will not interact with it directly. Instead, users will run a second client program, the Billboard Control Panel. This will be a GUI application that will connect to the server and allow the user to carry out various management tasks, such as changing which billboards are shown at which times. The server will store its information in a MariaDB database.",
+              desc: "The setup this corporation wants is three software applications, all connected via a network. One application, henceforth referred to as the Billboard Viewer, is a GUI application that will actually display the contents, filling the screen. It will connect to the Billboard Server, which acts as the central control hub for all billboard viewers connected to it. The server will not be a GUI application and users will not interact with it directly. Instead, users will run a second client program, the Billboard Control Panel. This will be a GUI application that will connect to the server and allow the user to carry out various management tasks, such as changing which billboards are shown at which times. The server will store its information in a MariaDB database.",
               img: "../assets/billboard_image.png",
               code: "https://github.com/davidalanfrank/",
               demo: "#intro",
@@ -3396,8 +3437,7 @@
               id: 3,
               title: "Stock Market Client",
               tech: "React, Nodejs",
-              desc:
-                "The dataset consists stock market data drawn from an American exchange from November 2019 through to March 2020. The more precise dates are given below in the format that you will use in subsequent queries: from2019-11-06 to 2020-03-2 We will all work with the same data, but we reserve the right to update our database with additional records prior to marking your assignments, so please don’t be tempted to hard code your responses.",
+              desc: "The dataset consists stock market data drawn from an American exchange from November 2019 through to March 2020. The more precise dates are given below in the format that you will use in subsequent queries: from2019-11-06 to 2020-03-2 We will all work with the same data, but we reserve the right to update our database with additional records prior to marking your assignments, so please don’t be tempted to hard code your responses.",
               img: "../assets/stocks-client.png",
               code: "https://github.com/davidalanfrank/",
               demo: "#intro",
@@ -3409,8 +3449,7 @@
               id: 4,
               title: "The dusty Garage",
               tech: "Python, Flask, Heroku, SQLite",
-              desc:
-                "Develop the front-end pages. The HTML you develop are not functional pages: they are pages with static content wired together. ii. Use HTML and Bootstrap components to give structure and style to the content of the marketplace. You do not need to use any programming language to implement the prototype.",
+              desc: "Develop the front-end pages. The HTML you develop are not functional pages: they are pages with static content wired together. ii. Use HTML and Bootstrap components to give structure and style to the content of the marketplace. You do not need to use any programming language to implement the prototype.",
               img: "../assets/dgm.png",
               code: "https://github.com/davidalanfrank/",
               demo: "https://dustygarage1.herokuapp.com/",
@@ -3422,8 +3461,7 @@
               id: 5,
               title: "Video Rental System",
               tech: "Java",
-              desc:
-                "TThe community library lends movie DVDs to its members. The information about a movie includes title, starring, director, duration, genre, classification, and release date. The genre of a movie may be Drama, Adventure, Family, Action, Sci-Fi, Comedy, Animated, Thriller, or Other. A movie is classified as General (G), Parental Guidance (PG), Mature (M15+), or Mature Accompanied (MA15+). The community library may have multiple DVDs of the same movie.",
+              desc: "TThe community library lends movie DVDs to its members. The information about a movie includes title, starring, director, duration, genre, classification, and release date. The genre of a movie may be Drama, Adventure, Family, Action, Sci-Fi, Comedy, Animated, Thriller, or Other. A movie is classified as General (G), Parental Guidance (PG), Mature (M15+), or Mature Accompanied (MA15+). The community library may have multiple DVDs of the same movie.",
               img: "../assets/video_rental_system.png",
               code: "https://github.com/davidalanfrank/",
               demo: "#intro",
@@ -3524,7 +3562,7 @@
             }
           }
           /* WEBPACK VAR INJECTION */
-        }.call(
+        }).call(
           this,
           __webpack_require__(
             /*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"
@@ -3532,7 +3570,7 @@
           __webpack_require__(
             /*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js"
           )
-        ));
+        );
 
         /***/
       },
@@ -3549,27 +3587,30 @@
           __react_refresh_utils__,
           __react_refresh_error_overlay__
         ) {
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-            /*! react */ "./node_modules/react/index.js"
-          );
-          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-            react__WEBPACK_IMPORTED_MODULE_0__
-          );
-          /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-            /*! react-dom */ "./node_modules/react-dom/index.js"
-          );
-          /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-            react_dom__WEBPACK_IMPORTED_MODULE_1__
-          );
-          /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-            /*! ./App */ "./src/App.jsx"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-            /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
-          );
-          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/ __webpack_require__.n(
-            react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__
-          );
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ =
+            __webpack_require__(/*! react */ "./node_modules/react/index.js");
+          /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react__WEBPACK_IMPORTED_MODULE_0__
+            );
+          /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ =
+            __webpack_require__(
+              /*! react-dom */ "./node_modules/react-dom/index.js"
+            );
+          /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react_dom__WEBPACK_IMPORTED_MODULE_1__
+            );
+          /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ =
+            __webpack_require__(/*! ./App */ "./src/App.jsx");
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ =
+            __webpack_require__(
+              /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
+            );
+          /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default =
+            /*#__PURE__*/ __webpack_require__.n(
+              react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__
+            );
           __webpack_require__.$Refresh$.runtime = __webpack_require__(
             /*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js"
           );
@@ -3704,7 +3745,7 @@
             }
           }
           /* WEBPACK VAR INJECTION */
-        }.call(
+        }).call(
           this,
           __webpack_require__(
             /*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"
@@ -3712,7 +3753,7 @@
           __webpack_require__(
             /*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js"
           )
-        ));
+        );
 
         /***/
       },

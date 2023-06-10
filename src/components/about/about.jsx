@@ -33,12 +33,12 @@ export default function About() {
             onClick={goToProjects}
             href="/projects"
             style={{
-              backgroundColor: "white",
               padding: "10px 20px",
               borderRadius: "5px",
               margin: "10px 0px",
               fontSize: "20px",
             }}
+            className="button-color"
           >
             <span className="button-style">
               <b>See Projects</b>
