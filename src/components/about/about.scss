@@ -7,7 +7,6 @@
   .button-style{
     cursor:pointer;
   }
-<<<<<<< HEAD
 
   div{
     margin-left: 2rem;
@@ -17,73 +16,6 @@
     padding:2rem;
  }
 
-=======
-  .icon-container{
-    min-height: 7rem;
-    overflow: 100%;
-
-    @include mobile{
-      min-width: 99px;
-    }
-  }
-
-  .icon-style{
-    max-width: 15rem;
-    padding:1rem;
-    height:100%;
-    max-height: 10rem;
-    @include mobile {
-      height: 5rem;
-      // width: 100%;
-      margin-right: 11rem;
-      overflow: auto;
-      min-width: 4rem;
-
-    }
-  }
-
-
-  .avatar-parent{
-    height: 22rem;
-    overflow: hidden; 
-    @include mobile {
-      height: 8rem;
-      overflow: hidden; 
-    }
-  }
-  .avatar-style{
-    max-width: 10rem;
-    min-height: 15rem;
-    @include mobile {
-       max-width: 5rem;
-       min-height: 0rem;
-      
-    }
-  }
-
-  .icon-styling{
-
-    @include mobile {
-      max-width: 5rem;
-      padding-top: 2rem;
-    }
-  }
-
-  .message{
-    font-size: 30px;
-    max-width: 40rem;
-    padding-bottom: 1rem;
-
-    @include mobile {
-      max-width: 19rem;
-      font-size: larger;
-      padding: 1rem;
-      justify-content: "center";
-      font-size: 18;
-    }
-
-  }
->>>>>>> parent of c0308ed... wip
 
 
 
