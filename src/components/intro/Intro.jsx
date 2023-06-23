@@ -12,6 +12,17 @@ export default function Intro() {
       strings: ["Software Developer", "AI Enthusiast", "Music Lover"],
     });
     console.log(textRef);
+
+    window["dataLayer"].push({
+      event: "landingPage",
+      ecommerce: {
+        checkout_option: {
+          actionField: {
+            testProperty: "hello",
+          },
+        },
+      },
+    });
   }, []);
   return (
     <div className="intro" id="intro">
