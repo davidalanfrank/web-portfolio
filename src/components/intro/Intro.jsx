@@ -12,7 +12,7 @@ export default function Intro() {
       strings: ["Software Developer", "AI Enthusiast", "Music Lover"],
     });
     console.log(textRef);
-
+    console.log("hello");
     window["dataLayer"].push({
       event: "landingPage",
       ecommerce: {
