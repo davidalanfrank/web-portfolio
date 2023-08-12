@@ -38,15 +38,11 @@ export default function Menu({ menuOpen, setMenuOpen }) {
             </div>
           </a>
         </li>
-        <li>
-          {/* <div style={{ display: "flex" }}>
-            <Mail className="icon" />
-            &nbsp;
-            <span style={{ fontSize: 18 }}>
-              davidfrankwebster
-              <p>@gmail.com</p>
-            </span>
-          </div> */}
+        <li onClick={() => setMenuOpen(false)}>
+          <a href="/blog">
+            <Computer />
+            &nbsp;Blog
+          </a>
         </li>
       </ul>
     </div>

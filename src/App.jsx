@@ -6,8 +6,8 @@ import dusty from "./pages/Dusty";
 import Video from "./pages/Video";
 import Billboard from "./pages/Billboard";
 import Home from "./pages/Home";
-import Projects from "./pages/Portfolio"
-
+import Projects from "./pages/Portfolio";
+import Blueprint from "./pages/Blueprint";
 import "./app.scss";
 import { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -26,7 +26,7 @@ function App() {
           <Route path="/projects" exact component={Projects} />
           <Route path="/capstone" component={Capstone} />
           <Route path="/billboard" component={Billboard} />
-          <Route path="/dusty" component={dusty} />
+          <Route path="/blueprint" component={Blueprint} />
           <Route path="/video" component={Video} />
         </Switch>
       </Router>
