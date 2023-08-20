@@ -9,6 +9,10 @@ export default function Blueprint() {
   const goBack = () => {
     history.push("#portfolio");
   };
+
+  function openHoverOver() {
+    console.log("###hoverover here");
+  }
   return (
     <div className="blueprint" id="blueprint">
       <div className="container">
@@ -18,33 +22,53 @@ export default function Blueprint() {
           <h2>An anti-pattern to less healthy social philosophies</h2>
           <div className="heading-date">Completed on 31 May, 2020</div>
           <p>
-            If you haven’t heard of Bryan Johnson, the TLDR (hoverover) of him
-            is that he’s a tech entrepreneur, having founded, sold (and by doing
-            so reached post-economic status) the payments company
-            Braintree-venmo (link). Johnson initially came across my radar when
-            I encountered his next company Kenerl (link), an non-intrusive
-            brain-machine interface with the goal of enhancing human cognition
-            and improving our understanding of neurological disorders.
+            If you haven’t heard of Bryan Johnson, the{" "}
+            <span onMouseOver={openHoverOver}>TLDR</span> of him is that he’s a
+            tech entrepreneur, having founded, sold (and by doing so reached
+            post-economic status) the payments company{" "}
+            <a href="https://en.wikipedia.org/wiki/Braintree_(company)">
+              Braintree-venmo
+            </a>
+            . Johnson initially came across my radar when I encountered his next
+            company{" "}
+            <a href-="https://en.wikipedia.org/wiki/Kernel_(neurotechnology_company)">
+              Kernel
+            </a>
+            , a non-intrusive brain-machine interface with the goal of enhancing
+            human cognition and improving our understanding of neurological
+            disorders.
             <br></br>
             <br></br>
             Right now, most of the world knows him as the founder and main test
             subject in Project Blueprint, a health/lifestyle protocol that aims
             to increase human health span, as well as overall longevity. The
-            guiding principles of this project, taken straight from
-            blueprint.bryanjohnson.co are as follows:
-            <div></div>
-            <ul className="list-style">
-              Embrace:
-              <li>- Systems over willpower</li>
-              <li>- Data over human opinion</li>
-              <li>- Harmony over addiction</li>
-              <li>- Compounded rates of self-improvement</li>
-              Rebel against:
-              <li>- Addictive algorithms</li>
-              <li>- Corporate profiteering at your detriment</li>
-              <li>- Social norms encouraging bad behaviour</li>
-              <li>- Self-aided destruction (SAD)</li>
-            </ul>
+            guiding principles of this project, taken straight from{" "}
+            <a href="https://blueprint.bryanjohnson.co/">
+              blueprint.bryanjohnson.co
+            </a>{" "}
+            are as follows:
+            <div style={{ display: "flex" }}>
+              <ul style={{ minWidth: "20rem" }} className="list-style">
+                <h3>Embrace:</h3>
+                <li>- Systems over willpower</li>
+                <li>- Data over human opinion</li>
+                <li>- Harmony over addiction</li>
+                <li>- Compounded rates of self-improvement</li>
+                <br></br>
+                <h3>Rebel Against:</h3>
+                <li>- Addictive algorithms</li>
+                <li>- Corporate profiteering at your detriment</li>
+                <li>- Social norms encouraging bad behaviour</li>
+                <li>- Self-aided destruction (SAD)</li>
+              </ul>
+              <div>
+                <img
+                  className="hl-bb figure"
+                  src="../assets/super-vege.jpg"
+                ></img>
+                <img className="hl-bb figure" src="../assets/bgm.jpg"></img>
+              </div>
+            </div>
             In an attempt to analyse my own reasons as to why this
             approach/lifestyle/choice is attractive to me, I’d like to talk a
             little bit about why I decided to follow this protocol, albeit,
