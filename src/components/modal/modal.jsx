@@ -7,9 +7,12 @@ const Modal = ({ isOpen, onClose, title, content }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
+        <h3 dangerouslySetInnerHTML={{ __html: title }}></h3>
+        <div
+          className="modal-content-style"
+          dangerouslySetInnerHTML={{ __html: content }}
+        ></div>
         <button onClick={onClose}>Close</button>
-        list
-        {/* <p>{{ content }}</p> */}
       </div>
     </div>
   );

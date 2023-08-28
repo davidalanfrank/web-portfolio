@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 import "./table.scss";
 import Modal from "../modal/modal.jsx";
-
+import { data } from "./data";
 const TableComponent = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalProps, setModalProps] = useState({});
-
+  console.log("data", data);
   const openModal = (title, content) => {
     setModalProps({ title, content });
     setIsModalOpen(true);
@@ -37,24 +37,105 @@ const TableComponent = () => {
               <h3>Embrace</h3>
             </td>
             <td>Systems over willpower</td>
-            <td>Weekly meal prep</td>
-            <td>Harmony over addiction</td>
+            <td>
+              <button
+                onClick={() =>
+                  openModal(data.meals_before.title, data.meals_before.content)
+                }
+              >
+                Weekly meal prep
+              </button>
+            </td>
+            <td>
+              <button
+                onClick={() =>
+                  openModal(data.meals_after.title, data.meals_after.content)
+                }
+              >
+                2 x Weekly Blueprint pre
+              </button>
+            </td>
           </tr>
           <tr>
             <td>Data over human opinion</td>
-            <td>Fitbit usage</td>
-            <td>Whoop usage, CGM, Regular Bloods</td>
+            <td>
+              {" "}
+              <button
+                onClick={() =>
+                  openModal(
+                    data.tracking_before.title,
+                    data.tracking_before.content
+                  )
+                }
+              >
+                Fitbit and Behavior tracking
+              </button>
+            </td>
+            <td>
+              <button
+                onClick={() =>
+                  openModal(
+                    data.tracking_before.title,
+                    data.tracking_before.content
+                  )
+                }
+              >
+                WHOOP, CGM, Regular Bloods
+              </button>
+            </td>
           </tr>
           <tr>
             {/* title */}
             <td>Harmony over addiction</td>
-            <td>Reduced alcohol consumption by amount</td>
-            <td>Tracking binge eating</td>
+            <td>
+              {" "}
+              <button
+                onClick={() =>
+                  openModal(
+                    data.harmony_before.title,
+                    data.harmony_before.content
+                  )
+                }
+              >
+                Reduced alcohol consumption by amount
+              </button>
+            </td>
+            <td>
+              {" "}
+              <button
+                onClick={() =>
+                  openModal(
+                    data.harmony_after.title,
+                    data.harmony_after.content
+                  )
+                }
+              >
+                Tracking binge eating
+              </button>
+            </td>
           </tr>
           <tr>
             <td>Compounded rates of self-improvement</td>
-            <td>Loose physical goal setting</td>
-            <td>Clear fitness goals (WIP)</td>
+            <td>
+              {" "}
+              <button
+                onClick={() =>
+                  openModal(data.self_before.title, data.self_before.content)
+                }
+              >
+                Loose physical goal setting
+              </button>
+            </td>
+            <td>
+              {" "}
+              <button
+                onClick={() =>
+                  openModal(data.after_after.title, data.after_after.content)
+                }
+              >
+                Clear fitness goals (WIP)
+              </button>
+            </td>
           </tr>
           <tr>
             <td rowSpan={4}>
@@ -62,29 +143,97 @@ const TableComponent = () => {
             </td>
             <td>Addictive algorithms</td>
             <td>
-              <button onClick={() => openModal("Title 1", "Content 1")}>
+              <button
+                onClick={() =>
+                  openModal(
+                    data.algorithms_before.title,
+                    data.algorithms_before.content
+                  )
+                }
+              >
                 Anti-tech list then
               </button>
             </td>
             <td>
-              {" "}
-              <button>Anti-tech list now</button>
+              <button
+                onClick={() =>
+                  openModal(
+                    data.algorithms_after.title,
+                    data.algorithms_after.content
+                  )
+                }
+              >
+                Anti-tech list now
+              </button>
             </td>
           </tr>
           <tr>
             <td>Corporate profiteering at your detriment</td>
-            <td>Reduced fast-food intake</td>
-            <td>Zero fast-food intake since date</td>
+            <td>
+              <button
+                onClick={() =>
+                  openModal(data.corp_before.title, data.corp_before.content)
+                }
+              >
+                Reduced fast-food intake
+              </button>
+            </td>
+            <td>
+              {" "}
+              <button
+                onClick={() =>
+                  openModal(data.corp_after.title, data.corp_after.content)
+                }
+              >
+                Zero fast-food intake since date (counter)
+              </button>
+            </td>
           </tr>
           <tr>
             <td>Social norms encouraging bad behaviour</td>
-            <td>Reducing my 'parting' events attendance</td>
-            <td>Reduction of large chain fast-foods</td>
+            <td>
+              {" "}
+              <button
+                onClick={() =>
+                  openModal(data.norms_before.title, data.norms_before.content)
+                }
+              >
+                Reducing my 'parting' events attendance
+              </button>
+            </td>
+            <td>
+              {" "}
+              <button
+                onClick={() =>
+                  openModal(data.norms_after.title, data.norms_after.content)
+                }
+              >
+                If it's too late, no date
+              </button>
+            </td>
           </tr>
           <tr>
             <td>Self-aided destruction (SAD)</td>
-            <td>Reduction in body destroying activities</td>
-            <td>Reducing my 'parting' events attendance</td>
+            <td>
+              {" "}
+              <button
+                onClick={() =>
+                  openModal(data.sad_before.title, data.sad_before.content)
+                }
+              >
+                Reduction in body destroying activities
+              </button>
+            </td>
+            <td>
+              {" "}
+              <button
+                onClick={() =>
+                  openModal(data.sad_after.title, data.sad_after.content)
+                }
+              >
+                Reducing my 'parting' events attendance
+              </button>
+            </td>
           </tr>
         </tbody>
       </table>

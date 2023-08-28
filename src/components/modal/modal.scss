@@ -11,9 +11,28 @@
   }
   
   .modal-content {
-    background: white;
+    background: #ffffff;
+    color: black;
     padding: 20px;
     border-radius: 8px;
-    width: 300px;
+    width: 70%;
+// height: 70%;
+
+    .li-style{
+      list-style-type: circle;
+      padding:1rem;
+    }
+
+    h4{
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+
+    p{
+      padding-bottom: 0.5rem;
+    }
+
+
   }
   

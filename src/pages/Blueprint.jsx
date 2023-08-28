@@ -67,6 +67,7 @@ export default function Blueprint() {
                   src="../assets/super-vege.jpg"
                 ></img>
                 <img className="hl-bb figure" src="../assets/bgm.jpg"></img>
+                <img className="hl-bb figure" src="../assets/pills.jpg"></img>
               </div>
             </div>
             In an attempt to analyse my own reasons as to why this
