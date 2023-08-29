@@ -74,7 +74,9 @@ export default function Blueprint() {
             approach/lifestyle/choice is attractive to me, I’d like to talk a
             little bit about why I decided to follow this protocol, albeit,
             falling short of the the full protocol due to the resource
-            requirements needed to participate fully.
+            requirements needed to participate fully. Thus I shall refer to my
+            implementation of this system as ≈Blueprint, since this is an
+            approximation of this system due to resource limitations.
             <br></br>
             <br></br>
             As an aside, i’ve been following this lifestyle for 4 months now. In

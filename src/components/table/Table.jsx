@@ -43,7 +43,7 @@ const TableComponent = () => {
                   openModal(data.meals_before.title, data.meals_before.content)
                 }
               >
-                Weekly meal prep
+                Weekly meal prep and exercise routine
               </button>
             </td>
             <td>
@@ -52,7 +52,7 @@ const TableComponent = () => {
                   openModal(data.meals_after.title, data.meals_after.content)
                 }
               >
-                2 x Weekly Blueprint pre
+                2 x Weekly meal prep w/ supplements. Sleep priorities.
               </button>
             </td>
           </tr>
@@ -75,12 +75,12 @@ const TableComponent = () => {
               <button
                 onClick={() =>
                   openModal(
-                    data.tracking_before.title,
-                    data.tracking_before.content
+                    data.tracking_after.title,
+                    data.tracking_after.content
                   )
                 }
               >
-                WHOOP, CGM, Regular Bloods
+                WHOOP, CGM, Psych
               </button>
             </td>
           </tr>
