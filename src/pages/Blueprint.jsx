@@ -128,6 +128,19 @@ export default function Blueprint() {
             enjoy to play.
             <br></br>
             <br></br>
+            You might say that this require too much cognitive effort to be
+            worth investing in this longevity pursit. That you'd rather live a
+            shorter life and focus on the things that make you happy or that are
+            meaningful to you then spend your precious brain cycles on this.
+            This blog is in fact a datapoint for how much cognative effort does
+            go into this. The goal of this protocol is to make it an automated
+            process, like brushing your teeth. It's something that is just
+            happens, not that you actively do. You set up the system, which
+            requires some initiatlistion effort and aquasition cost. But once
+            it's set up, you just run the algorithm, like brushing your teeth
+            and having a shower.
+            <br></br>
+            <br></br>
             If there is a sense in this half-baked rational that I am not
             susceptible to the social pressure to abandon this routine due to
             flow against the social norm, it is then necessary to note that this
