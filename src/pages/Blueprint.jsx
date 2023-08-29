@@ -126,6 +126,17 @@ export default function Blueprint() {
             enjoy to play.
             <br></br>
             <br></br>
+            If there is a sense in this half-baked rational that I am not
+            susceptible to the social pressure to abandon this routine due to
+            flow against the social norm, it is then necessary to note that this
+            is not the case. There is negative emotion that I experience when
+            following this protocol and I do care about people not liking that I
+            do this, because I am human. I forgive myself for this. Where it is
+            difficult is when I do not follow the actions that I want to take,
+            modifying my behaviors in reaction to this societal pressure. That I
+            do not forgive.
+            <br></br>
+            <br></br>
             Now that the manifesto is out of the way. Now onto something a
             little bit more pragmatic. I think in someways, following Blueprint
             for me is more of fitting a new map to a pre-existing and similar
