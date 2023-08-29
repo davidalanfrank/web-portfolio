@@ -1,15 +1,26 @@
 .parent-div{
+
+ 
     padding:1rem;
     .table-style {
         border: 1px solid black;
         border-collapse: collapse;
+        background-color: #009eb4;
+        border-collapse: collapse;
+        color: white;
 
+  
         button {
           transition-duration: 0.4s;
-        }
+          background-color: #ba955e;
+          color: white;
+          padding: 10px 24px;
+          border-radius: 50px;
+          font-weight: bold;       }
+        
         
         button:hover {
-          background-color: #4CAF50; /* Green */
+          background-color: #d48cba; /* Green */
           color: white;
         }
     
@@ -20,8 +31,18 @@
           text-align: left;
         }
       }
+
+      
       
 
 
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .parent-div{
+    padding:1rem;
+    overflow: scroll;
+  }
 }
 

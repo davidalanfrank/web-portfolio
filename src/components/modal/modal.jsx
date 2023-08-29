@@ -12,7 +12,9 @@ const Modal = ({ isOpen, onClose, title, content }) => {
           className="modal-content-style"
           dangerouslySetInnerHTML={{ __html: content }}
         ></div>
-        <button onClick={onClose}>Close</button>
+        <button className="button-style" onClick={onClose}>
+          Close
+        </button>
       </div>
     </div>
   );
