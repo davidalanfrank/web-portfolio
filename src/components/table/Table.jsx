@@ -97,7 +97,7 @@ const TableComponent = () => {
                   )
                 }
               >
-                Reduced alcohol consumption by amount
+                Reduced alcohol & fast-food
               </button>
             </td>
             <td>
@@ -110,7 +110,7 @@ const TableComponent = () => {
                   )
                 }
               >
-                Tracking binge eating
+                Zero* alcohol. <u>Zero</u> fast-food
               </button>
             </td>
           </tr>
