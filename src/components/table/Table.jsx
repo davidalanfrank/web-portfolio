@@ -123,17 +123,17 @@ const TableComponent = () => {
                   openModal(data.self_before.title, data.self_before.content)
                 }
               >
-                Loose physical goal setting
+                Goal setting
               </button>
             </td>
             <td>
               {" "}
               <button
                 onClick={() =>
-                  openModal(data.after_after.title, data.after_after.content)
+                  openModal(data.self_after.title, data.self_after.content)
                 }
               >
-                Clear fitness goals (WIP)
+                Goal systems
               </button>
             </td>
           </tr>
@@ -151,7 +151,7 @@ const TableComponent = () => {
                   )
                 }
               >
-                Anti-tech list then
+                Anti-tech tech
               </button>
             </td>
             <td>
@@ -163,7 +163,7 @@ const TableComponent = () => {
                   )
                 }
               >
-                Anti-tech list now
+                Anit-tech tech +
               </button>
             </td>
           </tr>
@@ -175,7 +175,7 @@ const TableComponent = () => {
                   openModal(data.corp_before.title, data.corp_before.content)
                 }
               >
-                Reduced fast-food intake
+                Reduced habitual consumption
               </button>
             </td>
             <td>
@@ -185,7 +185,7 @@ const TableComponent = () => {
                   openModal(data.corp_after.title, data.corp_after.content)
                 }
               >
-                Zero fast-food intake since date (counter)
+                Zero* habitual consumption since (counter)
               </button>
             </td>
           </tr>
@@ -198,7 +198,7 @@ const TableComponent = () => {
                   openModal(data.norms_before.title, data.norms_before.content)
                 }
               >
-                Reducing my 'parting' events attendance
+                Reducing my ‘partying’ event attendance
               </button>
             </td>
             <td>
@@ -208,7 +208,7 @@ const TableComponent = () => {
                   openModal(data.norms_after.title, data.norms_after.content)
                 }
               >
-                If it's too late, no date
+                ‘If it’s not a hell yes, it’s a no.’
               </button>
             </td>
           </tr>
@@ -221,7 +221,7 @@ const TableComponent = () => {
                   openModal(data.sad_before.title, data.sad_before.content)
                 }
               >
-                Reduction in body destroying activities
+                Reduction in risky activities
               </button>
             </td>
             <td>
@@ -231,7 +231,7 @@ const TableComponent = () => {
                   openModal(data.sad_after.title, data.sad_after.content)
                 }
               >
-                Reducing my 'parting' events attendance
+                Increase in rejuvenating activities
               </button>
             </td>
           </tr>
