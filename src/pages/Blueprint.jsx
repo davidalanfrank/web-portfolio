@@ -24,8 +24,7 @@ export default function Blueprint() {
           <p>
             If you haven’t heard of Bryan Johnson, the{" "}
             <span onMouseOver={openHoverOver}>TLDR</span> of him is that he’s a
-            tech entrepreneur, having founded, sold (and by doing so reached
-            post-economic status) the payments company{" "}
+            tech entrepreneur, having founded, sold the payments company{" "}
             <a href="https://en.wikipedia.org/wiki/Braintree_(company)">
               Braintree-venmo
             </a>
@@ -61,15 +60,51 @@ export default function Blueprint() {
                 <li>- Social norms encouraging bad behaviour</li>
                 <li>- Self-aided destruction (SAD)</li>
               </ul>
-              <div>
-                <img
-                  className="hl-bb figure"
-                  src="../assets/super-vege.jpg"
-                ></img>
-                <img className="hl-bb figure" src="../assets/bgm.jpg"></img>
-                <img className="hl-bb figure" src="../assets/pills-1.jpg"></img>
+              <div className="gallery-container">
+                <div>
+                  <img
+                    className="hl-bb figure"
+                    src="../assets/super-vege.jpg"
+                  ></img>
+                </div>
+
+                <div>
+                  <img className="hl-bb figure" src="../assets/bgm.jpg"></img>
+                </div>
+
+                <div>
+                  <img
+                    className="hl-bb figure"
+                    src="../assets/pills-1.jpg"
+                  ></img>
+                </div>
               </div>
             </div>
+            I'd like to say that my first thoughts on this project were
+            skeptical, but I recall three immediate responses I had as to why
+            this idea might be attractive, ultimately leading to doing further
+            investigation into what Blueprint was all about.
+            <br></br>
+            <br></br>
+            First, it was clear to me after my initial investigations into
+            Johnson's previous work that he was the type of person to solve for
+            difficult, high impact engineering applied problems, using his
+            company building endeavors as evidence.
+            <br></br>
+            <br></br>
+            Second, at the time I was revisiting the music of my first favorite
+            artists Jay-Z, the blueprint series....
+            <br></br>
+            <br></br>
+            Last, historically I have had an interest in systems to improve the
+            convenience in and quality of my life. Through pursuing this
+            interest I have developed a keen sense for snake oil and although at
+            fist my nose was tingling, the more I investigated and uncovered the
+            rigour and data first approach in developing the protocol, my
+            tingling subsided to the point that I was wanting and willing to
+            give this protocol a fair go.
+            <br></br>
+            <br></br>
             In an attempt to analyse my own reasons as to why this
             approach/lifestyle/choice is attractive to me, I’d like to talk a
             little bit about why I decided to follow this protocol, albeit,
@@ -95,30 +130,36 @@ export default function Blueprint() {
             whatever reason, Russian Roulette is a game with which someone
             decides to play. It would be wise for that player to consider the
             likely longevity that game might be enjoyed. This scenario lends
-            itself to the philosophy of ‘Live fast, die young’ or ‘you can sleep
-            when you’re dead’ or perhaps ‘I’d rather eat custard than live
-            longer because food is life’. When acted out, these philosophies and
-            related games may lead to a shorter in-game experience.
+            itself to the popular philosophy of ‘Live fast, die young’ or ‘you
+            can sleep when you’re dead’ or perhaps ‘I’d rather eat custard than
+            live longer because food is life’. When acted out, these
+            philosophies and related games may lead to a shorter in-game
+            experience.
             <br></br>
             <br></br>
             Let us be bold for a moment to try to associate which entities are
             the real beneficiaries of these philosophies. Let’s consider that
-            their margins may be positively correlated to the detriment of the
-            players. What of the moment the bars and club owners, the drug
-            dealers, who’s pockets are lined by the cries of ‘one more drink’
-            and ‘another bag?’. The CEO’s and shareholders of some large
-            companies who foster a perfect incubator for overwork - rewarding
-            those who couple their self-worth to their ability to sacrifice
-            well-being for the corporation (under the guise of slogans for
-            ‘team’ and ‘camaraderie’). Finally, the generators of high-fat,
+            their margins of these entities may be positively correlated to the
+            detriment of the players. What of the moment the bars and club
+            owners, the drug dealers, who’s pockets are lined by the cries of
+            ‘one more drink’ and ‘another bag?’. The CEO’s and shareholders of
+            some large companies who foster a perfect incubator for overwork -
+            rewarding those who couple their self-worth to their ability to
+            sacrifice well-being for the corporation (under the guise of slogans
+            for ‘team’ and ‘camaraderie’). Finally, the generators of high-fat,
             high-sugar fast food, the main contributors of ‘Eat Death’, clear
             winners in the fight between them and peoples physiological desire
             for carbohydrate rich food.
             <br></br>
-            <br></br>I both jokingly, albeit with some commitment, rebel against
-            these entities by choosing to play games that act as an anti-pattern
-            to these unhealthy cultural norms and serve my own long-term in-game
-            experience.
+            <br></br>I am not proclaiming that these entities are inherently
+            evil. Rather that they each represent an ecosystem and institution
+            that have been built up over years due to the profitability that
+            come from exploiting human need to be social, feel good, achieve
+            status and lower anxiety. Blueprint acts as a foundation to commit a
+            rebellion against these entities and behaviours by choosing to play
+            games that act as an anti-pattern to these unhealthy cultural norms
+            and serve my own long-term in-game experience, goal-aligned with an
+            individuals biological system.
             <br></br>
             <br></br>A long life does not equal a rich life; but a short life
             can be both rich and a missed opportunity.
@@ -161,14 +202,15 @@ export default function Blueprint() {
             pre-existing and activies, behaviours that I use to align myself
             with this protocol.
             <TableComponent /> {/* Use the imported table component */}
-            some common misconcpetions. My take on blueprint, which is an echo
-            of the intention of the creator is to derive a system that takes
-            care of a persons physical and mental health in a sustainable way
-            that uses the measurements from the body rather than oppinion or
-            acidotal infomration to drive diet, beahviors and exercise
-            requirements. Blueprint to me is not about a zealot following of a
-            reasuem, but rather a data driven approach to daily happiness in the
-            games I choose to play.
+            As a final note, hopefully to quell any obvious misconcpetions about
+            my intentions; my take on blueprint, which is an echo of the
+            intention of the creator is to derive a system that takes care of a
+            persons physical and mental health in a sustainable way that uses
+            the measurements from the body rather than oppinion or acidotal
+            infomration to drive diet, beahviors and exercise requirements.
+            Blueprint to me is not about a zealot following of a reasuem, but
+            rather a data driven approach to daily happiness in the games I
+            choose to play.
           </p>
           <br></br>
         </div>

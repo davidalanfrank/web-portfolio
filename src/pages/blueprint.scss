@@ -9,6 +9,10 @@
     
 
   .container {
+
+    .gallery-container{
+      display: flex;
+    }
      
     .code-snip{
       width: 90%;
@@ -38,7 +42,7 @@
         width: 500px;
       }
       .hl-bb {
-        max-width: 20%;
+        max-width: 50%;
         
       }
       .heading-date {
