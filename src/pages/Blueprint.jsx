@@ -19,29 +19,60 @@ export default function Blueprint() {
         <div className="article-pad-l"></div>
         <div className="article">
           <h1>Why Blueprint?</h1>
-          <h2>An anti-pattern to less healthy social philosophies</h2>
-          <div className="heading-date">Completed on 31 May, 2020</div>
+          <h2>Building individualised systems against unhealthy social philosophies</h2>
+          <div className="heading-date">Completed on 16 Oct, 2023</div>
+          <h3>TL;DR:</h3>
+          <div style={{ display: "flex" }}>
+              <ul style={{ minWidth: "20rem" }} className="list-style">
+                <li>- "Blueprint Protocol" is a lifestyle approach created by tech entrepreneur Brian Johnson to enhance health and longevity. It encourages individuals to monitor specific biological indicators, known as biomarkers, from various systems within the human body. By interpreting these biomarkers, one can tailor their diet, exercise, and health therapies for optimal well-being.</li>
+                <br></br>
+                <li>- Experts and spectators are sceptical due to Ethical and philosophical concerns, unverifiable and individualised results as well as commercialisation and transparency
+Blueprint has received scepticism from experts and spectators for issues around ethics, philosophy, commercialisation and transparency of results
+</li>
+<br></br>
+                <li>- My experience developing an approximation of the Blueprint protocol focuses on building systems for better habits</li>
+                <br></br>
+                <li>- I follow Blueprint protocol like how I played World of warcraft in highschool. With passion and commitment until the day it no longer became enjoyable; which is the last day I participated</li>
+                <br></br>
+                <li>- For me, Blueprint serves as a sustainable, data-informed roadmap for physical and mental well-being, which complements other meaningful life choices and activities I choose to engage in </li>
+              </ul>
+  
+            </div>
+            <h3>What is Project Blueprint ?</h3>
           <p>
-            If you haven’t heard of Bryan Johnson, the{" "}
-            <span onMouseOver={openHoverOver}>TLDR</span> of him is that he’s a
-            tech entrepreneur, having founded, sold the payments company{" "}
+          If you haven’t heard of Bryan Johnson, he’s a tech entrepreneur, having founded, sold the payments company
             <a href="https://en.wikipedia.org/wiki/Braintree_(company)">
               Braintree-venmo
             </a>
-            . Johnson initially came across my radar when I encountered his next
-            company{" "}
-            <a href-="https://en.wikipedia.org/wiki/Kernel_(neurotechnology_company)">
+            . Johnson initially came across my radar when I encountered his more recent company <a href-="https://en.wikipedia.org/wiki/Kernel_(neurotechnology_company)">
               Kernel
+            </a>, a non-intrusive brain-machine interface with the goal of enhancing human cognition and improving our understanding of neurological disorders.
+            <br></br>
+            <br></br>
+            Right now, most of the world knows him as the founder and main test subject in Project Blueprint, a lifestyle and philosophy that aims to increase human health span, as well as overall longevity. 
+            <br></br>
+            <br></br>
+            I recently read a book by entrepreneur Balaji Siravasan called ‘The Network State’. This book presented a novel idea, and novel ideals require definitions with varying degrees of resolution.I’m going to take a technique by Siravasan and define Blueprint using one sentence, one paragraph and one essay. The latter I'll outsource to the recent article discussing this topic by Time magazine which provides a thorough albeit cynical view of the project.
+            <br></br>
+            <br></br>
+            Project Blueprint in one sentence:
+            <br></br>
+            <br></br>
+            "Blueprint Protocol" is a lifestyle approach devised by tech entrepreneur Brian Johnson to promote health and longevity by encouraging the monitoring of specific biological indicators, or biomarkers, from various human body systems, enabling the tailoring of diet, exercise, and health therapies for optimal longevity. 
+            <br></br>
+            <br></br>
+            Project Blueprint in one paragraph:
+            <br></br>
+            <br></br>
+            The Blueprint Protocol, developed by centimillionaire tech entrepreneur Johnson, is an intricate life-extension system aiming to significantly reduce biological age through an intensive regimen overseen by a team of doctors. Using a wealth of data, the protocol prescribes Johnson with 111 daily pills, various health-monitoring gadgets, and a strict diet and exercise routine, all with the objective of keeping his body in a youthful state. This meticulous approach extends to a belief in achieving a form of immortality by transforming the human body through a combination of technology, science, and data. The underlying philosophy of Blueprint is goal alignment, which seeks to align trillions of body cells for optimal health and youth by automating important health functions and eliminating self-destructive behaviours. Johnson’s approach and the Blueprint Protocol signify a broader interest in and pursuit of age-reversal and life-extension technologies, although they face scepticism and controversy within the scientific community.
+            <br></br>
+            <br></br>
+            Project Blueprint in one essay, via <a href="https://time.com/6315607/bryan-johnsons-quest-for-immortality/">
+              Times.
             </a>
-            , a non-intrusive brain-machine interface with the goal of enhancing
-            human cognition and improving our understanding of neurological
-            disorders.
             <br></br>
             <br></br>
-            Right now, most of the world knows him as the founder and main test
-            subject in Project Blueprint, a health/lifestyle protocol that aims
-            to increase human health span, as well as overall longevity. The
-            guiding principles of this project, taken straight from{" "}
+            The guiding principles of this project, taken straight from
             <a href="https://blueprint.bryanjohnson.co/">
               blueprint.bryanjohnson.co
             </a>{" "}
@@ -80,137 +111,57 @@ export default function Blueprint() {
                 </div>
               </div>
             </div>
-            I'd like to say that my first thoughts on this project were
-            skeptical, but I recall three immediate responses I had as to why
-            this idea might be attractive, ultimately leading to doing further
-            investigation into what Blueprint was all about.
+          
             <br></br>
             <br></br>
-            First, it was clear to me after my initial investigations into
-            Johnson's previous work that he was the type of person to solve for
-            difficult, high impact engineering applied problems, using his
-            company building endeavors as evidence.
+            Initially, I approached Project Blueprint with a degree of scepticism, but several intriguing prospects prompted me to delve deeper into understanding its core objectives and workings.
+Firstly, my preliminary research into Johnson’s prior endeavours quickly revealed his aptitude for tackling challenging, high-impact problems within the field of engineering. His history of establishing successful companies served as compelling evidence of his capabilities.
+
             <br></br>
             <br></br>
-            Second, at the time I was revisiting the music of my first favorite
-            artists Jay-Z, the blueprint series....
+            Lastly, I've always been drawn to systems that could make my life both more convenient and higher quality. This interest has honed my ability to sniff out false promises and scams. Initially, my "snake oil" radar did ping when I first came across Blueprint. However, as I dug deeper and discovered the rigorous, data-driven approach behind the protocol, my scepticism gradually faded. Eventually, I found myself eager and willing to give Blueprint a genuine try.
             <br></br>
             <br></br>
-            Last, historically I have had an interest in systems to improve the
-            convenience in and quality of my life. Through pursuing this
-            interest I have developed a keen sense for snake oil and although at
-            fist my nose was tingling, the more I investigated and uncovered the
-            rigour and data first approach in developing the protocol, my
-            tingling subsided to the point that I was wanting and willing to
-            give this protocol a fair go.
+            To analyse my own reasons for why this approach is attractive to me, I’d like to discuss why I decided to follow this protocol, albeit, falling short of the full protocol due to the resource requirements needed to participate fully. Thus I shall refer to my implementation of this system as ≈Blueprint, since this is an approximation of this system due to resource limitations.
             <br></br>
             <br></br>
-            In an attempt to analyse my own reasons as to why this
-            approach/lifestyle/choice is attractive to me, I’d like to talk a
-            little bit about why I decided to follow this protocol, albeit,
-            falling short of the the full protocol due to the resource
-            requirements needed to participate fully. Thus I shall refer to my
-            implementation of this system as ≈Blueprint, since this is an
-            approximation of this system due to resource limitations.
+            Before diving into the main topic, I want to note that I've been following ≈Blueprint for about four months now. In this blog post, I'll share how these principles have manifested in my day-to-day life. But before we get into that, allow me to open my thought processes behind this journey.
             <br></br>
             <br></br>
-            As an aside, i’ve been following this lifestyle for 4 months now. In
-            the this post i’ll talk about how these principals looks in my own
-            life. But first, let me open source my thinking for a little bit.
+            There are several choices in life that are more like choosing a game to play rather than what one morally should do.
             <br></br>
             <br></br>
-            There are several choice in life that are more like choosing a game
-            to play rather than what one morally should do.
+            Obviously, some games clearly go against what is good for the individual, at least in a Darwinian sense. Depending on the value hierarchy of the person; the community or state may also play a role in which game a person is likely to play. Let’s say for example, for whatever reason, Russian Roulette is a game with which someone decides to play. It would be wise for that player to consider the likely longevity that game might be enjoyed. This scenario lends itself to the popular philosophy of ‘Live fast, die young’ or ‘you can sleep when you’re dead’ or perhaps ‘I’d rather eat custard than live longer because food is life’. When acted out, these philosophies and related games may lead to a shorter in-game experience.
             <br></br>
             <br></br>
-            Obviously, some games clearly go against what is good for the
-            individual, at least in a Darwinian sense. Depending on the value
-            hierarchy of the person; the community or state may also play a role
-            in which game a person is likely to play. Let’s say for example, for
-            whatever reason, Russian Roulette is a game with which someone
-            decides to play. It would be wise for that player to consider the
-            likely longevity that game might be enjoyed. This scenario lends
-            itself to the popular philosophy of ‘Live fast, die young’ or ‘you
-            can sleep when you’re dead’ or perhaps ‘I’d rather eat custard than
-            live longer because food is life’. When acted out, these
-            philosophies and related games may lead to a shorter in-game
-            experience.
+            Let's take a playful yet pointed look at who really benefits from these live-fast philosophies. Let’s consider that their margins of these entities may be positively correlated to the detriment of the players. What of the moment the bars and club owners, the drug dealers, who’s pockets are lined by the cries of ‘one more drink’ and ‘another bag?’. The CEO’s and shareholders of some large companies foster a perfect incubator for overwork - rewarding those who couple their self-worth to their ability to sacrifice well-being for the corporation (under the guise of slogans for ‘team’ and ‘camaraderie’).Lastly, consider the fast-food industry, the leading purveyors of the 'Eat Death' philosophy. They're clearly coming out on top in the battle between our natural cravings for carb-rich foods and healthier options.
             <br></br>
             <br></br>
-            Let us be bold for a moment to try to associate which entities are
-            the real beneficiaries of these philosophies. Let’s consider that
-            their margins of these entities may be positively correlated to the
-            detriment of the players. What of the moment the bars and club
-            owners, the drug dealers, who’s pockets are lined by the cries of
-            ‘one more drink’ and ‘another bag?’. The CEO’s and shareholders of
-            some large companies who foster a perfect incubator for overwork -
-            rewarding those who couple their self-worth to their ability to
-            sacrifice well-being for the corporation (under the guise of slogans
-            for ‘team’ and ‘camaraderie’). Finally, the generators of high-fat,
-            high-sugar fast food, the main contributors of ‘Eat Death’, clear
-            winners in the fight between them and peoples physiological desire
-            for carbohydrate rich food.
+
+            I am not proclaiming that these entities are inherently evil. Rather, they each represent an ecosystem that has been built up over years due to the profitability that comes from exploiting human need to be social, feel good, achieve status and lower anxiety. Blueprint serves as a platform for staging a personal rebellion against these exploitative practices and behaviours. It encourages us to engage in life choices that run counter to these harmful societal norms, all while aligning with our long-term goals and natural biological systems.
+
             <br></br>
-            <br></br>I am not proclaiming that these entities are inherently
-            evil. Rather that they each represent an ecosystem and institution
-            that have been built up over years due to the profitability that
-            come from exploiting human need to be social, feel good, achieve
-            status and lower anxiety. Blueprint acts as a foundation to commit a
-            rebellion against these entities and behaviours by choosing to play
-            games that act as an anti-pattern to these unhealthy cultural norms
-            and serve my own long-term in-game experience, goal-aligned with an
-            individuals biological system.
+            <br></br>A long life does not equal a rich life; but a short life can be both rich and a missed opportunity.
             <br></br>
-            <br></br>A long life does not equal a rich life; but a short life
-            can be both rich and a missed opportunity.
+            <br></br>I chose to develop an approximate Blueprint protocol because it is a game I want to play and it conveniently serves as a complement to the other games I enjoy to play.
             <br></br>
-            <br></br>I chose to follow blueprint because it is a game I want to
-            play and it conveniently serves as a complement to the other games I
-            enjoy to play.
+            <br></br>The goal of this protocol is to make it an automated process, like brushing your teeth and having a shower. It's something that just happens, not that you actively do. You set up the system, which requires some initiatlistion effort and acquisition cost. But once it's set up, you just run the algorithm, like brushing your teeth and having a shower.
             <br></br>
             <br></br>
-            You might say that this require too much cognitive effort to be
-            worth investing in this longevity pursit. That you'd rather live a
-            shorter life and focus on the things that make you happy or that are
-            meaningful to you then spend your precious brain cycles on this.
-            This blog is in fact a datapoint for how much cognative effort does
-            go into this. The goal of this protocol is to make it an automated
-            process, like brushing your teeth. It's something that is just
-            happens, not that you actively do. You set up the system, which
-            requires some initiatlistion effort and aquasition cost. But once
-            it's set up, you just run the algorithm, like brushing your teeth
-            and having a shower.
+            If there is a sense in this half-baked rationale that I am not susceptible to the social pressure to abandon this routine due to flow against the social norm, it is then necessary to note that this is not the case. There is negative emotion that I experience when following this protocol and I do care about people not liking that I do this, because I am human. I forgive myself for this. Where it is difficult is when I do not follow the actions that I want to take, modifying my behaviours in reaction to this societal pressure. 
             <br></br>
             <br></br>
-            If there is a sense in this half-baked rational that I am not
-            susceptible to the social pressure to abandon this routine due to
-            flow against the social norm, it is then necessary to note that this
-            is not the case. There is negative emotion that I experience when
-            following this protocol and I do care about people not liking that I
-            do this, because I am human. I forgive myself for this. Where it is
-            difficult is when I do not follow the actions that I want to take,
-            modifying my behaviors in reaction to this societal pressure. That I
-            do not forgive.
+            Now that the manifesto is out of the way. Onto something a little bit more pragmatic. Following Blueprint for me is more of fitting a new map to a pre-existing and similar territory. It offers a validated and reproducible apparatus for a person who naturally leans to the side of all or nothing in comparison to a happy middle. The following table breaks down some pre-existing activities and behaviours that I use to align myself with this protocol.
             <br></br>
             <br></br>
-            Now that the manifesto is out of the way. Now onto something a
-            little bit more pragmatic. I think in someways, following Blueprint
-            for me is more of fitting a new map to a pre-existing and similar
-            territory. It offers a validated and reproduceable apparutus for a
-            person who naturally leans to the side of all or nothing in
-            comparison to a happy middle. The following table breaks down some
-            pre-existing and activies, behaviours that I use to align myself
-            with this protocol.
+  
             <TableComponent /> {/* Use the imported table component */}
-            As a final note, hopefully to quell any obvious misconcpetions about
-            my intentions; my take on blueprint, which is an echo of the
-            intention of the creator is to derive a system that takes care of a
-            persons physical and mental health in a sustainable way that uses
-            the measurements from the body rather than oppinion or acidotal
-            infomration to drive diet, beahviors and exercise requirements.
-            Blueprint to me is not about a zealot following of a reasuem, but
-            rather a data driven approach to daily happiness in the games I
-            choose to play.
+
+            For software people, Blueprint to me is like an Abstract Class. 
+            <br></br>
+            <br></br>
+            Continual Improvement: Every other Saturday, I take a step back to evaluate the overall effectiveness of my routine, always on the lookout for ways to streamline or automate the process. And it's not just about tweaking supplement dosages or dietary choices; my recent adjustment was purchasing a second blender to shave valuable minutes off my food prep time.
+
           </p>
           <br></br>
         </div>
