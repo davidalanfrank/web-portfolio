@@ -80,7 +80,7 @@ const TableComponent = () => {
                   )
                 }
               >
-                WHOOP, CGM, Psych
+                WHOOP & CGM
               </button>
             </td>
           </tr>
@@ -97,7 +97,7 @@ const TableComponent = () => {
                   )
                 }
               >
-                Reduced alcohol & fast-food
+                Reduced alcohol
               </button>
             </td>
             <td>
@@ -110,7 +110,7 @@ const TableComponent = () => {
                   )
                 }
               >
-                Zero* alcohol. <u>Zero</u> fast-food
+                Zero* alcohol.
               </button>
             </td>
           </tr>
@@ -185,7 +185,7 @@ const TableComponent = () => {
                   openModal(data.corp_after.title, data.corp_after.content)
                 }
               >
-                Zero* habitual consumption since (counter)
+                Zero* habitual consumption
               </button>
             </td>
           </tr>

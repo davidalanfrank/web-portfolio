@@ -1,3 +1,4 @@
+@import "/src/global.scss";
 .blueprint {
   height: calc(100vh - 70px);
     position: relative;
@@ -12,7 +13,24 @@
 
     .gallery-container{
       display: flex;
+
+      @include mobile {
+        display: none;
+        }
+
     }
+
+    .mobile-gallery-container{
+      display: none;
+
+      @include mobile {
+        display: grid;
+        }
+    }
+
+
+
+
      
     .code-snip{
       width: 90%;
@@ -50,6 +68,12 @@
         font-weight: 1;
         font-size: 14;
         padding-bottom: 10px;
+      }
+      .figure-desc{
+        color: #d48cba;
+    font-weight: 1;
+    font-size: 14;
+    padding-left: 15px;
       }
       .business-case-container 
       {
