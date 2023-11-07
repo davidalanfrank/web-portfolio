@@ -23,14 +23,14 @@ export default function Blueprint() {
             Building individualised systems against unhealthy social
             philosophies
           </h2>
-          <div className="heading-date">Completed on 16 Oct, 2023</div>
+          <div className="heading-date">Completed on 7 Nov, 2023</div>
           <div style={{ display: "flex" }}></div>
           <h3>What is Project Blueprint ?</h3>
           <p>
             If you haven’t heard of Bryan Johnson, he’s a tech entrepreneur,
-            having founded, sold the payments company
+            having founded and sold the payments company&nbsp; 
             <a href="https://en.wikipedia.org/wiki/Braintree_(company)">
-              Braintree-venmo
+               Braintree-venmo
             </a>
             . Johnson initially came across my radar when I encountered his more
             recent company{" "}
@@ -49,7 +49,7 @@ export default function Blueprint() {
             <br></br>I recently read a book by entrepreneur Balaji Siravasan
             called ‘The Network State’. This book presented a novel idea, and
             novel ideals require definitions with varying degrees of
-            resolution.I’m going to take a technique by Siravasan and define
+            resolution. I’m going to borrow a technique by Siravasan and define
             Blueprint using one sentence, one paragraph and one essay. The
             latter I'll outsource to the recent article discussing this topic by
             Time magazine which provides a thorough albeit cynical view of the
@@ -69,18 +69,17 @@ export default function Blueprint() {
             Project Blueprint in one paragraph:
             <br></br>
             <br></br>
-            The Blueprint Protocol, developed by centimillionaire tech
-            entrepreneur Johnson, is an intricate life-extension system aiming
+            The Blueprint Protocol is an intricate life-extension system aiming
             to significantly reduce biological age through an intensive regimen
-            overseen by a team of doctors. Using a wealth of data, the protocol
+            developed by entrepreneur Brian Johnson and overseen by a team of doctors. Using a wealth of data, the protocol
             prescribes Johnson with 111 daily pills, various health-monitoring
             gadgets, and a strict diet and exercise routine, all with the
             objective of keeping his body in a youthful state. This meticulous
-            approach extends to a belief in achieving a form of immortality by
+            approach extends to a belief in achieving a form of life extension by
             transforming the human body through a combination of technology,
             science, and data. The underlying philosophy of Blueprint is goal
-            alignment, which seeks to align trillions of body cells for optimal
-            health and youth by automating important health functions and
+            alignment, which seeks to align trillions of human cells for optimal
+            health by automating important health functions and
             eliminating self-destructive behaviours. Johnson’s approach and the
             Blueprint Protocol signify a broader interest in and pursuit of
             age-reversal and life-extension technologies, although they face
@@ -93,7 +92,7 @@ export default function Blueprint() {
             </a>
             <br></br>
             <br></br>
-            The guiding principles of this project, taken straight from
+            The guiding principles of this project, taken straight from&nbsp; 
             <a href="https://blueprint.bryanjohnson.co/">
               blueprint.bryanjohnson.co
             </a>{" "}
@@ -118,7 +117,7 @@ export default function Blueprint() {
                     className="hl-bb figure"
                     src="../assets/super-vege.jpg"
                   ></img>
-                       <p  style={{ color: "#d48cba" }}>Super vege, aka breakfast.</p>
+                       <p  className="custom-padding" style={{ color: "#d48cba" }}>Super vege, aka breakfast.</p>
          
                 </div>
 
@@ -127,7 +126,7 @@ export default function Blueprint() {
                     className="hl-bb figure"
                     src="../assets/green-nut.jpg"
                   ></img>
-              <p style={{ color: "#d48cba" }}>Nutty pudding and green giant (dry mix).</p>
+              <p className="custom-padding" style={{ color: "#d48cba" }}>Nutty pudding and green giant (dry mix).</p>
                 </div>
 
                 <div>
@@ -136,7 +135,7 @@ export default function Blueprint() {
                     src="../assets/pills-1.jpg"
                   ></img>
                     
-                    <p style={{ color: "#d48cba" }}>Daily pills (taken upon waking).</p>
+                    <p className="custom-padding" style={{ color: "#d48cba" }}>Daily pills (taken upon waking).</p>
 
                 </div>
               </div>
@@ -189,7 +188,7 @@ export default function Blueprint() {
             <br></br>
             <br></br>
             Before diving into the main topic, I want to note that I've been
-            following ≈Blueprint for about four months now. In this blog post,
+            following ≈Blueprint for about five months now. In this blog post,
             I'll share how these principles have manifested in my day-to-day
             life. But before we get into that, allow me to open my thought
             processes behind this journey.
@@ -219,10 +218,10 @@ export default function Blueprint() {
             players. What of the moment the bars and club owners, the drug
             dealers, who’s pockets are lined by the cries of ‘one more drink’
             and ‘another bag?’. The CEO’s and shareholders of some large
-            companies foster a perfect incubator for overwork - rewarding those
+            companies that foster a perfect incubator for overwork - rewarding those
             who couple their self-worth to their ability to sacrifice well-being
             for the corporation (under the guise of slogans for ‘team’ and
-            ‘camaraderie’).Lastly, consider the fast-food industry, the leading
+            ‘camaraderie’). Lastly, consider the fast-food industry, the leading
             purveyors of the 'Eat Death' philosophy. They're clearly coming out
             on top in the battle between our natural cravings for carb-rich
             foods and healthier options.
@@ -242,7 +241,7 @@ export default function Blueprint() {
             <br></br>
             <br></br>I chose to develop an approximate Blueprint protocol
             because it is a game I want to play and it conveniently serves as a
-            complement to the other games I enjoy to play.
+            complement to the other games I enjoy playing.
             <br></br>
             <br></br>The goal of this protocol is to make it an automated
             process, like brushing your teeth and having a shower. It's
@@ -255,9 +254,9 @@ export default function Blueprint() {
             If there is a sense in this half-baked rationale that I am not
             susceptible to the social pressure to abandon this routine due to
             flow against the social norm, it is then necessary to note that this
-            is not the case. There is negative emotion that I experience when
+            is not the case. There is slight negative emotion that I experience when
             following this protocol and I do care about people not liking that I
-            do this, because I am human. I forgive myself for this. Where it is
+            do this, naturally and forgivable, because I am human. Where it gets
             difficult is when I do not follow the actions that I want to take,
             modifying my behaviours in reaction to this societal pressure.
             <br></br>
@@ -272,6 +271,9 @@ export default function Blueprint() {
             <br></br>
             <br></br>
             <TableComponent /> {/* Use the imported table component */}
+            As a final note, hopefully to quell any obvious misconceptions about my intentions; my take on blueprint, which is an echo of the intention of the creator is to derive a system that takes care of a person's physical and mental health in a sustainable way that uses the measurements from the body rather than opinion or anecdotal evidence to drive diet, behaviours and exercise requirements. Blueprint to me is not about a zealot following a regime, but rather a data driven approach to daily happiness in the games I choose to play.
+            <br></br>
+            <br></br>
             During editing of this blog i've tried to reduce the usage of tech
             'buzz words', which made it difficult to covey certain concepts for
             how I think about blueprint. But briefly, for software people,
@@ -279,6 +281,8 @@ export default function Blueprint() {
             is dependent on the context of an individuals biological needs.
             <br></br>
             <br></br>
+            In conclusion, ≈Blueprint has become a valuable part of my day to day life. I'll likely follow Blueprint protocol like how I played World of warcraft in highschool. With passion and commitment until the day it no longer is enjoyable; which is the last day i'll participate. 
+
           </p>
           <br></br>
         </div>

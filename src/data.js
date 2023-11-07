@@ -96,3 +96,17 @@ export const itsGolderHourSomewhere = {
   demo: "/video",
   see_more: "/video",
 };
+
+
+export const blueprintBlog = {
+  id: 7,
+  title:
+    "Why Blueprint? Building individualised systems against unhealthy social philosophies.",
+  tech: "Lifestyle, health, diet.",
+  date: "7th November, 2023",
+  desc: ".",
+  img: "",
+  code: "",
+  demo: "/blueprint",
+  see_more: "/blueprint",
+};

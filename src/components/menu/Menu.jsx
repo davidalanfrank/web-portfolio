@@ -1,6 +1,6 @@
 import React from "react";
 import "./menu.scss";
-import { Home, Mail, Work, Computer } from "@material-ui/icons";
+import { Home, Book, Work, Computer } from "@material-ui/icons";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
 export default function Menu({ menuOpen, setMenuOpen }) {
@@ -40,7 +40,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         </li>
         <li onClick={() => setMenuOpen(false)}>
           <a href="/blog">
-            <Computer />
+            <Book />
             &nbsp;Blog
           </a>
         </li>

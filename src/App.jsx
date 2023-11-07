@@ -8,6 +8,7 @@ import Billboard from "./pages/Billboard";
 import Home from "./pages/Home";
 import Projects from "./pages/Portfolio";
 import Blueprint from "./pages/Blueprint";
+import Blog from "./pages/Blog"
 import "./app.scss";
 import { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -24,6 +25,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/projects" exact component={Projects} />
+          <Route path="/blog" exact component={Blog} />
           <Route path="/capstone" component={Capstone} />
           <Route path="/billboard" component={Billboard} />
           <Route path="/blueprint" component={Blueprint} />
