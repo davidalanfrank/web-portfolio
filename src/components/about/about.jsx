@@ -31,6 +31,7 @@ export default function About() {
           <p>
             Click below to read about some things i've worked on in the past:
           </p>
+
           <button
             onClick={goToProjects}
             href="/projects"
@@ -44,7 +45,11 @@ export default function About() {
           >
             <span className="button-style">
               <b>See Projects</b>
+
+              
             </span>
+
+            
           </button>
         </div>
       </div>
